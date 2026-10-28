@@ -316,6 +316,9 @@ public class IkasAdmin {
      * TAMAMINI yazar. Bu metot ürünü {@code ProductInput}'un aynası olan seçimle okur ({@link IkasSema#girdiAynasi}),
      * {@code degisiklik}'i uygular, aynen geri yazar ve varyant fiyatlarını önce/sonra karşılaştırır: fiyat değişmişse
      * {@link IkasHatasi}. Örnek: {@code urunuGuncelle(id, u -> u.put("description", "<p>yeni</p>"))}.
+     * <p>
+     * DİKKAT (canlıda görüldü 2026-10-28): İkas her {@code saveProduct}'ta varyantların {@code createdAt}'ini şimdiye çeker
+     * (gönderilen değeri yok sayar). Varyant kimliği, fiyat, görsel ve kanal ayarı korunur.
      *
      * @param degisiklik okunan ürün (değiştirilebilir Map; iç nesneler Map/List)
      * @return saveProduct cevabı

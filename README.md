@@ -4,8 +4,8 @@
 JSON çözücüsü). İkas'ın **135 işleminin hepsi** (65 sorgu + 70 mutasyon) çağrılabilir; sık kullanılan ~100'ü için Türkçe
 hazır metot vardır.
 
-İşlemler 2026-10-28'de **gerçek İkas mağazasına karşı denendi** (İkas'ın herkese açık test ortamı yok): 110'u gerçek
-istekle, 3'üne İkas yetki vermiyor, 22'si bilerek denenmedi (canlı mağazada görünür değişiklik yapanlar). Ayrıntı:
+İşlemler 2026-10-28'de **gerçek İkas mağazasına karşı denendi** (İkas'ın herkese açık test ortamı yok): 111'i gerçek
+istekle, 3'üne İkas yetki vermiyor, 21'i bilerek denenmedi (canlı mağazada görünür değişiklik yapanlar). Ayrıntı:
 [`docs/ISLEM_DURUMU.md`](docs/ISLEM_DURUMU.md). Tüm işlemler, argümanlar, zorunlu girdi alanları:
 [`docs/ISLEM_ENVANTERI.md`](docs/ISLEM_ENVANTERI.md).
 
@@ -39,8 +39,10 @@ yazar.faturaEkle(siparisId, uygulamaId, "SD2026000001", pdfBase64, false, false)
 
 Ürünün yalnız bir kısmını değiştirmek — İkas'ta tek alan güncelleyen işlem yok, `saveProduct` ürünün tamamını yazar.
 `urunuGuncelle` ürünü `ProductInput`'un aynası olan seçimle okur, değişikliği uygular, aynen geri yazar ve varyant
-fiyatlarını önce/sonra karşılaştırır (değişmişse hata). Ayna, 30 gerçek ürünün okunmasıyla doğrulandı (zorunlu alanların
-hepsi dolu geldi); yazımın kendisi canlı üründe DENENMEDİ — ilk kullanımı test ürününde yapın:
+fiyatlarını önce/sonra karşılaştırır (değişmişse hata). 2026-10-28'de canlı bir üründe denendi (açıklamaya görünmez not
+ekle → tüm alanları karşılaştır → geri al): açıklama dışında yalnız **varyantların `createdAt`/`updatedAt` alanı** değişti —
+İkas `saveProduct`'ta varyant oluşturma tarihini, gönderilen değeri yok sayıp şimdiye çeker (varyant kimliği, fiyat,
+görsel, kanal aynı kalır; geri alınamaz). Not silinince açıklama birebir ilk hâline döndü:
 
 ```java
 yazar.urunuGuncelle(urunId, u -> u.put("description", "<p>Yeni açıklama</p>"));
@@ -93,7 +95,8 @@ Dönüş her zaman **`IkasVeri`**: alan adıyla gezilir, eksik alanda istisna at
   kampanya geçerliliği kanal başınadır; `salesChannelIds: []` olan kampanya hiçbir yerde geçerli değildir.
 - **Kampanya alanları** (panelden açılmış kampanyalardan okundu): yüzde indirim `RATIO` + `fixedDiscount.amount` (%),
   sabit tutar `FIXED_AMOUNT`, en az sepet `fixedDiscount.priceRange.min`, panelin fiyat tabanı `DISCOUNT_PRICE`.
-- **Ürün yazımı tam yazımdır:** `saveProduct` verilmeyen alanı boşaltabilir; ürünü önce eksiksiz okuyun
+- **Ürün yazımı tam yazımdır ve varyant tarihini sıfırlar:** `saveProduct` verilmeyen alanı boşaltabilir; ürünü önce eksiksiz okuyun
+  (her yazımda varyantların `createdAt`'i şimdiye çekilir — gönderilen değer yok sayılır)
   (`IkasSema.girdiAynasi("ProductInput", "Product")` — şema 2026-10-28'de birebir ayna, `aynaEksikleri` boş).
 - **Mağaza puanı:** API yalnız VAR OLAN puan kaydının tutarını ayarlar (`updateStoreCreditAmount`); yeni kayıt açan işlem yok.
 - İkas sipariş zamanları milisaniye zaman damgasıdır (UTC); yerel saate çevirirken `Europe/Istanbul` kullanın.

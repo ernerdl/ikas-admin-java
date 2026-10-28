@@ -14,6 +14,8 @@ TARIH = "2026-10-28"
 # CanliTest.java'nın kütüphane üzerinden ayrıca doğruladığı (özet dosyasında D olarak duran) işlemler:
 # sahte sipariş kimliğiyle → "bulunamadı", hiçbir şey değişmez.
 CANLI_SAHTE = {"fulfillOrder", "updateOrderLine", "updateOrderPackageStatus"}
+# Gerçek kayıtta, geri alınarak denenenler (2026-10-28)
+CANLI_GERCEK = {"saveProduct"}
 
 # Denenmeme gerekçesinin herkese uyan hâli (özet dosyasındaki notlar bizim kuruluma özel olabilir)
 GENEL_GEREKCE = {'saveWebhook': 'mağazanın canlı bildirim (webhook) bağlantısını değiştirir; bağlı sistemler olay almayı bırakabilir', 'deleteWebhook': 'bağlı sistemlerin olay bildirimlerini keser', 'saveStorefrontJSScript': 'canlı sitede çalışan script', 'saveVariantPrices': 'müşterinin gördüğü fiyat', 'saveCustomer': 'gerçek müşteri kaydı açar (webhook tetikler)', 'fulfillOrder': 'siparişi kargoya verir', 'updateOrderLine': 'sipariş satırlarını değiştirir', 'updateOrderPackageStatus': 'paket/kargo durumunu değiştirir', 'saveProduct': 'ürün oluşturur/değiştirir (sitede görünür, webhook tetikler)'}
@@ -43,6 +45,9 @@ NOTLAR = {
     "deleteTaxSettingsList": "`DELETE_FUNCTION_NOT_ALLOWED` — API'den vergi ayarı silinemiyor",
     "deleteGlobalTaxSettingsList": "`DELETE_FUNCTION_NOT_ALLOWED`",
     "updateOrderLine": "Yeni satıra uuid `id` verilmeli, yoksa İkas reddeder",
+    "saveProduct": "Canlıda tek üründe denendi (görünmez açıklama notu ekle → tüm alanları karşılaştır → geri al): yalnız "
+                   "açıklama değişti, ANCAK varyantların `createdAt`'i şimdiye çekildi (gönderilen değer yok sayılır). Tam "
+                   "yazımdır: ürünü `ProductInput` aynasıyla eksiksiz okuyup gönderin (`IkasAdmin.urunuGuncelle`)",
     "saveWebhook": "Girdi `scopes: [String!]!` (dizi), cevap `scope: String` (tekil); dizi döner",
     "getOrderInvoicePdfUrl": "Gerçek siparişte denendi: yalnız imzalı PDF adresi üretir, siparişi değiştirmez",
 }
@@ -82,6 +87,8 @@ def mutasyon_durumu(ad, v):
     y = v.get("yontem")
     if ad in CANLI_SAHTE:
         return "🧪"
+    if ad in CANLI_GERCEK:
+        return "⚠️"
     if y in ("A", "C"):
         return "⚠️" if ad in ("saveProductAttribute", "saveCampaign") else "✅"
     if y == "B":

@@ -5,8 +5,8 @@ gerçek veriyle; yazmalar yalnız **müşteriye görünmeyen** tanım kayıtlar�
 kimlikle** (İkas "bulunamadı" der, hiçbir şey değişmez). Bu belge yalnız davranışı anlatır.
 
 Özet: **135 işlem** (65 sorgu + 70 mutasyon).
-Gerçek istekle denenen: **110** (✅ 81 · 🧪 18 · ⚠️ 11).
-İkas'ın yetki vermediği: 🔒 3. Bilerek denenmeyen: ⛔ 22 (canlı mağazada görünür değişiklik).
+Gerçek istekle denenen: **111** (✅ 81 · 🧪 18 · ⚠️ 12).
+İkas'ın yetki vermediği: 🔒 3. Bilerek denenmeyen: ⛔ 21 (canlı mağazada görünür değişiklik).
 ⛔ işlemlerde kütüphane yalnız argüman adlarını ve zorunlu argümanları şemadan kontrol eder; iç alanları İkas doğrular.
 İlk kullanımı kendi mağazanızda dikkatle yapın.
 
@@ -145,7 +145,7 @@ başlıkları). Aşılınca HTTP 429. Aynı client id'yi kullanan her sistem bu 
 | saveCustomerTag | ✅ |  |
 | saveGlobalTaxSettings | ⛔ | Denenmedi: vergi ayarı |
 | saveOrderTag | ✅ |  |
-| saveProduct | ⛔ | Denenmedi: ürün oluşturur/değiştirir (sitede görünür, webhook tetikler) |
+| saveProduct | ⚠️ | Canlıda tek üründe denendi (görünmez açıklama notu ekle → tüm alanları karşılaştır → geri al): yalnız açıklama değişti, ANCAK varyantların `createdAt`'i şimdiye çekildi (gönderilen değer yok sayılır). Tam yazımdır: ürünü `ProductInput` aynasıyla eksiksiz okuyup gönderin (`IkasAdmin.urunuGuncelle`) |
 | saveProductAttribute | ⚠️ | `options` en az bir seçenek ister |
 | saveProductBrand | ✅ | Satış kanalsız oluşturuldu → sitede görünmez |
 | saveProductOrder | ⛔ | Denenmedi: sitedeki ürün sıralaması |
