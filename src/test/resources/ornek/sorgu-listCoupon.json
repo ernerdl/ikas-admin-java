@@ -1,0 +1,54 @@
+{
+ "data": {
+  "listCoupon": {
+   "count": 47,
+   "data": [
+    {
+     "applicableCustomerId": null,
+     "campaignId": "0342b559-8eab-af1e-416c-45717fb2bb02",
+     "canCombineWithOtherCampaigns": false,
+     "code": "hosgeldin10",
+     "createdAt": 1744117520557,
+     "dateRange": null,
+     "deleted": false,
+     "id": "5401b76d-1f2a-3d6e-91bd-f46b2c5fe60d",
+     "updatedAt": 1782159720746,
+     "usageCount": 29,
+     "usageLimit": null,
+     "usageLimitPerCustomer": 11
+    },
+    {
+     "applicableCustomerId": null,
+     "campaignId": "11c5fa18-26ec-8041-79b9-1849cb5c822e",
+     "canCombineWithOtherCampaigns": true,
+     "code": "indirimlicuma",
+     "createdAt": 1752180940037,
+     "dateRange": null,
+     "deleted": false,
+     "id": "16428407-b40a-f0b7-4e66-d3e72eabe3ae",
+     "updatedAt": 1752181519080,
+     "usageCount": 43,
+     "usageLimit": 2,
+     "usageLimitPerCustomer": null
+    },
+    {
+     "applicableCustomerId": null,
+     "campaignId": "2f86556b-ce5a-671b-864a-6639af63e076",
+     "canCombineWithOtherCampaigns": true,
+     "code": "hosgeldin10 ",
+     "createdAt": 1763572925306,
+     "dateRange": null,
+     "deleted": false,
+     "id": "3d8f84bd-5628-376a-d936-a94a7cc6f830",
+     "updatedAt": 1763572925306,
+     "usageCount": 43,
+     "usageLimit": 2,
+     "usageLimitPerCustomer": null
+    }
+   ],
+   "hasNext": true,
+   "limit": 14,
+   "page": 1
+  }
+ }
+}

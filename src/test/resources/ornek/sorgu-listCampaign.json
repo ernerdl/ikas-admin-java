@@ -1,0 +1,181 @@
+{
+ "data": {
+  "listCampaign": {
+   "count": 18,
+   "data": [
+    {
+     "applicableCustomerGroupIds": null,
+     "applicableCustomerIds": null,
+     "applicableCustomerSegmentIds": null,
+     "applicablePrice": "DISCOUNT_PRICE",
+     "applyCampaignToProductPrice": null,
+     "buyXThenGetY": {
+      "buyX": {
+       "amount": 10,
+       "applyByQuantity": false,
+       "maxAmount": null
+      },
+      "getY": {
+       "amount": 36,
+       "automaticallyAddItemToCart": true,
+       "discountRatio": 21,
+       "discountType": null
+      },
+      "maxUsagePerOrder": 1
+     },
+     "canCombineWithOtherCampaigns": true,
+     "couponAutoAddProduct": null,
+     "couponPrefix": null,
+     "couponValidityPeriod": null,
+     "createdAt": 1667822241228,
+     "createdFor": null,
+     "currencyCodes": [
+      "TRY"
+     ],
+     "dateRange": {
+      "end": 1668200340000,
+      "start": 1667850300000
+     },
+     "deleted": false,
+     "fixedDiscount": null,
+     "hasCoupon": false,
+     "id": "e8c400bc-b4b8-204a-a752-3c8b154949db",
+     "includeDiscountedProducts": true,
+     "isFreeShipping": null,
+     "onlyUseCustomer": null,
+     "periodUsageLimits": null,
+     "salesChannelIds": [
+      "a0618cec-d583-91f2-7abd-0f4830c9dfd1"
+     ],
+     "tieredDiscount": null,
+     "title": "ANON-c5401f1b",
+     "translations": null,
+     "type": "BUY_X_THEN_GET_Y",
+     "updatedAt": 1724100133476,
+     "usageCount": 36,
+     "usageLimit": null,
+     "usageLimitPerCustomer": null,
+     "version": 1
+    },
+    {
+     "applicableCustomerGroupIds": null,
+     "applicableCustomerIds": null,
+     "applicableCustomerSegmentIds": null,
+     "applicablePrice": "DISCOUNT_PRICE",
+     "applyCampaignToProductPrice": null,
+     "buyXThenGetY": null,
+     "canCombineWithOtherCampaigns": true,
+     "couponAutoAddProduct": null,
+     "couponPrefix": null,
+     "couponValidityPeriod": null,
+     "createdAt": 1668626683194,
+     "createdFor": null,
+     "currencyCodes": [
+      "TRY"
+     ],
+     "dateRange": {
+      "end": 1669145218436,
+      "start": 1668626810774
+     },
+     "deleted": false,
+     "fixedDiscount": {
+      "amount": 46,
+      "filters": [
+       {
+        "idList": [
+         "a4155ee1-eea4-cdd7-c483-faffb1337a6a"
+        ],
+        "type": "PRODUCT_BRAND"
+       },
+       {
+        "idList": [
+         "ANON-722fce37",
+         "ANON-a2d7b9ea",
+         "ANON-ecf43d3b",
+         "ANON-1cf0db03"
+        ],
+        "type": "PRODUCT_AND_VARIANT"
+       }
+      ],
+      "isApplyByCartAmount": null,
+      "lineItemQuantityRange": null,
+      "priceRange": {
+       "max": null,
+       "min": null
+      },
+      "shouldMatchAllConditions": null
+     },
+     "hasCoupon": false,
+     "id": "6c68bd23-08c9-7aaa-a0d0-6e7c0beb9f88",
+     "includeDiscountedProducts": true,
+     "isFreeShipping": null,
+     "onlyUseCustomer": null,
+     "periodUsageLimits": null,
+     "salesChannelIds": [
+      "a0618cec-d583-91f2-7abd-0f4830c9dfd1"
+     ],
+     "tieredDiscount": null,
+     "title": "ANON-82fe7406",
+     "translations": null,
+     "type": "RATIO",
+     "updatedAt": 1719953103853,
+     "usageCount": 11,
+     "usageLimit": null,
+     "usageLimitPerCustomer": null,
+     "version": 1
+    },
+    {
+     "applicableCustomerGroupIds": null,
+     "applicableCustomerIds": null,
+     "applicableCustomerSegmentIds": null,
+     "applicablePrice": "DISCOUNT_PRICE",
+     "applyCampaignToProductPrice": null,
+     "buyXThenGetY": null,
+     "canCombineWithOtherCampaigns": false,
+     "couponAutoAddProduct": null,
+     "couponPrefix": null,
+     "couponValidityPeriod": null,
+     "createdAt": 1726471574237,
+     "createdFor": null,
+     "currencyCodes": null,
+     "dateRange": null,
+     "deleted": false,
+     "fixedDiscount": {
+      "amount": null,
+      "filters": [
+       {
+        "idList": [
+         "ANON-e9e442b2"
+        ],
+        "type": "PRODUCT_AND_VARIANT"
+       }
+      ],
+      "isApplyByCartAmount": null,
+      "lineItemQuantityRange": null,
+      "priceRange": null,
+      "shouldMatchAllConditions": null
+     },
+     "hasCoupon": false,
+     "id": "f5bf6b03-2880-1065-047d-4c172798c469",
+     "includeDiscountedProducts": false,
+     "isFreeShipping": null,
+     "onlyUseCustomer": null,
+     "periodUsageLimits": null,
+     "salesChannelIds": null,
+     "tieredDiscount": null,
+     "title": "ANON-1a506bac",
+     "translations": [],
+     "type": "FREE_SHIPPING",
+     "updatedAt": 1726482404420,
+     "usageCount": 23,
+     "usageLimit": null,
+     "usageLimitPerCustomer": null,
+     "version": 1
+    }
+   ],
+   "hasNext": true,
+   "limit": 14,
+   "page": 1
+  }
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "data": {
+  "listOrderTransactions": [
+   {
+    "amount": 181.54,
+    "authCode": "ANON-aa64ec06",
+    "checkoutId": "58d7f038-aaba-fa89-0afd-fb949e921e0a",
+    "createdAt": 1666033896905,
+    "currencyCode": "TRY",
+    "currencySymbol": "₺",
+    "customerId": "11afbaba-0fe7-a929-39d2-17d841d0a0e8",
+    "deleted": false,
+    "error": null,
+    "gatewayReferenceId": null,
+    "id": "103cfecb-de2c-80cd-8e42-0f2dd7f578d1",
+    "lineItems": [
+     {
+      "finalPrice": 375.54,
+      "id": "a8ce78b8-36c9-c1c5-32a6-7fd3fd71ab01",
+      "price": null,
+      "quantity": 46,
+      "taxValue": null,
+      "variant": {
+       "id": "24c79ab3-2c8a-3d0b-5b64-0b4ede79591e",
+       "mainImageId": "c139d5ed-b0e1-db0e-010f-987254d63533",
+       "name": "ANON-e6eb5f43",
+       "productId": "40209d6b-53bc-f2bf-707d-8f408f6bf4f8",
+       "sku": null,
+       "slug": "ANON-0a15e027",
+       "type": null
+      }
+     }
+    ],
+    "orderId": "58d7f038-aaba-fa89-0afd-fb949e921e0a",
+    "paymentGatewayCode": "PARAM",
+    "paymentGatewayId": "719b4566-248c-0984-9399-18913484c412",
+    "paymentGatewayName": "ANON-b579873c",
+    "paymentMethod": "CREDIT_CARD",
+    "paymentMethodDetail": {
+     "bankName": "ANON-62b23a48",
+     "binNumber": "ANON-6b840ee6",
+     "cardAssociation": "MASTER_CARD",
+     "cardFamily": "ANON-1648041a",
+     "cardType": "DEBIT",
+     "installment": {
+      "installmentCount": 29,
+      "installmentPrice": 472.87,
+      "originalRate": null,
+      "rate": null,
+      "totalPrice": 57.27
+     },
+     "lastFourDigits": "ANON-ce1200e2",
+     "paymentMethodName": null,
+     "threeDSecure": true
+    },
+    "processedAt": 1666033896519,
+    "refundReason": null,
+    "status": "SUCCESS",
+    "type": "SALE",
+    "updatedAt": 1666033921508
+   }
+  ]
+ }
+}

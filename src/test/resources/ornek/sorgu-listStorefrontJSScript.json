@@ -1,0 +1,22 @@
+{
+ "data": {
+  "listStorefrontJSScript": [
+   {
+    "authorizedAppId": "c875da0c-cd07-74d0-90ae-0fc3dd365765",
+    "contentType": "SCRIPT",
+    "createdAt": 1782139362714,
+    "deleted": false,
+    "fileName": null,
+    "id": "1afab846-f927-dac6-773a-d9e1db8e4acb",
+    "isActive": true,
+    "isHighPriority": false,
+    "name": "ANON-eded0df2",
+    "order": null,
+    "scriptContent": "ANON-6ed2c7c0",
+    "storeAppId": "c875da0c-cd07-74d0-90ae-0fc3dd365765",
+    "storefrontId": "3bbdeb73-c826-faa0-37ce-3e8d144504ff",
+    "updatedAt": 1792356594406
+   }
+  ]
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "errors": [
+  {
+   "message": "error_messages.global_tax_settings.delete_function_not_allowed",
+   "path": [
+    "ANON-6b0da791"
+   ],
+   "extensions": {
+    "code": "DELETE_FUNCTION_NOT_ALLOWED",
+    "serviceName": "order-service-public"
+   }
+  }
+ ],
+ "data": null
+}

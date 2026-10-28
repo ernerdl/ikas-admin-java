@@ -1,0 +1,46 @@
+{
+ "data": {
+  "listStockLocation": [
+   {
+    "address": {
+     "address": "ANON-bcee7833",
+     "city": {
+      "code": "6",
+      "id": "bc05c5f4-e228-62db-5170-00567ca3fa6e",
+      "name": "ANON-b7db16a4"
+     },
+     "country": {
+      "code": "TUR",
+      "id": "b4c4837c-3c89-8eac-f55d-1f889c601c81",
+      "iso2": "TR",
+      "iso3": "TUR",
+      "name": "ANON-3f1bbfca"
+     },
+     "district": {
+      "code": null,
+      "id": "a4f5d6ed-99a5-b9e2-424c-c88cd9220fa4",
+      "name": "ANON-95db0c61"
+     },
+     "phone": "ANON-5b952790",
+     "postalCode": null,
+     "state": {
+      "code": null,
+      "id": "a7d26db0-e7a3-eb7b-94cc-a0defcb000e1",
+      "name": "ANON-fb60fe0b"
+     }
+    },
+    "createdAt": 1662808765084,
+    "deleted": false,
+    "deliveryTime": "WITHIN_TWENTY_FOUR_HOURS",
+    "description": null,
+    "id": "36a5e851-c8a9-10b1-3d8d-8f279d1076c8",
+    "isRemindOutOfStockEnabled": null,
+    "name": "ANON-3c55a9b2",
+    "outOfStockMailList": null,
+    "translations": null,
+    "type": "PHYSICAL",
+    "updatedAt": 1732623272422
+   }
+  ]
+ }
+}

@@ -1,0 +1,238 @@
+{
+ "data": {
+  "listProductTag": [
+   {
+    "createdAt": 1663061463150,
+    "deleted": false,
+    "id": "a5284ccb-2979-3c2f-0a16-dc9b8fda66e5",
+    "name": "ANON-45242b67",
+    "translations": [],
+    "updatedAt": 1736294521689
+   },
+   {
+    "createdAt": 1663061434611,
+    "deleted": false,
+    "id": "02b467b6-2b0f-ad30-c769-5df8d22523e9",
+    "name": "ANON-9d9d6e20",
+    "translations": [],
+    "updatedAt": 1736294521689
+   },
+   {
+    "createdAt": 1663061469698,
+    "deleted": false,
+    "id": "800de72e-6fb2-889e-8a7b-4899e921e91d",
+    "name": "ANON-f3cb36d2",
+    "translations": [],
+    "updatedAt": 1736294521689
+   },
+   {
+    "createdAt": 1663447897030,
+    "deleted": false,
+    "id": "394e65b2-241d-c7ba-0bc0-fa3e71dbe8d9",
+    "name": "ANON-482a730f",
+    "translations": [],
+    "updatedAt": 1736294521711
+   },
+   {
+    "createdAt": 1723119243410,
+    "deleted": false,
+    "id": "0a23b974-49f5-621f-4ecf-e596fed017b2",
+    "name": "ANON-f5e5541d",
+    "translations": [],
+    "updatedAt": 1736294526711
+   },
+   {
+    "createdAt": 1692946119873,
+    "deleted": false,
+    "id": "bda3cd34-963e-4614-5c21-76afe2010d2d",
+    "name": "ANON-17505790",
+    "translations": [],
+    "updatedAt": 1736294523455
+   },
+   {
+    "createdAt": 1692946169701,
+    "deleted": false,
+    "id": "50b8b3cf-0674-e889-e854-9670627c195a",
+    "name": "ANON-0c7ee5b9",
+    "translations": [],
+    "updatedAt": 1736294523455
+   },
+   {
+    "createdAt": 1692946556178,
+    "deleted": false,
+    "id": "031e7522-31d7-0b3f-685f-095a8daf7d86",
+    "name": "ANON-698d1692",
+    "translations": [],
+    "updatedAt": 1736294523455
+   },
+   {
+    "createdAt": 1692105219694,
+    "deleted": false,
+    "id": "cae2887b-7080-b8f5-669c-dadde0f9a98a",
+    "name": "ANON-c5bc6bc3",
+    "translations": [],
+    "updatedAt": 1736294523384
+   },
+   {
+    "createdAt": 1663060729064,
+    "deleted": false,
+    "id": "c1d88cee-29fd-a11d-486a-5a72b0884740",
+    "name": "ANON-81ea066e",
+    "translations": [],
+    "updatedAt": 1736294521689
+   },
+   {
+    "createdAt": 1663060695965,
+    "deleted": false,
+    "id": "56eafda5-7409-f5aa-0327-2bb699ba3488",
+    "name": "ANON-6f222568",
+    "translations": [],
+    "updatedAt": 1736294521689
+   },
+   {
+    "createdAt": 1663060709958,
+    "deleted": false,
+    "id": "604903ac-3dff-3d74-4796-620a3b358a0e",
+    "name": "ANON-084620b9",
+    "translations": [],
+    "updatedAt": 1736294521689
+   },
+   {
+    "createdAt": 1693322947279,
+    "deleted": false,
+    "id": "807e217b-19e6-e247-34a5-aeb7dec2ee61",
+    "name": "ANON-fe1b8d92",
+    "translations": [],
+    "updatedAt": 1736294523473
+   },
+   {
+    "createdAt": 1693323193083,
+    "deleted": false,
+    "id": "181dbef9-018b-bb5a-aedf-ce844195dbbf",
+    "name": "ANON-122b68f1",
+    "translations": [],
+    "updatedAt": 1736294523473
+   },
+   {
+    "createdAt": 1692821404080,
+    "deleted": false,
+    "id": "659fa8a0-e95a-8d10-3786-4cc981abba93",
+    "name": "SE",
+    "translations": [],
+    "updatedAt": 1736294523437
+   },
+   {
+    "createdAt": 1692946381324,
+    "deleted": false,
+    "id": "5a52a240-8fd1-5090-b782-bf10644700e4",
+    "name": "ANON-ee851b38",
+    "translations": [],
+    "updatedAt": 1736294523455
+   },
+   {
+    "createdAt": 1722261401361,
+    "deleted": false,
+    "id": "ce9cffd7-9bf7-5f22-289f-47a96f485edc",
+    "name": "ANON-88d46707",
+    "translations": [],
+    "updatedAt": 1736294526646
+   },
+   {
+    "createdAt": 1692821429688,
+    "deleted": false,
+    "id": "e4cc6be1-9ba9-fd1c-1506-78135b35e110",
+    "name": "ANON-d4a8b0db",
+    "translations": [],
+    "updatedAt": 1736294523437
+   },
+   {
+    "createdAt": 1692946204583,
+    "deleted": false,
+    "id": "a9ed89f4-89fa-1d63-a2b3-affac8453c45",
+    "name": "ANON-72a60ace",
+    "translations": [],
+    "updatedAt": 1736294523455
+   },
+   {
+    "createdAt": 1692946304170,
+    "deleted": false,
+    "id": "246f93f0-ebf1-27af-2ae2-0863cb498ef3",
+    "name": "ANON-f56d6fdc",
+    "translations": [],
+    "updatedAt": 1736294523455
+   },
+   {
+    "createdAt": 1692946408621,
+    "deleted": false,
+    "id": "013783c5-e68e-7827-b56a-b65578e43c16",
+    "name": "ANON-394b1d7b",
+    "translations": [],
+    "updatedAt": 1736294523455
+   },
+   {
+    "createdAt": 1692182781028,
+    "deleted": false,
+    "id": "de9a3383-1545-2fd5-df6e-c5d3734357de",
+    "name": "ANON-f7d70572",
+    "translations": [],
+    "updatedAt": 1736294523384
+   },
+   {
+    "createdAt": 1693376569296,
+    "deleted": false,
+    "id": "66d8e419-6e95-c7f9-48d9-f935eef869dc",
+    "name": "ANON-141867f6",
+    "translations": [],
+    "updatedAt": 1736294523473
+   },
+   {
+    "createdAt": 1686810865794,
+    "deleted": false,
+    "id": "134acfe3-2dad-7acc-2b0f-1d2aced40dbc",
+    "name": "ANON-1f468da8",
+    "translations": null,
+    "updatedAt": 1736294522961
+   },
+   {
+    "createdAt": 1686810866163,
+    "deleted": false,
+    "id": "c157c3b7-1279-f8e3-9c6a-9d09dea3d8b6",
+    "name": "ANON-fa279dda",
+    "translations": null,
+    "updatedAt": 1736294522961
+   },
+   {
+    "createdAt": 1686810866921,
+    "deleted": false,
+    "id": "f059cae9-3efd-e9b5-d9d3-ca8f2472fb9c",
+    "name": "ANON-110639f5",
+    "translations": null,
+    "updatedAt": 1736294522961
+   },
+   {
+    "createdAt": 1686810866534,
+    "deleted": false,
+    "id": "d257bae7-c39f-7076-5b61-2c2652990772",
+    "name": "ANON-e57477e2",
+    "translations": null,
+    "updatedAt": 1736294522961
+   },
+   {
+    "createdAt": 1724819631005,
+    "deleted": false,
+    "id": "d6887553-1904-fbc8-fac3-6f1d3d03e9a6",
+    "name": "ANON-c6b7bc6f",
+    "translations": [],
+    "updatedAt": 1736294526852
+   },
+   {
+    "createdAt": 1742372031227,
+    "deleted": false,
+    "id": "f1f6e358-dcec-38b9-6b8f-c0206990b170",
+    "name": "ANON-220628c5",
+    "translations": [],
+    "updatedAt": 1742372031227
+   }
+  ]
+ }
+}

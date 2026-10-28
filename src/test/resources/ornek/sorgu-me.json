@@ -1,0 +1,28 @@
+{
+ "data": {
+  "me": {
+   "addedDate": null,
+   "email": "ANON-56dd1056",
+   "id": "c875da0c-cd07-74d0-90ae-0fc3dd365765",
+   "name": "ANON-75c2b324",
+   "partnerId": null,
+   "salesChannelId": "2425a771-ec24-cf81-0e1d-e77e677c7adf",
+   "scope": null,
+   "scopes": [
+    "READ_PRODUCTS",
+    "WRITE_PRODUCTS",
+    "READ_ORDERS",
+    "WRITE_ORDERS",
+    "READ_CUSTOMERS",
+    "WRITE_CUSTOMERS",
+    "READ_CAMPAIGNS",
+    "WRITE_CAMPAIGNS",
+    "READ_INVENTORIES",
+    "WRITE_INVENTORIES",
+    "WRITE_STOREFRONT"
+   ],
+   "storeAppId": null,
+   "supportsMultipleInstallation": null
+  }
+ }
+}

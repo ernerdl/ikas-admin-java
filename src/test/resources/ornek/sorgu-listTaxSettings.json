@@ -1,0 +1,18 @@
+{
+ "data": {
+  "listTaxSettings": [
+   {
+    "countryId": "b4c4837c-3c89-8eac-f55d-1f889c601c81",
+    "createdAt": 1666016314835,
+    "deleted": false,
+    "giftPackageTaxRates": [],
+    "id": "11cd3068-b81f-4edb-8b0f-e1e0841ab0e1",
+    "productOverrides": [],
+    "rates": [],
+    "shippingTaxRates": [],
+    "taxRate": 32,
+    "updatedAt": 1666016314835
+   }
+  ]
+ }
+}

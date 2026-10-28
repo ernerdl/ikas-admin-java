@@ -1,0 +1,1871 @@
+{
+ "data": {
+  "listCategory": [
+   {
+    "categoryPath": [
+     "e6fac813-f6ef-c03a-d852-c9822c23197f"
+    ],
+    "categoryPathItems": null,
+    "conditions": null,
+    "createdAt": 1663447521892,
+    "deleted": false,
+    "description": "ANON-f37d8165",
+    "id": "645da757-3fbc-7e0a-eefc-f9fa2a06b243",
+    "imageId": null,
+    "isAutomated": false,
+    "metaData": {
+     "canonicals": null,
+     "createdAt": 1663447521990,
+     "deleted": false,
+     "description": "ANON-55a1b104",
+     "disableIndex": null,
+     "id": "ac26922b-c10a-f2d9-2a93-79be7f3a4cf8",
+     "metadataOverrides": null,
+     "pageTitle": "ANON-e765cc39",
+     "redirectTo": null,
+     "slug": "ANON-e7f0fd30",
+     "targetId": "645da757-3fbc-7e0a-eefc-f9fa2a06b243",
+     "targetType": "CATEGORY",
+     "translations": [],
+     "updatedAt": 1668366902301
+    },
+    "name": "ANON-4e14e24b",
+    "orderType": "LOWEST_PRICE",
+    "parentId": "e6fac813-f6ef-c03a-d852-c9822c23197f",
+    "salesChannelIds": [
+     "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+     "457dfd77-9ed3-2955-e15a-a803470d59ec",
+     "dc0c0c9f-223a-f475-716b-83122ac7fe2b"
+    ],
+    "salesChannels": [
+     {
+      "id": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "457dfd77-9ed3-2955-e15a-a803470d59ec",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "dc0c0c9f-223a-f475-716b-83122ac7fe2b",
+      "status": "VISIBLE"
+     }
+    ],
+    "shouldMatchAllConditions": null,
+    "translations": [],
+    "updatedAt": 1756725975028
+   },
+   {
+    "categoryPath": [
+     "e6fac813-f6ef-c03a-d852-c9822c23197f"
+    ],
+    "categoryPathItems": null,
+    "conditions": null,
+    "createdAt": 1663526754397,
+    "deleted": false,
+    "description": null,
+    "id": "8c70c613-16bb-c5f3-3277-09ada99bac21",
+    "imageId": null,
+    "isAutomated": false,
+    "metaData": {
+     "canonicals": null,
+     "createdAt": 1663526754494,
+     "deleted": false,
+     "description": null,
+     "disableIndex": null,
+     "id": "9719b0c3-887d-395a-5e79-cf9ec0132f68",
+     "metadataOverrides": null,
+     "pageTitle": "ANON-73604288",
+     "redirectTo": null,
+     "slug": "ANON-17374c6e",
+     "targetId": "8c70c613-16bb-c5f3-3277-09ada99bac21",
+     "targetType": "CATEGORY",
+     "translations": [],
+     "updatedAt": 1756725853414
+    },
+    "name": "ANON-73604288",
+    "orderType": "LOWEST_PRICE",
+    "parentId": "e6fac813-f6ef-c03a-d852-c9822c23197f",
+    "salesChannelIds": [
+     "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+     "457dfd77-9ed3-2955-e15a-a803470d59ec",
+     "dc0c0c9f-223a-f475-716b-83122ac7fe2b"
+    ],
+    "salesChannels": [
+     {
+      "id": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "457dfd77-9ed3-2955-e15a-a803470d59ec",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "dc0c0c9f-223a-f475-716b-83122ac7fe2b",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "2425a771-ec24-cf81-0e1d-e77e677c7adf",
+      "status": "PASSIVE"
+     }
+    ],
+    "shouldMatchAllConditions": null,
+    "translations": [],
+    "updatedAt": 1756725975029
+   },
+   {
+    "categoryPath": [],
+    "categoryPathItems": null,
+    "conditions": null,
+    "createdAt": 1665691582140,
+    "deleted": false,
+    "description": "ANON-12974f88",
+    "id": "27af3120-4937-abb0-e211-0baf3e13651e",
+    "imageId": null,
+    "isAutomated": false,
+    "metaData": {
+     "canonicals": null,
+     "createdAt": 1665691582142,
+     "deleted": false,
+     "description": "ANON-adea7e8a",
+     "disableIndex": null,
+     "id": "a2860c60-d6cf-51d6-b4ad-802e9352dd5c",
+     "metadataOverrides": null,
+     "pageTitle": "ANON-d91631a6",
+     "redirectTo": null,
+     "slug": "ANON-fd82e024",
+     "targetId": "27af3120-4937-abb0-e211-0baf3e13651e",
+     "targetType": "CATEGORY",
+     "translations": [],
+     "updatedAt": 1756725642112
+    },
+    "name": "ANON-3d54d88a",
+    "orderType": "LOWEST_PRICE",
+    "parentId": null,
+    "salesChannelIds": [
+     "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+     "457dfd77-9ed3-2955-e15a-a803470d59ec",
+     "dc0c0c9f-223a-f475-716b-83122ac7fe2b"
+    ],
+    "salesChannels": [
+     {
+      "id": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "457dfd77-9ed3-2955-e15a-a803470d59ec",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "dc0c0c9f-223a-f475-716b-83122ac7fe2b",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "2425a771-ec24-cf81-0e1d-e77e677c7adf",
+      "status": "PASSIVE"
+     }
+    ],
+    "shouldMatchAllConditions": null,
+    "translations": [],
+    "updatedAt": 1756725975030
+   },
+   {
+    "categoryPath": [],
+    "categoryPathItems": null,
+    "conditions": null,
+    "createdAt": 1665691607764,
+    "deleted": false,
+    "description": "ANON-493b6af7",
+    "id": "6d563dab-f0f3-d41b-ee7b-cb1df3aa4545",
+    "imageId": null,
+    "isAutomated": false,
+    "metaData": {
+     "canonicals": null,
+     "createdAt": 1665691607765,
+     "deleted": false,
+     "description": "ANON-922688a3",
+     "disableIndex": null,
+     "id": "47772790-c81e-8404-cf67-a3be04b01278",
+     "metadataOverrides": null,
+     "pageTitle": "ANON-8937ec95",
+     "redirectTo": null,
+     "slug": "ANON-3cfbacc3",
+     "targetId": "6d563dab-f0f3-d41b-ee7b-cb1df3aa4545",
+     "targetType": "CATEGORY",
+     "translations": [],
+     "updatedAt": 1756725632084
+    },
+    "name": "BAHARATLAR",
+    "orderType": "LOWEST_PRICE",
+    "parentId": null,
+    "salesChannelIds": [
+     "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+     "457dfd77-9ed3-2955-e15a-a803470d59ec",
+     "dc0c0c9f-223a-f475-716b-83122ac7fe2b"
+    ],
+    "salesChannels": [
+     {
+      "id": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "457dfd77-9ed3-2955-e15a-a803470d59ec",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "dc0c0c9f-223a-f475-716b-83122ac7fe2b",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "2425a771-ec24-cf81-0e1d-e77e677c7adf",
+      "status": "PASSIVE"
+     }
+    ],
+    "shouldMatchAllConditions": null,
+    "translations": [],
+    "updatedAt": 1756725975031
+   },
+   {
+    "categoryPath": [
+     "e6fac813-f6ef-c03a-d852-c9822c23197f"
+    ],
+    "categoryPathItems": null,
+    "conditions": null,
+    "createdAt": 1665861256303,
+    "deleted": false,
+    "description": "ANON-d8389351",
+    "id": "5aef0509-3dfa-8c02-3ad8-5a0682c69f9d",
+    "imageId": null,
+    "isAutomated": false,
+    "metaData": {
+     "canonicals": null,
+     "createdAt": 1665861256305,
+     "deleted": false,
+     "description": "ANON-22f16e0f",
+     "disableIndex": null,
+     "id": "43047464-b7a9-42b3-ab66-4e735537e9e7",
+     "metadataOverrides": null,
+     "pageTitle": "ANON-07110e04",
+     "redirectTo": null,
+     "slug": "ANON-48d7a205",
+     "targetId": "5aef0509-3dfa-8c02-3ad8-5a0682c69f9d",
+     "targetType": "CATEGORY",
+     "translations": [],
+     "updatedAt": 1669035294820
+    },
+    "name": "ANON-07110e04",
+    "orderType": "LOWEST_PRICE",
+    "parentId": "e6fac813-f6ef-c03a-d852-c9822c23197f",
+    "salesChannelIds": [
+     "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+     "457dfd77-9ed3-2955-e15a-a803470d59ec",
+     "dc0c0c9f-223a-f475-716b-83122ac7fe2b"
+    ],
+    "salesChannels": [
+     {
+      "id": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "457dfd77-9ed3-2955-e15a-a803470d59ec",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "dc0c0c9f-223a-f475-716b-83122ac7fe2b",
+      "status": "VISIBLE"
+     }
+    ],
+    "shouldMatchAllConditions": null,
+    "translations": [],
+    "updatedAt": 1756725975032
+   },
+   {
+    "categoryPath": [
+     "6d563dab-f0f3-d41b-ee7b-cb1df3aa4545"
+    ],
+    "categoryPathItems": null,
+    "conditions": null,
+    "createdAt": 1665861350182,
+    "deleted": false,
+    "description": "ANON-599b5734",
+    "id": "e1181c43-1903-b418-8b76-c7507710773c",
+    "imageId": null,
+    "isAutomated": false,
+    "metaData": {
+     "canonicals": null,
+     "createdAt": 1665861350183,
+     "deleted": false,
+     "description": "ANON-b933b76f",
+     "disableIndex": null,
+     "id": "1c3c3e08-7d3e-7c4b-1bd5-ff311ab127f1",
+     "metadataOverrides": null,
+     "pageTitle": "ANON-28277551",
+     "redirectTo": null,
+     "slug": "ANON-e52851f1",
+     "targetId": "e1181c43-1903-b418-8b76-c7507710773c",
+     "targetType": "CATEGORY",
+     "translations": [],
+     "updatedAt": 1669035294820
+    },
+    "name": "ANON-28277551",
+    "orderType": null,
+    "parentId": "6d563dab-f0f3-d41b-ee7b-cb1df3aa4545",
+    "salesChannelIds": [
+     "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+     "457dfd77-9ed3-2955-e15a-a803470d59ec",
+     "dc0c0c9f-223a-f475-716b-83122ac7fe2b"
+    ],
+    "salesChannels": [
+     {
+      "id": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "457dfd77-9ed3-2955-e15a-a803470d59ec",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "dc0c0c9f-223a-f475-716b-83122ac7fe2b",
+      "status": "VISIBLE"
+     }
+    ],
+    "shouldMatchAllConditions": null,
+    "translations": [],
+    "updatedAt": 1756725975033
+   },
+   {
+    "categoryPath": [
+     "6d563dab-f0f3-d41b-ee7b-cb1df3aa4545"
+    ],
+    "categoryPathItems": null,
+    "conditions": null,
+    "createdAt": 1665861377396,
+    "deleted": false,
+    "description": null,
+    "id": "76a1a155-c3ca-eb5a-b91b-fdd16f0b2709",
+    "imageId": null,
+    "isAutomated": false,
+    "metaData": {
+     "canonicals": null,
+     "createdAt": 1665861377397,
+     "deleted": false,
+     "description": null,
+     "disableIndex": null,
+     "id": "7b891396-39b4-e01a-eb55-6692b8e8ea23",
+     "metadataOverrides": null,
+     "pageTitle": "ANON-80c90fbd",
+     "redirectTo": null,
+     "slug": "ANON-bae31772",
+     "targetId": "76a1a155-c3ca-eb5a-b91b-fdd16f0b2709",
+     "targetType": "CATEGORY",
+     "translations": [],
+     "updatedAt": 1665861377397
+    },
+    "name": "ANON-80c90fbd",
+    "orderType": null,
+    "parentId": "6d563dab-f0f3-d41b-ee7b-cb1df3aa4545",
+    "salesChannelIds": [
+     "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+     "457dfd77-9ed3-2955-e15a-a803470d59ec",
+     "dc0c0c9f-223a-f475-716b-83122ac7fe2b"
+    ],
+    "salesChannels": [
+     {
+      "id": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "457dfd77-9ed3-2955-e15a-a803470d59ec",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "dc0c0c9f-223a-f475-716b-83122ac7fe2b",
+      "status": "VISIBLE"
+     }
+    ],
+    "shouldMatchAllConditions": null,
+    "translations": [],
+    "updatedAt": 1756725975034
+   },
+   {
+    "categoryPath": [
+     "e6fac813-f6ef-c03a-d852-c9822c23197f"
+    ],
+    "categoryPathItems": null,
+    "conditions": null,
+    "createdAt": 1665861411487,
+    "deleted": false,
+    "description": "ANON-dd855b4e",
+    "id": "ec379d4f-4296-804e-5848-2afed89613f3",
+    "imageId": null,
+    "isAutomated": false,
+    "metaData": {
+     "canonicals": null,
+     "createdAt": 1665861411488,
+     "deleted": false,
+     "description": "ANON-5ca7e08e",
+     "disableIndex": null,
+     "id": "5a39540a-1003-5723-f0e2-37eb2d5b0067",
+     "metadataOverrides": null,
+     "pageTitle": "ANON-0436d056",
+     "redirectTo": null,
+     "slug": "ANON-ef92499a",
+     "targetId": "ec379d4f-4296-804e-5848-2afed89613f3",
+     "targetType": "CATEGORY",
+     "translations": [],
+     "updatedAt": 1669035294820
+    },
+    "name": "ANON-0436d056",
+    "orderType": "LOWEST_PRICE",
+    "parentId": "e6fac813-f6ef-c03a-d852-c9822c23197f",
+    "salesChannelIds": [
+     "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+     "457dfd77-9ed3-2955-e15a-a803470d59ec",
+     "dc0c0c9f-223a-f475-716b-83122ac7fe2b"
+    ],
+    "salesChannels": [
+     {
+      "id": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "457dfd77-9ed3-2955-e15a-a803470d59ec",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "dc0c0c9f-223a-f475-716b-83122ac7fe2b",
+      "status": "VISIBLE"
+     }
+    ],
+    "shouldMatchAllConditions": null,
+    "translations": [],
+    "updatedAt": 1756725975035
+   },
+   {
+    "categoryPath": [],
+    "categoryPathItems": null,
+    "conditions": null,
+    "createdAt": 1666019851204,
+    "deleted": false,
+    "description": null,
+    "id": "e6fac813-f6ef-c03a-d852-c9822c23197f",
+    "imageId": null,
+    "isAutomated": false,
+    "metaData": {
+     "canonicals": null,
+     "createdAt": 1666019851309,
+     "deleted": false,
+     "description": null,
+     "disableIndex": null,
+     "id": "4570fff3-6a6a-afd8-6b3f-fc1892dc7bb5",
+     "metadataOverrides": null,
+     "pageTitle": "UNLAR",
+     "redirectTo": null,
+     "slug": "ANON-26766137",
+     "targetId": "e6fac813-f6ef-c03a-d852-c9822c23197f",
+     "targetType": "CATEGORY",
+     "translations": [],
+     "updatedAt": 1666019851309
+    },
+    "name": "UNLAR",
+    "orderType": null,
+    "parentId": null,
+    "salesChannelIds": [
+     "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+     "457dfd77-9ed3-2955-e15a-a803470d59ec",
+     "dc0c0c9f-223a-f475-716b-83122ac7fe2b"
+    ],
+    "salesChannels": [
+     {
+      "id": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "457dfd77-9ed3-2955-e15a-a803470d59ec",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "dc0c0c9f-223a-f475-716b-83122ac7fe2b",
+      "status": "VISIBLE"
+     }
+    ],
+    "shouldMatchAllConditions": null,
+    "translations": [],
+    "updatedAt": 1756725975036
+   },
+   {
+    "categoryPath": [
+     "e6fac813-f6ef-c03a-d852-c9822c23197f"
+    ],
+    "categoryPathItems": null,
+    "conditions": null,
+    "createdAt": 1666035294661,
+    "deleted": false,
+    "description": "ANON-1f62462d",
+    "id": "de766130-1061-dbc7-d592-632c6e18b41b",
+    "imageId": null,
+    "isAutomated": false,
+    "metaData": {
+     "canonicals": null,
+     "createdAt": 1666035294779,
+     "deleted": false,
+     "description": "ANON-73aeec45",
+     "disableIndex": null,
+     "id": "ebf3465c-1e3e-087e-fd78-2d5acc65438f",
+     "metadataOverrides": null,
+     "pageTitle": "ANON-a1fefb09",
+     "redirectTo": null,
+     "slug": "ANON-06aa5dea",
+     "targetId": "de766130-1061-dbc7-d592-632c6e18b41b",
+     "targetType": "CATEGORY",
+     "translations": [],
+     "updatedAt": 1678034105701
+    },
+    "name": "ANON-a1fefb09",
+    "orderType": null,
+    "parentId": "e6fac813-f6ef-c03a-d852-c9822c23197f",
+    "salesChannelIds": [
+     "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+     "457dfd77-9ed3-2955-e15a-a803470d59ec",
+     "dc0c0c9f-223a-f475-716b-83122ac7fe2b"
+    ],
+    "salesChannels": [
+     {
+      "id": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "457dfd77-9ed3-2955-e15a-a803470d59ec",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "dc0c0c9f-223a-f475-716b-83122ac7fe2b",
+      "status": "VISIBLE"
+     }
+    ],
+    "shouldMatchAllConditions": null,
+    "translations": [],
+    "updatedAt": 1756725975037
+   },
+   {
+    "categoryPath": [],
+    "categoryPathItems": null,
+    "conditions": null,
+    "createdAt": 1666218243632,
+    "deleted": false,
+    "description": "ANON-0180b0e7",
+    "id": "6e231583-7691-b179-d078-68b0bb0f7dbd",
+    "imageId": null,
+    "isAutomated": false,
+    "metaData": {
+     "canonicals": null,
+     "createdAt": 1666218243634,
+     "deleted": false,
+     "description": "ANON-0e16b73d",
+     "disableIndex": null,
+     "id": "9bc4d742-b7a6-7bff-6aa1-be52fbeb35a1",
+     "metadataOverrides": null,
+     "pageTitle": "ANON-098aaa42",
+     "redirectTo": null,
+     "slug": "ANON-de38efec",
+     "targetId": "6e231583-7691-b179-d078-68b0bb0f7dbd",
+     "targetType": "CATEGORY",
+     "translations": [],
+     "updatedAt": 1668372548884
+    },
+    "name": "ANON-098aaa42",
+    "orderType": null,
+    "parentId": null,
+    "salesChannelIds": [
+     "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+     "457dfd77-9ed3-2955-e15a-a803470d59ec",
+     "dc0c0c9f-223a-f475-716b-83122ac7fe2b"
+    ],
+    "salesChannels": [
+     {
+      "id": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "457dfd77-9ed3-2955-e15a-a803470d59ec",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "dc0c0c9f-223a-f475-716b-83122ac7fe2b",
+      "status": "VISIBLE"
+     }
+    ],
+    "shouldMatchAllConditions": null,
+    "translations": [],
+    "updatedAt": 1756725975038
+   },
+   {
+    "categoryPath": [],
+    "categoryPathItems": null,
+    "conditions": null,
+    "createdAt": 1666222310987,
+    "deleted": false,
+    "description": null,
+    "id": "849d6d63-d85a-74a8-1ebf-8f07ed2c1fb1",
+    "imageId": null,
+    "isAutomated": false,
+    "metaData": {
+     "canonicals": null,
+     "createdAt": 1666222310991,
+     "deleted": false,
+     "description": null,
+     "disableIndex": null,
+     "id": "e6bc8f0c-e6a5-e44c-6425-4d8406ad8e6a",
+     "metadataOverrides": null,
+     "pageTitle": "ANON-2997e93a",
+     "redirectTo": null,
+     "slug": "ANON-5cbcd60c",
+     "targetId": "849d6d63-d85a-74a8-1ebf-8f07ed2c1fb1",
+     "targetType": "CATEGORY",
+     "translations": [],
+     "updatedAt": 1666222375988
+    },
+    "name": "ANON-2997e93a",
+    "orderType": "LOWEST_PRICE",
+    "parentId": null,
+    "salesChannelIds": [
+     "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+     "457dfd77-9ed3-2955-e15a-a803470d59ec",
+     "dc0c0c9f-223a-f475-716b-83122ac7fe2b"
+    ],
+    "salesChannels": [
+     {
+      "id": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "457dfd77-9ed3-2955-e15a-a803470d59ec",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "dc0c0c9f-223a-f475-716b-83122ac7fe2b",
+      "status": "VISIBLE"
+     }
+    ],
+    "shouldMatchAllConditions": null,
+    "translations": [],
+    "updatedAt": 1756725975039
+   },
+   {
+    "categoryPath": [
+     "e6fac813-f6ef-c03a-d852-c9822c23197f"
+    ],
+    "categoryPathItems": null,
+    "conditions": null,
+    "createdAt": 1666298974887,
+    "deleted": false,
+    "description": null,
+    "id": "b51221ff-52ac-cfa8-1f3b-f14fff7d3cf5",
+    "imageId": null,
+    "isAutomated": false,
+    "metaData": {
+     "canonicals": null,
+     "createdAt": 1666298974889,
+     "deleted": false,
+     "description": null,
+     "disableIndex": null,
+     "id": "6f21bfe2-d9fd-f176-b1ce-c131fc62d521",
+     "metadataOverrides": null,
+     "pageTitle": "ANON-6a790181",
+     "redirectTo": null,
+     "slug": "ANON-5da7a8cc",
+     "targetId": "b51221ff-52ac-cfa8-1f3b-f14fff7d3cf5",
+     "targetType": "CATEGORY",
+     "translations": [],
+     "updatedAt": 1756725843813
+    },
+    "name": "ANON-6a790181",
+    "orderType": null,
+    "parentId": "e6fac813-f6ef-c03a-d852-c9822c23197f",
+    "salesChannelIds": [
+     "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+     "457dfd77-9ed3-2955-e15a-a803470d59ec",
+     "dc0c0c9f-223a-f475-716b-83122ac7fe2b"
+    ],
+    "salesChannels": [
+     {
+      "id": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "457dfd77-9ed3-2955-e15a-a803470d59ec",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "dc0c0c9f-223a-f475-716b-83122ac7fe2b",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "2425a771-ec24-cf81-0e1d-e77e677c7adf",
+      "status": "PASSIVE"
+     }
+    ],
+    "shouldMatchAllConditions": null,
+    "translations": [],
+    "updatedAt": 1756725975040
+   },
+   {
+    "categoryPath": [
+     "e6fac813-f6ef-c03a-d852-c9822c23197f"
+    ],
+    "categoryPathItems": null,
+    "conditions": null,
+    "createdAt": 1667825577768,
+    "deleted": false,
+    "description": "ANON-997cf65b",
+    "id": "019154e1-5c58-3a66-b657-f2c35d7267f5",
+    "imageId": null,
+    "isAutomated": false,
+    "metaData": {
+     "canonicals": null,
+     "createdAt": 1667825577773,
+     "deleted": false,
+     "description": "ANON-997cf65b",
+     "disableIndex": null,
+     "id": "48ddae73-bd24-b49f-25f6-175d9c24a161",
+     "metadataOverrides": null,
+     "pageTitle": "ANON-7cf4784b",
+     "redirectTo": null,
+     "slug": "ANON-d81a3444",
+     "targetId": "019154e1-5c58-3a66-b657-f2c35d7267f5",
+     "targetType": "CATEGORY",
+     "translations": [],
+     "updatedAt": 1667825577773
+    },
+    "name": "ANON-7cf4784b",
+    "orderType": null,
+    "parentId": "e6fac813-f6ef-c03a-d852-c9822c23197f",
+    "salesChannelIds": [
+     "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+     "457dfd77-9ed3-2955-e15a-a803470d59ec",
+     "dc0c0c9f-223a-f475-716b-83122ac7fe2b"
+    ],
+    "salesChannels": [
+     {
+      "id": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "457dfd77-9ed3-2955-e15a-a803470d59ec",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "dc0c0c9f-223a-f475-716b-83122ac7fe2b",
+      "status": "VISIBLE"
+     }
+    ],
+    "shouldMatchAllConditions": null,
+    "translations": [],
+    "updatedAt": 1756725975041
+   },
+   {
+    "categoryPath": [
+     "6d563dab-f0f3-d41b-ee7b-cb1df3aa4545"
+    ],
+    "categoryPathItems": null,
+    "conditions": null,
+    "createdAt": 1668883778495,
+    "deleted": false,
+    "description": "ANON-600de25c",
+    "id": "9c537dbc-e9a9-069a-536e-8f47ae5bee97",
+    "imageId": null,
+    "isAutomated": false,
+    "metaData": {
+     "canonicals": null,
+     "createdAt": 1668883778498,
+     "deleted": false,
+     "description": "ANON-7c675857",
+     "disableIndex": null,
+     "id": "b4efeec4-089a-71e0-a6d9-eb46d7bd9b99",
+     "metadataOverrides": null,
+     "pageTitle": "ANON-19f576c5",
+     "redirectTo": null,
+     "slug": "ANON-36ee2c70",
+     "targetId": "9c537dbc-e9a9-069a-536e-8f47ae5bee97",
+     "targetType": "CATEGORY",
+     "translations": [],
+     "updatedAt": 1669729185673
+    },
+    "name": "ANON-19f576c5",
+    "orderType": null,
+    "parentId": "6d563dab-f0f3-d41b-ee7b-cb1df3aa4545",
+    "salesChannelIds": [
+     "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+     "457dfd77-9ed3-2955-e15a-a803470d59ec",
+     "dc0c0c9f-223a-f475-716b-83122ac7fe2b"
+    ],
+    "salesChannels": [
+     {
+      "id": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "457dfd77-9ed3-2955-e15a-a803470d59ec",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "dc0c0c9f-223a-f475-716b-83122ac7fe2b",
+      "status": "VISIBLE"
+     }
+    ],
+    "shouldMatchAllConditions": null,
+    "translations": [],
+    "updatedAt": 1756725975042
+   },
+   {
+    "categoryPath": [],
+    "categoryPathItems": null,
+    "conditions": null,
+    "createdAt": 1684350218889,
+    "deleted": false,
+    "description": null,
+    "id": "5dbfb4ac-8039-05e7-e215-b033e3e26cb4",
+    "imageId": null,
+    "isAutomated": false,
+    "metaData": {
+     "canonicals": null,
+     "createdAt": 1684350219048,
+     "deleted": false,
+     "description": null,
+     "disableIndex": null,
+     "id": "22ce6576-4f6e-199b-a85a-1af999f16d92",
+     "metadataOverrides": null,
+     "pageTitle": "ANON-8af34f47",
+     "redirectTo": null,
+     "slug": "ANON-8986d54e",
+     "targetId": "5dbfb4ac-8039-05e7-e215-b033e3e26cb4",
+     "targetType": "CATEGORY",
+     "translations": [],
+     "updatedAt": 1684350219048
+    },
+    "name": "ANON-8af34f47",
+    "orderType": null,
+    "parentId": null,
+    "salesChannelIds": [
+     "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+     "457dfd77-9ed3-2955-e15a-a803470d59ec",
+     "dc0c0c9f-223a-f475-716b-83122ac7fe2b"
+    ],
+    "salesChannels": [
+     {
+      "id": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "457dfd77-9ed3-2955-e15a-a803470d59ec",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "dc0c0c9f-223a-f475-716b-83122ac7fe2b",
+      "status": "VISIBLE"
+     }
+    ],
+    "shouldMatchAllConditions": null,
+    "translations": [],
+    "updatedAt": 1756725975043
+   },
+   {
+    "categoryPath": [
+     "e6fac813-f6ef-c03a-d852-c9822c23197f"
+    ],
+    "categoryPathItems": null,
+    "conditions": null,
+    "createdAt": 1685821008163,
+    "deleted": false,
+    "description": null,
+    "id": "0a3df05c-f84d-1778-36dc-51d3b627a280",
+    "imageId": null,
+    "isAutomated": false,
+    "metaData": {
+     "canonicals": null,
+     "createdAt": 1685821008345,
+     "deleted": false,
+     "description": null,
+     "disableIndex": null,
+     "id": "e1d53f6e-b125-758b-30df-76f26b23e48a",
+     "metadataOverrides": null,
+     "pageTitle": "ANON-75ca9673",
+     "redirectTo": null,
+     "slug": "ANON-93b052ce",
+     "targetId": "0a3df05c-f84d-1778-36dc-51d3b627a280",
+     "targetType": "CATEGORY",
+     "translations": [],
+     "updatedAt": 1756725961299
+    },
+    "name": "ANON-50d2495c",
+    "orderType": null,
+    "parentId": "e6fac813-f6ef-c03a-d852-c9822c23197f",
+    "salesChannelIds": [
+     "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+     "457dfd77-9ed3-2955-e15a-a803470d59ec",
+     "dc0c0c9f-223a-f475-716b-83122ac7fe2b"
+    ],
+    "salesChannels": [
+     {
+      "id": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "457dfd77-9ed3-2955-e15a-a803470d59ec",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "dc0c0c9f-223a-f475-716b-83122ac7fe2b",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "2425a771-ec24-cf81-0e1d-e77e677c7adf",
+      "status": "PASSIVE"
+     }
+    ],
+    "shouldMatchAllConditions": null,
+    "translations": [],
+    "updatedAt": 1756725975044
+   },
+   {
+    "categoryPath": [
+     "e6fac813-f6ef-c03a-d852-c9822c23197f"
+    ],
+    "categoryPathItems": null,
+    "conditions": null,
+    "createdAt": 1721889726858,
+    "deleted": false,
+    "description": "ANON-bae05b0f",
+    "id": "ef377534-f331-b19e-4b94-a8e8c6873ba7",
+    "imageId": null,
+    "isAutomated": false,
+    "metaData": {
+     "canonicals": null,
+     "createdAt": 1721889726860,
+     "deleted": false,
+     "description": "ANON-af319f35",
+     "disableIndex": null,
+     "id": "642da216-e77b-fac5-5d7a-3e6555837300",
+     "metadataOverrides": null,
+     "pageTitle": "ANON-8076f8b9",
+     "redirectTo": null,
+     "slug": "ANON-c9cd0fcc",
+     "targetId": "ef377534-f331-b19e-4b94-a8e8c6873ba7",
+     "targetType": "CATEGORY",
+     "translations": [],
+     "updatedAt": 1792581565533
+    },
+    "name": "ANON-a9d085db",
+    "orderType": null,
+    "parentId": "e6fac813-f6ef-c03a-d852-c9822c23197f",
+    "salesChannelIds": [
+     "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+     "457dfd77-9ed3-2955-e15a-a803470d59ec",
+     "dc0c0c9f-223a-f475-716b-83122ac7fe2b"
+    ],
+    "salesChannels": [
+     {
+      "id": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "457dfd77-9ed3-2955-e15a-a803470d59ec",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "dc0c0c9f-223a-f475-716b-83122ac7fe2b",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "2425a771-ec24-cf81-0e1d-e77e677c7adf",
+      "status": "PASSIVE"
+     }
+    ],
+    "shouldMatchAllConditions": null,
+    "translations": [],
+    "updatedAt": 1792581565537
+   },
+   {
+    "categoryPath": [
+     "e6fac813-f6ef-c03a-d852-c9822c23197f"
+    ],
+    "categoryPathItems": null,
+    "conditions": null,
+    "createdAt": 1723558471511,
+    "deleted": false,
+    "description": null,
+    "id": "481f2e23-a4b0-a6d9-8fb2-f6638fc7cecd",
+    "imageId": null,
+    "isAutomated": false,
+    "metaData": {
+     "canonicals": null,
+     "createdAt": 1723558471593,
+     "deleted": false,
+     "description": null,
+     "disableIndex": null,
+     "id": "9f50775f-e5a3-edf4-06f8-4620b0b5ccc9",
+     "metadataOverrides": null,
+     "pageTitle": "ANON-1c99bbc8",
+     "redirectTo": null,
+     "slug": "ANON-20278466",
+     "targetId": "481f2e23-a4b0-a6d9-8fb2-f6638fc7cecd",
+     "targetType": "CATEGORY",
+     "translations": [],
+     "updatedAt": 1756726029935
+    },
+    "name": "ANON-6491cd82",
+    "orderType": null,
+    "parentId": "e6fac813-f6ef-c03a-d852-c9822c23197f",
+    "salesChannelIds": [
+     "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+     "457dfd77-9ed3-2955-e15a-a803470d59ec",
+     "dc0c0c9f-223a-f475-716b-83122ac7fe2b"
+    ],
+    "salesChannels": [
+     {
+      "id": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "457dfd77-9ed3-2955-e15a-a803470d59ec",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "dc0c0c9f-223a-f475-716b-83122ac7fe2b",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "2425a771-ec24-cf81-0e1d-e77e677c7adf",
+      "status": "PASSIVE"
+     }
+    ],
+    "shouldMatchAllConditions": null,
+    "translations": [],
+    "updatedAt": 1756726029939
+   },
+   {
+    "categoryPath": [],
+    "categoryPathItems": null,
+    "conditions": null,
+    "createdAt": 1723955862689,
+    "deleted": false,
+    "description": null,
+    "id": "4bf518b3-ab3c-61e9-6b25-827ea143b897",
+    "imageId": null,
+    "isAutomated": false,
+    "metaData": {
+     "canonicals": null,
+     "createdAt": 1723955862692,
+     "deleted": false,
+     "description": null,
+     "disableIndex": null,
+     "id": "6f679330-824e-3265-e8ed-6b9029d05729",
+     "metadataOverrides": null,
+     "pageTitle": "ANON-01b2801e",
+     "redirectTo": null,
+     "slug": "ANON-de587368",
+     "targetId": "4bf518b3-ab3c-61e9-6b25-827ea143b897",
+     "targetType": "CATEGORY",
+     "translations": [],
+     "updatedAt": 1723955862692
+    },
+    "name": "ANON-01b2801e",
+    "orderType": null,
+    "parentId": null,
+    "salesChannelIds": [
+     "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+     "457dfd77-9ed3-2955-e15a-a803470d59ec",
+     "dc0c0c9f-223a-f475-716b-83122ac7fe2b"
+    ],
+    "salesChannels": [
+     {
+      "id": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "457dfd77-9ed3-2955-e15a-a803470d59ec",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "dc0c0c9f-223a-f475-716b-83122ac7fe2b",
+      "status": "VISIBLE"
+     }
+    ],
+    "shouldMatchAllConditions": null,
+    "translations": [],
+    "updatedAt": 1756725975047
+   },
+   {
+    "categoryPath": [],
+    "categoryPathItems": null,
+    "conditions": null,
+    "createdAt": 1733918646686,
+    "deleted": false,
+    "description": null,
+    "id": "8000460a-313b-c09b-b801-a069fa3e2810",
+    "imageId": null,
+    "isAutomated": false,
+    "metaData": {
+     "canonicals": null,
+     "createdAt": 1733918646814,
+     "deleted": false,
+     "description": null,
+     "disableIndex": null,
+     "id": "25fe21bb-cd39-4d8b-12d1-cbae0e0e1ae9",
+     "metadataOverrides": null,
+     "pageTitle": "ANON-22ce95e7",
+     "redirectTo": null,
+     "slug": "ANON-b85de961",
+     "targetId": "8000460a-313b-c09b-b801-a069fa3e2810",
+     "targetType": "CATEGORY",
+     "translations": [],
+     "updatedAt": 1733918646814
+    },
+    "name": "ANON-22ce95e7",
+    "orderType": null,
+    "parentId": null,
+    "salesChannelIds": [
+     "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+     "457dfd77-9ed3-2955-e15a-a803470d59ec",
+     "dc0c0c9f-223a-f475-716b-83122ac7fe2b"
+    ],
+    "salesChannels": [
+     {
+      "id": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "457dfd77-9ed3-2955-e15a-a803470d59ec",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "dc0c0c9f-223a-f475-716b-83122ac7fe2b",
+      "status": "VISIBLE"
+     }
+    ],
+    "shouldMatchAllConditions": null,
+    "translations": [],
+    "updatedAt": 1756725975048
+   },
+   {
+    "categoryPath": [],
+    "categoryPathItems": null,
+    "conditions": null,
+    "createdAt": 1750680226513,
+    "deleted": false,
+    "description": "ANON-8a70eb85",
+    "id": "038e6bb4-f660-4001-ccfd-9d3d62bcc02b",
+    "imageId": null,
+    "isAutomated": false,
+    "metaData": {
+     "canonicals": null,
+     "createdAt": 1750680226515,
+     "deleted": false,
+     "description": "ANON-d6e630a9",
+     "disableIndex": null,
+     "id": "43a66fe7-55e9-5b9b-1a1e-cd20d5d6a3f4",
+     "metadataOverrides": null,
+     "pageTitle": "ANON-9b04a5a9",
+     "redirectTo": null,
+     "slug": "ANON-bd150da6",
+     "targetId": "038e6bb4-f660-4001-ccfd-9d3d62bcc02b",
+     "targetType": "CATEGORY",
+     "translations": [],
+     "updatedAt": 1750680226515
+    },
+    "name": "ANON-28232f52",
+    "orderType": null,
+    "parentId": null,
+    "salesChannelIds": [
+     "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+     "457dfd77-9ed3-2955-e15a-a803470d59ec",
+     "dc0c0c9f-223a-f475-716b-83122ac7fe2b"
+    ],
+    "salesChannels": [
+     {
+      "id": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "457dfd77-9ed3-2955-e15a-a803470d59ec",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "dc0c0c9f-223a-f475-716b-83122ac7fe2b",
+      "status": "VISIBLE"
+     }
+    ],
+    "shouldMatchAllConditions": null,
+    "translations": [],
+    "updatedAt": 1756725975049
+   },
+   {
+    "categoryPath": [],
+    "categoryPathItems": null,
+    "conditions": null,
+    "createdAt": 1761547689353,
+    "deleted": false,
+    "description": "ANON-5b2d9cbe",
+    "id": "166d57d6-5149-91cf-b457-9d9268567a9d",
+    "imageId": null,
+    "isAutomated": false,
+    "metaData": {
+     "canonicals": null,
+     "createdAt": 1761547689449,
+     "deleted": false,
+     "description": null,
+     "disableIndex": null,
+     "id": "c3f538a4-15b7-6255-7855-a41b76fe3513",
+     "metadataOverrides": null,
+     "pageTitle": "ANON-3c12de61",
+     "redirectTo": null,
+     "slug": "ANON-b52e06c4",
+     "targetId": "166d57d6-5149-91cf-b457-9d9268567a9d",
+     "targetType": "CATEGORY",
+     "translations": [],
+     "updatedAt": 1761547689449
+    },
+    "name": "ANON-3c12de61",
+    "orderType": null,
+    "parentId": null,
+    "salesChannelIds": [
+     "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+     "457dfd77-9ed3-2955-e15a-a803470d59ec",
+     "dc0c0c9f-223a-f475-716b-83122ac7fe2b",
+     "2425a771-ec24-cf81-0e1d-e77e677c7adf"
+    ],
+    "salesChannels": [
+     {
+      "id": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "457dfd77-9ed3-2955-e15a-a803470d59ec",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "dc0c0c9f-223a-f475-716b-83122ac7fe2b",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "2425a771-ec24-cf81-0e1d-e77e677c7adf",
+      "status": "VISIBLE"
+     }
+    ],
+    "shouldMatchAllConditions": null,
+    "translations": [],
+    "updatedAt": 1761547689353
+   },
+   {
+    "categoryPath": [],
+    "categoryPathItems": null,
+    "conditions": null,
+    "createdAt": 1766655541885,
+    "deleted": false,
+    "description": null,
+    "id": "e47cf775-4431-8760-26d0-81ffe76fc986",
+    "imageId": null,
+    "isAutomated": false,
+    "metaData": {
+     "canonicals": null,
+     "createdAt": 1766655541947,
+     "deleted": false,
+     "description": null,
+     "disableIndex": null,
+     "id": "c2feb136-0daa-948e-1033-8b5fb8445502",
+     "metadataOverrides": null,
+     "pageTitle": "ANON-00853dbd",
+     "redirectTo": null,
+     "slug": "ANON-5e86528b",
+     "targetId": "e47cf775-4431-8760-26d0-81ffe76fc986",
+     "targetType": "CATEGORY",
+     "translations": [],
+     "updatedAt": 1766655541947
+    },
+    "name": "ANON-00853dbd",
+    "orderType": null,
+    "parentId": null,
+    "salesChannelIds": [
+     "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+     "457dfd77-9ed3-2955-e15a-a803470d59ec",
+     "dc0c0c9f-223a-f475-716b-83122ac7fe2b",
+     "2425a771-ec24-cf81-0e1d-e77e677c7adf"
+    ],
+    "salesChannels": [
+     {
+      "id": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "457dfd77-9ed3-2955-e15a-a803470d59ec",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "dc0c0c9f-223a-f475-716b-83122ac7fe2b",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "2425a771-ec24-cf81-0e1d-e77e677c7adf",
+      "status": "VISIBLE"
+     }
+    ],
+    "shouldMatchAllConditions": null,
+    "translations": [],
+    "updatedAt": 1766655541885
+   },
+   {
+    "categoryPath": [
+     "e6fac813-f6ef-c03a-d852-c9822c23197f"
+    ],
+    "categoryPathItems": null,
+    "conditions": null,
+    "createdAt": 1776154157440,
+    "deleted": false,
+    "description": null,
+    "id": "ea2f9481-22f8-2038-f567-897b658d3555",
+    "imageId": null,
+    "isAutomated": false,
+    "metaData": {
+     "canonicals": null,
+     "createdAt": 1776154157441,
+     "deleted": false,
+     "description": null,
+     "disableIndex": null,
+     "id": "2bd318cb-9608-0056-db75-3c0f5c865423",
+     "metadataOverrides": null,
+     "pageTitle": "ANON-5afeb9e4",
+     "redirectTo": null,
+     "slug": "ANON-99d44dc6",
+     "targetId": "ea2f9481-22f8-2038-f567-897b658d3555",
+     "targetType": "CATEGORY",
+     "translations": [],
+     "updatedAt": 1776154157441
+    },
+    "name": "ANON-5afeb9e4",
+    "orderType": null,
+    "parentId": "e6fac813-f6ef-c03a-d852-c9822c23197f",
+    "salesChannelIds": [
+     "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+     "457dfd77-9ed3-2955-e15a-a803470d59ec",
+     "dc0c0c9f-223a-f475-716b-83122ac7fe2b",
+     "2425a771-ec24-cf81-0e1d-e77e677c7adf"
+    ],
+    "salesChannels": [
+     {
+      "id": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "457dfd77-9ed3-2955-e15a-a803470d59ec",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "dc0c0c9f-223a-f475-716b-83122ac7fe2b",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "2425a771-ec24-cf81-0e1d-e77e677c7adf",
+      "status": "VISIBLE"
+     }
+    ],
+    "shouldMatchAllConditions": null,
+    "translations": [],
+    "updatedAt": 1776154157440
+   },
+   {
+    "categoryPath": [],
+    "categoryPathItems": null,
+    "conditions": null,
+    "createdAt": 1777467506536,
+    "deleted": false,
+    "description": null,
+    "id": "9a41cf33-199d-7022-cf06-9dc78a18ca2a",
+    "imageId": null,
+    "isAutomated": false,
+    "metaData": {
+     "canonicals": null,
+     "createdAt": 1777467506539,
+     "deleted": false,
+     "description": null,
+     "disableIndex": null,
+     "id": "945fb522-ab22-a85e-ea95-b183c35c0803",
+     "metadataOverrides": null,
+     "pageTitle": "ANON-693920a0",
+     "redirectTo": null,
+     "slug": "ANON-85141fb5",
+     "targetId": "9a41cf33-199d-7022-cf06-9dc78a18ca2a",
+     "targetType": "CATEGORY",
+     "translations": [],
+     "updatedAt": 1777467506539
+    },
+    "name": "ANON-693920a0",
+    "orderType": null,
+    "parentId": null,
+    "salesChannelIds": [
+     "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+     "457dfd77-9ed3-2955-e15a-a803470d59ec",
+     "dc0c0c9f-223a-f475-716b-83122ac7fe2b",
+     "2425a771-ec24-cf81-0e1d-e77e677c7adf"
+    ],
+    "salesChannels": [
+     {
+      "id": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "457dfd77-9ed3-2955-e15a-a803470d59ec",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "dc0c0c9f-223a-f475-716b-83122ac7fe2b",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "2425a771-ec24-cf81-0e1d-e77e677c7adf",
+      "status": "VISIBLE"
+     }
+    ],
+    "shouldMatchAllConditions": null,
+    "translations": [],
+    "updatedAt": 1777467506536
+   },
+   {
+    "categoryPath": [],
+    "categoryPathItems": null,
+    "conditions": null,
+    "createdAt": 1781083822961,
+    "deleted": false,
+    "description": null,
+    "id": "abad4ce9-78f6-4454-d8e9-2fcad5ec201b",
+    "imageId": null,
+    "isAutomated": false,
+    "metaData": {
+     "canonicals": null,
+     "createdAt": 1781083822964,
+     "deleted": false,
+     "description": null,
+     "disableIndex": null,
+     "id": "4b1aab50-c1ca-0cb6-9756-b41e5c68a191",
+     "metadataOverrides": null,
+     "pageTitle": "ANON-2ab6b567",
+     "redirectTo": null,
+     "slug": "ANON-814b5296",
+     "targetId": "abad4ce9-78f6-4454-d8e9-2fcad5ec201b",
+     "targetType": "CATEGORY",
+     "translations": [],
+     "updatedAt": 1781083822964
+    },
+    "name": "ANON-2ab6b567",
+    "orderType": null,
+    "parentId": null,
+    "salesChannelIds": [
+     "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+     "457dfd77-9ed3-2955-e15a-a803470d59ec",
+     "dc0c0c9f-223a-f475-716b-83122ac7fe2b",
+     "2425a771-ec24-cf81-0e1d-e77e677c7adf"
+    ],
+    "salesChannels": [
+     {
+      "id": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "457dfd77-9ed3-2955-e15a-a803470d59ec",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "dc0c0c9f-223a-f475-716b-83122ac7fe2b",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "2425a771-ec24-cf81-0e1d-e77e677c7adf",
+      "status": "VISIBLE"
+     }
+    ],
+    "shouldMatchAllConditions": null,
+    "translations": [],
+    "updatedAt": 1781083822961
+   },
+   {
+    "categoryPath": [],
+    "categoryPathItems": null,
+    "conditions": null,
+    "createdAt": 1782127532510,
+    "deleted": false,
+    "description": "ANON-61f4fdb2",
+    "id": "860a55cf-de79-5694-654e-17d986675585",
+    "imageId": null,
+    "isAutomated": false,
+    "metaData": {
+     "canonicals": null,
+     "createdAt": 1782127532515,
+     "deleted": false,
+     "description": "ANON-d6b9da15",
+     "disableIndex": null,
+     "id": "eb8bf741-b4f5-d8fd-fba8-c98da25a9ced",
+     "metadataOverrides": null,
+     "pageTitle": "ANON-eeb849a7",
+     "redirectTo": null,
+     "slug": "ANON-16f8dddf",
+     "targetId": "860a55cf-de79-5694-654e-17d986675585",
+     "targetType": "CATEGORY",
+     "translations": [],
+     "updatedAt": 1792581237719
+    },
+    "name": "ANON-517ced02",
+    "orderType": null,
+    "parentId": null,
+    "salesChannelIds": [
+     "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+     "457dfd77-9ed3-2955-e15a-a803470d59ec",
+     "dc0c0c9f-223a-f475-716b-83122ac7fe2b",
+     "2425a771-ec24-cf81-0e1d-e77e677c7adf"
+    ],
+    "salesChannels": [
+     {
+      "id": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "457dfd77-9ed3-2955-e15a-a803470d59ec",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "dc0c0c9f-223a-f475-716b-83122ac7fe2b",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "2425a771-ec24-cf81-0e1d-e77e677c7adf",
+      "status": "VISIBLE"
+     }
+    ],
+    "shouldMatchAllConditions": null,
+    "translations": [],
+    "updatedAt": 1792581237723
+   },
+   {
+    "categoryPath": [
+     "e6fac813-f6ef-c03a-d852-c9822c23197f"
+    ],
+    "categoryPathItems": null,
+    "conditions": null,
+    "createdAt": 1788170482618,
+    "deleted": false,
+    "description": "ANON-19c75174",
+    "id": "886b00f4-db4c-fde3-058c-3871bd11d526",
+    "imageId": null,
+    "isAutomated": false,
+    "metaData": {
+     "canonicals": null,
+     "createdAt": 1788170482621,
+     "deleted": false,
+     "description": "ANON-687edd10",
+     "disableIndex": null,
+     "id": "f40f99ee-09ed-c146-473b-989cb4f0cd25",
+     "metadataOverrides": null,
+     "pageTitle": "ANON-b4bef6d9",
+     "redirectTo": null,
+     "slug": "ANON-1d4448f7",
+     "targetId": "886b00f4-db4c-fde3-058c-3871bd11d526",
+     "targetType": "CATEGORY",
+     "translations": [],
+     "updatedAt": 1792581392995
+    },
+    "name": "ANON-3d5cf8b6",
+    "orderType": null,
+    "parentId": "e6fac813-f6ef-c03a-d852-c9822c23197f",
+    "salesChannelIds": [
+     "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+     "457dfd77-9ed3-2955-e15a-a803470d59ec",
+     "dc0c0c9f-223a-f475-716b-83122ac7fe2b",
+     "2425a771-ec24-cf81-0e1d-e77e677c7adf"
+    ],
+    "salesChannels": [
+     {
+      "id": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "457dfd77-9ed3-2955-e15a-a803470d59ec",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "dc0c0c9f-223a-f475-716b-83122ac7fe2b",
+      "status": "VISIBLE"
+     },
+     {
+      "id": "2425a771-ec24-cf81-0e1d-e77e677c7adf",
+      "status": "VISIBLE"
+     }
+    ],
+    "shouldMatchAllConditions": null,
+    "translations": [],
+    "updatedAt": 1792581393000
+   },
+   {
+    "categoryPath": [
+     "e6fac813-f6ef-c03a-d852-c9822c23197f"
+    ],
+    "categoryPathItems": null,
+    "conditions": [],
+    "createdAt": 1792349717150,
+    "deleted": false,
+    "description": null,
+    "id": "a1720567-4c3a-301e-6c13-3624fba37f68",
+    "imageId": null,
+    "isAutomated": false,
+    "metaData": {
+     "canonicals": [],
+     "createdAt": 1792349717144,
+     "deleted": false,
+     "description": null,
+     "disableIndex": null,
+     "id": "ce6d5e79-1e92-ef30-acb8-cfad80a5c958",
+     "metadataOverrides": [],
+     "pageTitle": "ANON-b6f1e209",
+     "redirectTo": null,
+     "slug": "ANON-2c0c3419",
+     "targetId": "a1720567-4c3a-301e-6c13-3624fba37f68",
+     "targetType": "CATEGORY",
+     "translations": [],
+     "updatedAt": 1792349717144
+    },
+    "name": "ANON-b6f1e209",
+    "orderType": null,
+    "parentId": "e6fac813-f6ef-c03a-d852-c9822c23197f",
+    "salesChannelIds": [
+     "a0618cec-d583-91f2-7abd-0f4830c9dfd1"
+    ],
+    "salesChannels": [
+     {
+      "id": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+      "status": "VISIBLE"
+     }
+    ],
+    "shouldMatchAllConditions": false,
+    "translations": [],
+    "updatedAt": 1792349879007
+   },
+   {
+    "categoryPath": [
+     "e6fac813-f6ef-c03a-d852-c9822c23197f"
+    ],
+    "categoryPathItems": null,
+    "conditions": [],
+    "createdAt": 1792349878835,
+    "deleted": false,
+    "description": null,
+    "id": "3fd6c261-c809-d583-0286-8469c7c14fc4",
+    "imageId": null,
+    "isAutomated": false,
+    "metaData": {
+     "canonicals": [],
+     "createdAt": 1792349878830,
+     "deleted": false,
+     "description": null,
+     "disableIndex": null,
+     "id": "e0d5ed09-59aa-006b-56b5-69678d7ce00d",
+     "metadataOverrides": [],
+     "pageTitle": "ANON-b47187d0",
+     "redirectTo": null,
+     "slug": "ANON-0198291e",
+     "targetId": "3fd6c261-c809-d583-0286-8469c7c14fc4",
+     "targetType": "CATEGORY",
+     "translations": [],
+     "updatedAt": 1792349878830
+    },
+    "name": "ANON-b47187d0",
+    "orderType": null,
+    "parentId": "e6fac813-f6ef-c03a-d852-c9822c23197f",
+    "salesChannelIds": [
+     "a0618cec-d583-91f2-7abd-0f4830c9dfd1"
+    ],
+    "salesChannels": [
+     {
+      "id": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+      "status": "VISIBLE"
+     }
+    ],
+    "shouldMatchAllConditions": null,
+    "translations": [],
+    "updatedAt": 1792349878835
+   },
+   {
+    "categoryPath": [
+     "e6fac813-f6ef-c03a-d852-c9822c23197f"
+    ],
+    "categoryPathItems": null,
+    "conditions": [],
+    "createdAt": 1792349879236,
+    "deleted": false,
+    "description": null,
+    "id": "a39aa49d-375f-a0d9-0c74-7c86f9e3631e",
+    "imageId": null,
+    "isAutomated": false,
+    "metaData": {
+     "canonicals": [],
+     "createdAt": 1792349879231,
+     "deleted": false,
+     "description": null,
+     "disableIndex": null,
+     "id": "2144266f-15a4-6785-6924-ca2bbe481d86",
+     "metadataOverrides": [],
+     "pageTitle": "ANON-60fe84e5",
+     "redirectTo": null,
+     "slug": "ANON-176fbec8",
+     "targetId": "a39aa49d-375f-a0d9-0c74-7c86f9e3631e",
+     "targetType": "CATEGORY",
+     "translations": [],
+     "updatedAt": 1792349879231
+    },
+    "name": "ANON-60fe84e5",
+    "orderType": null,
+    "parentId": "e6fac813-f6ef-c03a-d852-c9822c23197f",
+    "salesChannelIds": [
+     "a0618cec-d583-91f2-7abd-0f4830c9dfd1"
+    ],
+    "salesChannels": [
+     {
+      "id": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+      "status": "VISIBLE"
+     }
+    ],
+    "shouldMatchAllConditions": null,
+    "translations": [],
+    "updatedAt": 1792349879236
+   },
+   {
+    "categoryPath": [
+     "e6fac813-f6ef-c03a-d852-c9822c23197f"
+    ],
+    "categoryPathItems": null,
+    "conditions": [],
+    "createdAt": 1792349879425,
+    "deleted": false,
+    "description": null,
+    "id": "d9690d52-c5ed-6130-9b32-e7c682f3f88a",
+    "imageId": null,
+    "isAutomated": false,
+    "metaData": {
+     "canonicals": [],
+     "createdAt": 1792349879421,
+     "deleted": false,
+     "description": null,
+     "disableIndex": null,
+     "id": "2578c155-f246-fc11-ccbd-00c8116b3c66",
+     "metadataOverrides": [],
+     "pageTitle": "ANON-8d85d6d0",
+     "redirectTo": null,
+     "slug": "ANON-c2c37411",
+     "targetId": "d9690d52-c5ed-6130-9b32-e7c682f3f88a",
+     "targetType": "CATEGORY",
+     "translations": [],
+     "updatedAt": 1792349879421
+    },
+    "name": "ANON-8d85d6d0",
+    "orderType": null,
+    "parentId": "e6fac813-f6ef-c03a-d852-c9822c23197f",
+    "salesChannelIds": [
+     "a0618cec-d583-91f2-7abd-0f4830c9dfd1"
+    ],
+    "salesChannels": [
+     {
+      "id": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+      "status": "VISIBLE"
+     }
+    ],
+    "shouldMatchAllConditions": null,
+    "translations": [],
+    "updatedAt": 1792349879425
+   },
+   {
+    "categoryPath": [
+     "e6fac813-f6ef-c03a-d852-c9822c23197f"
+    ],
+    "categoryPathItems": null,
+    "conditions": [],
+    "createdAt": 1792349879576,
+    "deleted": false,
+    "description": null,
+    "id": "c71b3dc2-a51b-9c22-add0-0f4a909c47c9",
+    "imageId": null,
+    "isAutomated": false,
+    "metaData": {
+     "canonicals": [],
+     "createdAt": 1792349879572,
+     "deleted": false,
+     "description": null,
+     "disableIndex": null,
+     "id": "33c5e839-3de8-7f16-327c-ff871eb52454",
+     "metadataOverrides": [],
+     "pageTitle": "ANON-8117f8a1",
+     "redirectTo": null,
+     "slug": "ANON-7982b9b9",
+     "targetId": "c71b3dc2-a51b-9c22-add0-0f4a909c47c9",
+     "targetType": "CATEGORY",
+     "translations": [],
+     "updatedAt": 1792349879572
+    },
+    "name": "ANON-8117f8a1",
+    "orderType": null,
+    "parentId": "e6fac813-f6ef-c03a-d852-c9822c23197f",
+    "salesChannelIds": [
+     "a0618cec-d583-91f2-7abd-0f4830c9dfd1"
+    ],
+    "salesChannels": [
+     {
+      "id": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+      "status": "VISIBLE"
+     }
+    ],
+    "shouldMatchAllConditions": null,
+    "translations": [],
+    "updatedAt": 1792349879576
+   },
+   {
+    "categoryPath": [
+     "e6fac813-f6ef-c03a-d852-c9822c23197f"
+    ],
+    "categoryPathItems": null,
+    "conditions": [],
+    "createdAt": 1792349879728,
+    "deleted": false,
+    "description": null,
+    "id": "9a1406da-4524-ebeb-2905-45b84d724e05",
+    "imageId": null,
+    "isAutomated": false,
+    "metaData": {
+     "canonicals": [],
+     "createdAt": 1792349879724,
+     "deleted": false,
+     "description": null,
+     "disableIndex": null,
+     "id": "56dcd844-09ee-25b1-af08-9e23b0237870",
+     "metadataOverrides": [],
+     "pageTitle": "ANON-0f8e6076",
+     "redirectTo": null,
+     "slug": "ANON-b4d57c96",
+     "targetId": "9a1406da-4524-ebeb-2905-45b84d724e05",
+     "targetType": "CATEGORY",
+     "translations": [],
+     "updatedAt": 1792349879724
+    },
+    "name": "ANON-0f8e6076",
+    "orderType": null,
+    "parentId": "e6fac813-f6ef-c03a-d852-c9822c23197f",
+    "salesChannelIds": [
+     "a0618cec-d583-91f2-7abd-0f4830c9dfd1"
+    ],
+    "salesChannels": [
+     {
+      "id": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+      "status": "VISIBLE"
+     }
+    ],
+    "shouldMatchAllConditions": null,
+    "translations": [],
+    "updatedAt": 1792349879728
+   }
+  ]
+ }
+}

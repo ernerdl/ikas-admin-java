@@ -1,0 +1,69 @@
+{
+ "data": {
+  "listStorefront": [
+   {
+    "createdAt": 1662808765133,
+    "deleted": false,
+    "domains": [
+     {
+      "createdAt": 1793000199227,
+      "deleted": false,
+      "id": "aff333c3-12fa-8828-c721-6c82c42e148b",
+      "isDefault": true,
+      "merchantDomainId": "d0fe2b0f-f98c-4c16-df21-ff8cd6113c22",
+      "name": "ANON-ba18daed",
+      "redirectDomainName": null,
+      "updatedAt": 1793000199227
+     }
+    ],
+    "id": "3bbdeb73-c826-faa0-37ce-3e8d144504ff",
+    "name": "ANON-9d98099a",
+    "routings": [
+     {
+      "countryCodes": [
+       "TR"
+      ],
+      "createdAt": 1793000199227,
+      "currencyCode": "TRY",
+      "currencySymbol": "₺",
+      "deleted": false,
+      "domain": null,
+      "dynamicCurrencySettings": null,
+      "id": "f29fac56-1c3e-f475-70f6-af796829643a",
+      "locale": "tr",
+      "path": null,
+      "priceListId": null,
+      "updatedAt": 1793000199227
+     }
+    ],
+    "salesChannelId": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+    "updatedAt": 1793000199227
+   },
+   {
+    "createdAt": 1729072759307,
+    "deleted": false,
+    "domains": [],
+    "id": "8a766e0e-d20c-7bd1-4b72-4ec62d53de1c",
+    "name": "B2B",
+    "routings": [
+     {
+      "countryCodes": null,
+      "createdAt": 1729072759306,
+      "currencyCode": "TRY",
+      "currencySymbol": "₺",
+      "deleted": false,
+      "domain": null,
+      "dynamicCurrencySettings": null,
+      "id": "ef741b37-6ad8-5e4e-c78e-7f5fd02142ed",
+      "locale": "tr",
+      "path": null,
+      "priceListId": null,
+      "updatedAt": 1776689596749
+     }
+    ],
+    "salesChannelId": "dc0c0c9f-223a-f475-716b-83122ac7fe2b",
+    "updatedAt": 1776689596749
+   }
+  ]
+ }
+}

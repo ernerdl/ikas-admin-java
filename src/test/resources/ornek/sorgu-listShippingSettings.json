@@ -1,0 +1,76 @@
+{
+ "data": {
+  "listShippingSettings": [
+   {
+    "createdAt": 1662808765203,
+    "deleted": false,
+    "id": "8bfa9a74-cc7e-bb5b-b483-8e5657d49357",
+    "isPassive": false,
+    "localDeliverySettings": null,
+    "order": null,
+    "salesChannelId": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+    "shippingZones": [
+     {
+      "countryId": "b4c4837c-3c89-8eac-f55d-1f889c601c81",
+      "postalCodes": [],
+      "states": [
+       {
+        "cities": [],
+        "id": "a7d26db0-e7a3-eb7b-94cc-a0defcb000e1",
+        "postalCodes": null
+       }
+      ]
+     }
+    ],
+    "stockLocations": [
+     {
+      "order": 0,
+      "stockLocationId": "36a5e851-c8a9-10b1-3d8d-8f279d1076c8"
+     }
+    ],
+    "translations": null,
+    "type": "SHIPMENT",
+    "updatedAt": 1793041078575,
+    "zoneName": "ANON-21d44a59",
+    "zoneRate": [
+     {
+      "cargoCompanyId": null,
+      "condition": {
+       "maxAmount": 46,
+       "minAmount": null,
+       "type": "BASED_ON_ORDER_PRICE"
+      },
+      "createdAt": 1793041078575,
+      "currency": null,
+      "currencyCode": null,
+      "currencySymbol": null,
+      "deleted": false,
+      "id": "c2dac090-986f-e2a6-b1b0-5fc0e8a5848b",
+      "price": 25,
+      "priceListId": null,
+      "rateName": "ANON-16216df0",
+      "updatedAt": 1793041078575
+     },
+     {
+      "cargoCompanyId": null,
+      "condition": {
+       "maxAmount": null,
+       "minAmount": 1,
+       "type": "BASED_ON_ORDER_PRICE"
+      },
+      "createdAt": 1793041078575,
+      "currency": null,
+      "currencyCode": null,
+      "currencySymbol": null,
+      "deleted": false,
+      "id": "a19763bf-00c2-682c-f4a4-497b7f4c3207",
+      "price": 35,
+      "priceListId": null,
+      "rateName": "ANON-5b05881f",
+      "updatedAt": 1793041078575
+     }
+    ]
+   }
+  ]
+ }
+}

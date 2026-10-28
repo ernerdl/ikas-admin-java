@@ -1,0 +1,54 @@
+{
+ "data": {
+  "getMerchant": {
+   "address": {
+    "addressLine1": "ANON-09d88795",
+    "addressLine2": null,
+    "city": {
+     "code": "6",
+     "id": "bc05c5f4-e228-62db-5170-00567ca3fa6e",
+     "name": "ANON-b7db16a4"
+    },
+    "company": "ANON-d82578ff",
+    "country": {
+     "code": "TUR",
+     "id": "b4c4837c-3c89-8eac-f55d-1f889c601c81",
+     "iso2": null,
+     "iso3": null,
+     "name": "ANON-3f1bbfca"
+    },
+    "district": {
+     "code": null,
+     "id": "a4f5d6ed-99a5-b9e2-424c-c88cd9220fa4",
+     "name": "ANON-95db0c61"
+    },
+    "firstName": null,
+    "identityNumber": "ANON-58d29742",
+    "lastName": null,
+    "postalCode": "ANON-8db2e556",
+    "state": {
+     "code": null,
+     "id": "a7d26db0-e7a3-eb7b-94cc-a0defcb000e1",
+     "name": "ANON-fb60fe0b"
+    },
+    "taxNumber": "ANON-4e85245c",
+    "taxOffice": "ANON-04cd2aab",
+    "title": "ANON-d82578ff",
+    "type": "CORPORATE",
+    "verified": null,
+    "verifiedAt": null,
+    "vkn": "ANON-4e85245c"
+   },
+   "billingAddress": null,
+   "email": "ANON-198acd54",
+   "firstName": "ANON-21edb5af",
+   "id": "61bffda1-3136-a48f-d76d-2bb1a9fe59b9",
+   "lastName": "ANON-0e8ee96f",
+   "merchantName": "ANON-9d98099a",
+   "merchantSequence": 27500,
+   "phoneNumber": null,
+   "region": "TR",
+   "storeName": "ANON-9d98099a"
+  }
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "data": {
+  "listWebhook": [
+   {
+    "createdAt": 1779097428036,
+    "deleted": false,
+    "endpoint": "https://ornek.invalid/7ffdded43818",
+    "id": "9806e21e-9d25-f6b9-f55d-cfc6371c95da",
+    "scope": "ANON-6e7888f8",
+    "updatedAt": 1789032825106
+   },
+   {
+    "createdAt": 1779097537172,
+    "deleted": false,
+    "endpoint": "https://ornek.invalid/7ffdded43818",
+    "id": "c428e831-e46b-a576-2200-8d377d192a19",
+    "scope": "ANON-5e2c9274",
+    "updatedAt": 1789032825213
+   },
+   {
+    "createdAt": 1781010391120,
+    "deleted": false,
+    "endpoint": "https://ornek.invalid/7ffdded43818",
+    "id": "6ad64020-05a7-05da-4553-04babe36d242",
+    "scope": "ANON-1aba2744",
+    "updatedAt": 1789032825298
+   }
+  ]
+ }
+}

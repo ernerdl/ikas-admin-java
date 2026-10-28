@@ -1,0 +1,15 @@
+{
+ "errors": [
+  {
+   "message": "Object not found",
+   "path": [
+    "ANON-0e8e4e2e"
+   ],
+   "extensions": {
+    "code": "404_OBJECT_NOT_FOUND",
+    "serviceName": "order-service-public"
+   }
+  }
+ ],
+ "data": null
+}

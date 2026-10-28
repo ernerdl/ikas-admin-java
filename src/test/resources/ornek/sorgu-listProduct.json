@@ -1,0 +1,550 @@
+{
+ "data": {
+  "listProduct": {
+   "count": 13,
+   "data": [
+    {
+     "attributes": [],
+     "baseUnit": null,
+     "brand": {
+      "createdAt": 1662808905342,
+      "deleted": false,
+      "id": "a4155ee1-eea4-cdd7-c483-faffb1337a6a",
+      "name": "ANON-0f668da1",
+      "updatedAt": 1736294680348
+     },
+     "brandId": "a4155ee1-eea4-cdd7-c483-faffb1337a6a",
+     "categories": [
+      {
+       "createdAt": 1663526754397,
+       "deleted": false,
+       "id": "8c70c613-16bb-c5f3-3277-09ada99bac21",
+       "name": "ANON-73604288",
+       "parentId": "e6fac813-f6ef-c03a-d852-c9822c23197f",
+       "updatedAt": 1756725975029
+      },
+      {
+       "createdAt": 1665861411487,
+       "deleted": false,
+       "id": "ec379d4f-4296-804e-5848-2afed89613f3",
+       "name": "ANON-0436d056",
+       "parentId": "e6fac813-f6ef-c03a-d852-c9822c23197f",
+       "updatedAt": 1756725975035
+      },
+      {
+       "createdAt": 1665861256303,
+       "deleted": false,
+       "id": "5aef0509-3dfa-8c02-3ad8-5a0682c69f9d",
+       "name": "ANON-07110e04",
+       "parentId": "e6fac813-f6ef-c03a-d852-c9822c23197f",
+       "updatedAt": 1756725975032
+      }
+     ],
+     "categoryIds": [
+      "8c70c613-16bb-c5f3-3277-09ada99bac21",
+      "5aef0509-3dfa-8c02-3ad8-5a0682c69f9d",
+      "ec379d4f-4296-804e-5848-2afed89613f3"
+     ],
+     "createdAt": 1771934412438,
+     "deleted": false,
+     "description": "ANON-387f7bbb",
+     "dynamicPriceListIds": null,
+     "googleTaxonomyId": null,
+     "groupVariantsByVariantTypeId": null,
+     "hiddenSalesChannelIds": [],
+     "id": "a03fb3d4-aed6-a89b-c1fb-a8a5cfee3a8d",
+     "maxQuantityPerCart": null,
+     "metaData": {
+      "canonicals": null,
+      "createdAt": 1771934412445,
+      "deleted": false,
+      "description": "ANON-87df39df",
+      "disableIndex": null,
+      "id": "05b1041f-d817-3df8-9a2d-2ffbf3b2ddfb",
+      "metadataOverrides": null,
+      "pageTitle": "ANON-3ecc374e",
+      "redirectTo": null,
+      "slug": "ANON-1607b80f",
+      "targetId": "a03fb3d4-aed6-a89b-c1fb-a8a5cfee3a8d",
+      "targetType": "PRODUCT",
+      "translations": [],
+      "updatedAt": 1771934412445
+     },
+     "name": "ANON-96fec658",
+     "productOptionSetId": null,
+     "productVariantTypes": [],
+     "productVolumeDiscountId": null,
+     "releaseDate": null,
+     "salesChannelIds": [
+      "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+      "457dfd77-9ed3-2955-e15a-a803470d59ec",
+      "dc0c0c9f-223a-f475-716b-83122ac7fe2b",
+      "2425a771-ec24-cf81-0e1d-e77e677c7adf"
+     ],
+     "salesChannels": [
+      {
+       "firsatListingStatus": null,
+       "firsatProductId": null,
+       "id": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+       "maxQuantityPerCart": null,
+       "minQuantityPerCart": null,
+       "productVolumeDiscountId": null,
+       "quantitySettings": null,
+       "rejectionReason": null,
+       "status": "VISIBLE",
+       "statusUpdatedAt": null
+      },
+      {
+       "firsatListingStatus": null,
+       "firsatProductId": null,
+       "id": "457dfd77-9ed3-2955-e15a-a803470d59ec",
+       "maxQuantityPerCart": null,
+       "minQuantityPerCart": null,
+       "productVolumeDiscountId": null,
+       "quantitySettings": null,
+       "rejectionReason": null,
+       "status": "VISIBLE",
+       "statusUpdatedAt": null
+      },
+      {
+       "firsatListingStatus": null,
+       "firsatProductId": null,
+       "id": "dc0c0c9f-223a-f475-716b-83122ac7fe2b",
+       "maxQuantityPerCart": null,
+       "minQuantityPerCart": null,
+       "productVolumeDiscountId": null,
+       "quantitySettings": null,
+       "rejectionReason": null,
+       "status": "VISIBLE",
+       "statusUpdatedAt": null
+      },
+      {
+       "firsatListingStatus": null,
+       "firsatProductId": null,
+       "id": "2425a771-ec24-cf81-0e1d-e77e677c7adf",
+       "maxQuantityPerCart": null,
+       "minQuantityPerCart": null,
+       "productVolumeDiscountId": null,
+       "quantitySettings": null,
+       "rejectionReason": null,
+       "status": "VISIBLE",
+       "statusUpdatedAt": null
+      }
+     ],
+     "shortDescription": null,
+     "subscriptionPlanId": null,
+     "tagIds": null,
+     "tags": [],
+     "totalStock": 38,
+     "translations": [],
+     "type": "PHYSICAL",
+     "updatedAt": 1790353481519,
+     "variants": [
+      {
+       "attributes": null,
+       "barcodeList": null,
+       "bundleSettings": null,
+       "createdAt": 1776252675891,
+       "deleted": false,
+       "fileId": null,
+       "firsat": null,
+       "hsCode": null,
+       "id": "51e43084-8590-6580-9e0b-69e4be802078",
+       "images": [
+        {
+         "fileName": "ANON-33586fd8",
+         "imageId": "2dc2343b-6ed3-1f04-25da-a88408c331c4",
+         "isMain": true,
+         "isVideo": false,
+         "order": 1
+        }
+       ],
+       "isActive": true,
+       "prices": [
+        {
+         "buyPrice": null,
+         "currency": null,
+         "currencyCode": null,
+         "currencySymbol": null,
+         "discountPrice": null,
+         "priceListId": null,
+         "sellPrice": 311.21
+        }
+       ],
+       "sellIfOutOfStock": null,
+       "sku": "KEPEK250",
+       "stocks": [
+        {
+         "createdAt": 1771934585862,
+         "deleted": false,
+         "id": "b7db8118-df42-17ee-7ef7-944987e1da2b",
+         "productId": "a03fb3d4-aed6-a89b-c1fb-a8a5cfee3a8d",
+         "stockCount": 12,
+         "stockLocationId": "36a5e851-c8a9-10b1-3d8d-8f279d1076c8",
+         "updatedAt": 1788528364035,
+         "variantId": "51e43084-8590-6580-9e0b-69e4be802078"
+        }
+       ],
+       "subscriptionPlanId": null,
+       "unit": null,
+       "updatedAt": 1782290372013,
+       "variantValueIds": [],
+       "weight": null
+      }
+     ],
+     "vendorId": null,
+     "weight": null
+    },
+    {
+     "attributes": [],
+     "baseUnit": null,
+     "brand": {
+      "createdAt": 1662808905342,
+      "deleted": false,
+      "id": "a4155ee1-eea4-cdd7-c483-faffb1337a6a",
+      "name": "ANON-0f668da1",
+      "updatedAt": 1736294680348
+     },
+     "brandId": "a4155ee1-eea4-cdd7-c483-faffb1337a6a",
+     "categories": [
+      {
+       "createdAt": 1750680226513,
+       "deleted": false,
+       "id": "038e6bb4-f660-4001-ccfd-9d3d62bcc02b",
+       "name": "ANON-28232f52",
+       "parentId": null,
+       "updatedAt": 1756725975049
+      }
+     ],
+     "categoryIds": [
+      "038e6bb4-f660-4001-ccfd-9d3d62bcc02b"
+     ],
+     "createdAt": 1689772289924,
+     "deleted": false,
+     "description": "ANON-abae94c8",
+     "dynamicPriceListIds": null,
+     "googleTaxonomyId": null,
+     "groupVariantsByVariantTypeId": null,
+     "hiddenSalesChannelIds": [],
+     "id": "581795aa-c8e5-cb1c-541a-2501c7dbc6ea",
+     "maxQuantityPerCart": null,
+     "metaData": {
+      "canonicals": null,
+      "createdAt": 1666214871089,
+      "deleted": false,
+      "description": "ANON-ab0062a5",
+      "disableIndex": null,
+      "id": "e2694c97-dfc6-552d-6264-6336a7b6cad3",
+      "metadataOverrides": null,
+      "pageTitle": "ANON-e2e4208c",
+      "redirectTo": null,
+      "slug": "ANON-9f5f48d1",
+      "targetId": "581795aa-c8e5-cb1c-541a-2501c7dbc6ea",
+      "targetType": "PRODUCT",
+      "translations": [],
+      "updatedAt": 1756124240808
+     },
+     "name": "ANON-280b5b74",
+     "productOptionSetId": null,
+     "productVariantTypes": [],
+     "productVolumeDiscountId": null,
+     "releaseDate": null,
+     "salesChannelIds": [
+      "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+      "457dfd77-9ed3-2955-e15a-a803470d59ec",
+      "dc0c0c9f-223a-f475-716b-83122ac7fe2b"
+     ],
+     "salesChannels": [
+      {
+       "firsatListingStatus": null,
+       "firsatProductId": null,
+       "id": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+       "maxQuantityPerCart": null,
+       "minQuantityPerCart": null,
+       "productVolumeDiscountId": null,
+       "quantitySettings": null,
+       "rejectionReason": null,
+       "status": "VISIBLE",
+       "statusUpdatedAt": null
+      },
+      {
+       "firsatListingStatus": null,
+       "firsatProductId": null,
+       "id": "457dfd77-9ed3-2955-e15a-a803470d59ec",
+       "maxQuantityPerCart": null,
+       "minQuantityPerCart": null,
+       "productVolumeDiscountId": null,
+       "quantitySettings": null,
+       "rejectionReason": null,
+       "status": "VISIBLE",
+       "statusUpdatedAt": null
+      },
+      {
+       "firsatListingStatus": null,
+       "firsatProductId": null,
+       "id": "dc0c0c9f-223a-f475-716b-83122ac7fe2b",
+       "maxQuantityPerCart": null,
+       "minQuantityPerCart": null,
+       "productVolumeDiscountId": null,
+       "quantitySettings": null,
+       "rejectionReason": null,
+       "status": "VISIBLE",
+       "statusUpdatedAt": null
+      },
+      {
+       "firsatListingStatus": null,
+       "firsatProductId": null,
+       "id": "2425a771-ec24-cf81-0e1d-e77e677c7adf",
+       "maxQuantityPerCart": null,
+       "minQuantityPerCart": null,
+       "productVolumeDiscountId": null,
+       "quantitySettings": null,
+       "rejectionReason": null,
+       "status": "PASSIVE",
+       "statusUpdatedAt": null
+      }
+     ],
+     "shortDescription": null,
+     "subscriptionPlanId": null,
+     "tagIds": [],
+     "tags": [],
+     "totalStock": 38,
+     "translations": [],
+     "type": "PHYSICAL",
+     "updatedAt": 1792588297135,
+     "variants": [
+      {
+       "attributes": null,
+       "barcodeList": [],
+       "bundleSettings": null,
+       "createdAt": 1781525308144,
+       "deleted": false,
+       "fileId": null,
+       "firsat": null,
+       "hsCode": null,
+       "id": "b623e3e5-e763-64f8-0822-39495b861ac2",
+       "images": [
+        {
+         "fileName": "ANON-f727c074",
+         "imageId": "c3d4940b-b7d2-c8a0-19a3-ba0f9e54d9cc",
+         "isMain": true,
+         "isVideo": false,
+         "order": 1
+        }
+       ],
+       "isActive": true,
+       "prices": [
+        {
+         "buyPrice": null,
+         "currency": null,
+         "currencyCode": null,
+         "currencySymbol": null,
+         "discountPrice": 22,
+         "priceListId": null,
+         "sellPrice": 16
+        }
+       ],
+       "sellIfOutOfStock": false,
+       "sku": "NOH001",
+       "stocks": [
+        {
+         "createdAt": 1689772350565,
+         "deleted": false,
+         "id": "ed676f97-6754-2ce6-17a2-074c20b42045",
+         "productId": "581795aa-c8e5-cb1c-541a-2501c7dbc6ea",
+         "stockCount": 12,
+         "stockLocationId": "36a5e851-c8a9-10b1-3d8d-8f279d1076c8",
+         "updatedAt": 1781872295264,
+         "variantId": "b623e3e5-e763-64f8-0822-39495b861ac2"
+        }
+       ],
+       "subscriptionPlanId": null,
+       "unit": null,
+       "updatedAt": 1792588297135,
+       "variantValueIds": [],
+       "weight": null
+      }
+     ],
+     "vendorId": null,
+     "weight": null
+    },
+    {
+     "attributes": [],
+     "baseUnit": null,
+     "brand": {
+      "createdAt": 1662808905342,
+      "deleted": false,
+      "id": "a4155ee1-eea4-cdd7-c483-faffb1337a6a",
+      "name": "ANON-0f668da1",
+      "updatedAt": 1736294680348
+     },
+     "brandId": "a4155ee1-eea4-cdd7-c483-faffb1337a6a",
+     "categories": [
+      {
+       "createdAt": 1667825577768,
+       "deleted": false,
+       "id": "019154e1-5c58-3a66-b657-f2c35d7267f5",
+       "name": "ANON-7cf4784b",
+       "parentId": "e6fac813-f6ef-c03a-d852-c9822c23197f",
+       "updatedAt": 1756725975041
+      }
+     ],
+     "categoryIds": [
+      "019154e1-5c58-3a66-b657-f2c35d7267f5"
+     ],
+     "createdAt": 1746445732520,
+     "deleted": false,
+     "description": "ANON-93b3f2be",
+     "dynamicPriceListIds": null,
+     "googleTaxonomyId": null,
+     "groupVariantsByVariantTypeId": null,
+     "hiddenSalesChannelIds": [],
+     "id": "6b5bff0c-1f7b-ea8d-14da-23c6c7781272",
+     "maxQuantityPerCart": null,
+     "metaData": {
+      "canonicals": null,
+      "createdAt": 1746445732532,
+      "deleted": false,
+      "description": "ANON-4c500f15",
+      "disableIndex": null,
+      "id": "5be43e4f-3ac1-3a72-e281-d9736b9d2905",
+      "metadataOverrides": null,
+      "pageTitle": "ANON-892be09f",
+      "redirectTo": null,
+      "slug": "ANON-d8883d60",
+      "targetId": "6b5bff0c-1f7b-ea8d-14da-23c6c7781272",
+      "targetType": "PRODUCT",
+      "translations": [],
+      "updatedAt": 1753901009102
+     },
+     "name": "ANON-9d9d0991",
+     "productOptionSetId": null,
+     "productVariantTypes": [],
+     "productVolumeDiscountId": null,
+     "releaseDate": null,
+     "salesChannelIds": [
+      "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+      "457dfd77-9ed3-2955-e15a-a803470d59ec",
+      "dc0c0c9f-223a-f475-716b-83122ac7fe2b"
+     ],
+     "salesChannels": [
+      {
+       "firsatListingStatus": null,
+       "firsatProductId": null,
+       "id": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+       "maxQuantityPerCart": null,
+       "minQuantityPerCart": null,
+       "productVolumeDiscountId": null,
+       "quantitySettings": null,
+       "rejectionReason": null,
+       "status": "VISIBLE",
+       "statusUpdatedAt": null
+      },
+      {
+       "firsatListingStatus": null,
+       "firsatProductId": null,
+       "id": "457dfd77-9ed3-2955-e15a-a803470d59ec",
+       "maxQuantityPerCart": null,
+       "minQuantityPerCart": null,
+       "productVolumeDiscountId": null,
+       "quantitySettings": null,
+       "rejectionReason": null,
+       "status": "VISIBLE",
+       "statusUpdatedAt": null
+      },
+      {
+       "firsatListingStatus": null,
+       "firsatProductId": null,
+       "id": "dc0c0c9f-223a-f475-716b-83122ac7fe2b",
+       "maxQuantityPerCart": null,
+       "minQuantityPerCart": null,
+       "productVolumeDiscountId": null,
+       "quantitySettings": null,
+       "rejectionReason": null,
+       "status": "VISIBLE",
+       "statusUpdatedAt": null
+      },
+      {
+       "firsatListingStatus": null,
+       "firsatProductId": null,
+       "id": "2425a771-ec24-cf81-0e1d-e77e677c7adf",
+       "maxQuantityPerCart": null,
+       "minQuantityPerCart": null,
+       "productVolumeDiscountId": null,
+       "quantitySettings": null,
+       "rejectionReason": null,
+       "status": "PASSIVE",
+       "statusUpdatedAt": null
+      }
+     ],
+     "shortDescription": null,
+     "subscriptionPlanId": null,
+     "tagIds": [],
+     "tags": [],
+     "totalStock": 13,
+     "translations": [],
+     "type": "PHYSICAL",
+     "updatedAt": 1792587132812,
+     "variants": [
+      {
+       "attributes": null,
+       "barcodeList": [],
+       "bundleSettings": null,
+       "createdAt": 1780996428230,
+       "deleted": false,
+       "fileId": null,
+       "firsat": null,
+       "hsCode": null,
+       "id": "3a5a5439-6a29-4d66-b98f-75b2c1e1933d",
+       "images": [
+        {
+         "fileName": "ANON-2797e22a",
+         "imageId": "9522c7ac-5df1-bd1d-4074-3e2ec3735914",
+         "isMain": true,
+         "isVideo": false,
+         "order": 1
+        }
+       ],
+       "isActive": true,
+       "prices": [
+        {
+         "buyPrice": null,
+         "currency": null,
+         "currencyCode": null,
+         "currencySymbol": null,
+         "discountPrice": null,
+         "priceListId": null,
+         "sellPrice": 16
+        }
+       ],
+       "sellIfOutOfStock": null,
+       "sku": "KAR100",
+       "stocks": [
+        {
+         "createdAt": 1746446210419,
+         "deleted": false,
+         "id": "80e30c57-35d9-fb67-6c4a-56e41a8e68ea",
+         "productId": "6b5bff0c-1f7b-ea8d-14da-23c6c7781272",
+         "stockCount": 20,
+         "stockLocationId": "36a5e851-c8a9-10b1-3d8d-8f279d1076c8",
+         "updatedAt": 1792960975389,
+         "variantId": "3a5a5439-6a29-4d66-b98f-75b2c1e1933d"
+        }
+       ],
+       "subscriptionPlanId": null,
+       "unit": null,
+       "updatedAt": 1792587132812,
+       "variantValueIds": [],
+       "weight": null
+      }
+     ],
+     "vendorId": null,
+     "weight": null
+    }
+   ],
+   "hasNext": true,
+   "limit": 14,
+   "page": 1
+  }
+ }
+}

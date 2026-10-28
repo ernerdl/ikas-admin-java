@@ -1,0 +1,124 @@
+{
+ "data": {
+  "listPaymentGateway": [
+   {
+    "additionalPrices": null,
+    "availableCountries": [],
+    "code": "CUSTOM",
+    "createdAt": 1663439722341,
+    "deleted": false,
+    "description": null,
+    "group": null,
+    "id": "ffe3c559-da09-ace7-471a-7a8e3567efcc",
+    "isPassive": false,
+    "logoUrl": null,
+    "masterPassClientId": null,
+    "name": "ANON-f529f5f8",
+    "paymentGatewayProviderId": null,
+    "paymentMethodType": "APP_PAYMENT",
+    "paymentMethods": [],
+    "settings": null,
+    "supportedCurrencies": [],
+    "testMode": false,
+    "translations": null,
+    "type": "INTERNAL",
+    "updatedAt": 1663439722341
+   },
+   {
+    "additionalPrices": null,
+    "availableCountries": [],
+    "code": "CUSTOM",
+    "createdAt": 1668701769758,
+    "deleted": false,
+    "description": null,
+    "group": null,
+    "id": "5dc67c72-4462-4bfc-4a5f-35843edae509",
+    "isPassive": false,
+    "logoUrl": null,
+    "masterPassClientId": null,
+    "name": "ANON-f529f5f8",
+    "paymentGatewayProviderId": null,
+    "paymentMethodType": "APP_PAYMENT",
+    "paymentMethods": [],
+    "settings": null,
+    "supportedCurrencies": [],
+    "testMode": false,
+    "translations": null,
+    "type": "INTERNAL",
+    "updatedAt": 1668701769758
+   },
+   {
+    "additionalPrices": [
+     {
+      "amount": 27,
+      "amountType": "RATIO",
+      "name": "ANON-3ddc2f17",
+      "type": "DECREMENT"
+     }
+    ],
+    "availableCountries": [
+     "TR"
+    ],
+    "code": "CUSTOM",
+    "createdAt": 1679567944829,
+    "deleted": false,
+    "description": "ANON-1a834f56",
+    "group": null,
+    "id": "03de23dc-eee4-7ae4-3ddb-3bd7cbdf871b",
+    "isPassive": null,
+    "logoUrl": null,
+    "masterPassClientId": null,
+    "name": "ANON-6148a723",
+    "paymentGatewayProviderId": null,
+    "paymentMethodType": "MONEY_ORDER",
+    "paymentMethods": [],
+    "settings": null,
+    "supportedCurrencies": [],
+    "testMode": false,
+    "translations": [],
+    "type": "INTERNAL",
+    "updatedAt": 1784366680118
+   },
+   {
+    "additionalPrices": null,
+    "availableCountries": [
+     "TR"
+    ],
+    "code": "PAYTR",
+    "createdAt": 1765186828013,
+    "deleted": false,
+    "description": null,
+    "group": null,
+    "id": "db01fd2e-aab0-ba55-f83f-d8b9a45fcadb",
+    "isPassive": false,
+    "logoUrl": null,
+    "masterPassClientId": null,
+    "name": "ANON-b8f437ae",
+    "paymentGatewayProviderId": "f8eb168e-97f6-dea2-c1fb-60887d701aa6",
+    "paymentMethodType": "CREDIT_CARD",
+    "paymentMethods": [
+     {
+      "allowed": null,
+      "enabled": null,
+      "externalId": null,
+      "externalStoreIds": null,
+      "logoUrl": null,
+      "name": "PAYTR"
+     }
+    ],
+    "settings": null,
+    "supportedCurrencies": [
+     "TRY",
+     "USD",
+     "RUB",
+     "GBP",
+     "EUR"
+    ],
+    "testMode": false,
+    "translations": [],
+    "type": "INTERNAL",
+    "updatedAt": 1793169059797
+   }
+  ]
+ }
+}

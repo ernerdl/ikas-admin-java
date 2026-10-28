@@ -1,0 +1,13 @@
+{
+ "data": {
+  "getGlobalTaxSettings": {
+   "createdAt": 1745780625780,
+   "deleted": false,
+   "id": "e81a9d09-08e9-352b-0265-9e2c4497c2b6",
+   "isTaxExcludedOnPrices": false,
+   "isTaxExcludedOnShippingPrices": false,
+   "storefrontId": "3bbdeb73-c826-faa0-37ce-3e8d144504ff",
+   "updatedAt": 1745780625780
+  }
+ }
+}

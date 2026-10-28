@@ -1,0 +1,42 @@
+{
+ "data": {
+  "listProductStockLocation": {
+   "count": 12,
+   "data": [
+    {
+     "createdAt": 1755260782071,
+     "deleted": false,
+     "id": "6024cd30-d966-1519-fac5-c5c4fec0f1f2",
+     "productId": "a4bc63bb-b3a8-1d43-0980-d795ffd72725",
+     "stockCount": 48,
+     "stockLocationId": "36a5e851-c8a9-10b1-3d8d-8f279d1076c8",
+     "updatedAt": 1792839325827,
+     "variantId": "962e6486-d0bd-c0b7-53c7-52a868bca43b"
+    },
+    {
+     "createdAt": 1755260782071,
+     "deleted": false,
+     "id": "410e96cd-2b3a-1cf6-38ac-f9a13db8a424",
+     "productId": "a4bc63bb-b3a8-1d43-0980-d795ffd72725",
+     "stockCount": 12,
+     "stockLocationId": "36a5e851-c8a9-10b1-3d8d-8f279d1076c8",
+     "updatedAt": 1792042325932,
+     "variantId": "bba8a273-ee50-2f07-8ed0-91397e294cb2"
+    },
+    {
+     "createdAt": 1755260782071,
+     "deleted": false,
+     "id": "c345fb03-4886-3df7-44f3-e8a98e2a9f5e",
+     "productId": "a4bc63bb-b3a8-1d43-0980-d795ffd72725",
+     "stockCount": 12,
+     "stockLocationId": "36a5e851-c8a9-10b1-3d8d-8f279d1076c8",
+     "updatedAt": 1792042325932,
+     "variantId": "e6f4767c-2ae3-1e56-d289-bfe230757af4"
+    }
+   ],
+   "hasNext": true,
+   "limit": 14,
+   "page": 1
+  }
+ }
+}

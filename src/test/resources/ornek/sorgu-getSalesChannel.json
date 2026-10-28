@@ -1,0 +1,15 @@
+{
+ "data": {
+  "getSalesChannel": {
+   "createdAt": 1751120054055,
+   "deleted": false,
+   "id": "2425a771-ec24-cf81-0e1d-e77e677c7adf",
+   "name": "ANON-75c2b324",
+   "paymentGateways": [],
+   "priceListId": null,
+   "stockLocations": [],
+   "type": "APP",
+   "updatedAt": 1751120054055
+  }
+ }
+}

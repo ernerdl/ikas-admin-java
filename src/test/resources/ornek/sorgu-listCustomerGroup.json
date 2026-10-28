@@ -1,0 +1,18 @@
+{
+ "data": {
+  "listCustomerGroup": [
+   {
+    "conditions": null,
+    "createdAt": 1758045592531,
+    "deleted": false,
+    "id": "375494ed-b631-0438-cb81-563b458d1a21",
+    "isAutomated": null,
+    "name": "ANON-eea4f274",
+    "priceListId": null,
+    "priceListRules": null,
+    "shouldMatchAllConditions": null,
+    "updatedAt": 1758045592531
+   }
+  ]
+ }
+}

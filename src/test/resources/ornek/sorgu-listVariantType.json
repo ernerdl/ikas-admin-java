@@ -1,0 +1,107 @@
+{
+ "data": {
+  "listVariantType": [
+   {
+    "createdAt": 1663446265067,
+    "deleted": false,
+    "id": "14614b41-0d68-d356-74e5-01bd9ef68413",
+    "name": "ANON-e05aa537",
+    "selectionType": "CHOICE",
+    "translations": [],
+    "updatedAt": 1792998260926,
+    "values": [
+     {
+      "colorCode": null,
+      "createdAt": 1792998260926,
+      "deleted": false,
+      "id": "297a8308-6548-c771-c04d-baa1621e34b3",
+      "name": "ANON-9992dba9",
+      "thumbnailImageId": null,
+      "updatedAt": 1792998260926
+     },
+     {
+      "colorCode": null,
+      "createdAt": 1792998260926,
+      "deleted": false,
+      "id": "8b545e01-89bd-86fa-a2f6-58849b6bc6c6",
+      "name": "ANON-93cc485a",
+      "thumbnailImageId": null,
+      "updatedAt": 1792998260926
+     },
+     {
+      "colorCode": null,
+      "createdAt": 1792998260926,
+      "deleted": false,
+      "id": "0f6dff01-18c4-490a-bc86-dce2f2b3427e",
+      "name": "ANON-4112710f",
+      "thumbnailImageId": null,
+      "updatedAt": 1792998260926
+     },
+     {
+      "colorCode": null,
+      "createdAt": 1792998260926,
+      "deleted": false,
+      "id": "6c2afeac-0765-8f00-3a39-8538939ab9b9",
+      "name": "ANON-0f392ae8",
+      "thumbnailImageId": null,
+      "updatedAt": 1792998260926
+     },
+     {
+      "colorCode": null,
+      "createdAt": 1792998260926,
+      "deleted": false,
+      "id": "95c082d7-948c-fef9-6253-e431fb666653",
+      "name": "ANON-b4339429",
+      "thumbnailImageId": null,
+      "updatedAt": 1792998260926
+     },
+     {
+      "colorCode": null,
+      "createdAt": 1792998260926,
+      "deleted": false,
+      "id": "4cd32c2f-4809-7e45-abc4-9ae032162689",
+      "name": "ANON-005faa10",
+      "thumbnailImageId": null,
+      "updatedAt": 1792998260926
+     },
+     {
+      "colorCode": null,
+      "createdAt": 1792998260926,
+      "deleted": false,
+      "id": "fc66fa96-15e1-1a21-2e16-aadc40bd1b31",
+      "name": "ANON-0a9b9d07",
+      "thumbnailImageId": null,
+      "updatedAt": 1792998260926
+     },
+     {
+      "colorCode": null,
+      "createdAt": 1792998260926,
+      "deleted": false,
+      "id": "fec8d6ff-1a72-2b54-6f90-b08b2f4eda15",
+      "name": "ANON-d4a28d4d",
+      "thumbnailImageId": null,
+      "updatedAt": 1792998260926
+     },
+     {
+      "colorCode": null,
+      "createdAt": 1792998260926,
+      "deleted": false,
+      "id": "08c91955-fd86-1826-ed7b-c96b0be263db",
+      "name": "ANON-bfa16428",
+      "thumbnailImageId": null,
+      "updatedAt": 1792998260926
+     },
+     {
+      "colorCode": null,
+      "createdAt": 1792998260926,
+      "deleted": false,
+      "id": "e25677b2-4f82-7312-3559-06a92f80a2dd",
+      "name": "ANON-102f1aaf",
+      "thumbnailImageId": null,
+      "updatedAt": 1792998260926
+     }
+    ]
+   }
+  ]
+ }
+}

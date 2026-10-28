@@ -1,0 +1,102 @@
+{
+ "data": {
+  "listSalesChannel": [
+   {
+    "createdAt": 1662808765102,
+    "deleted": false,
+    "id": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+    "name": "ANON-9d98099a",
+    "paymentGateways": [
+     {
+      "id": "db01fd2e-aab0-ba55-f83f-d8b9a45fcadb",
+      "order": 0
+     },
+     {
+      "id": "03de23dc-eee4-7ae4-3ddb-3bd7cbdf871b",
+      "order": 1
+     },
+     {
+      "id": "5fbeeab6-5fa0-0133-372e-6f9ef17ceca9",
+      "order": 2
+     },
+     {
+      "id": "11d2f471-4547-2877-e04f-2fa10570cce2",
+      "order": 3
+     },
+     {
+      "id": "1238a4f1-c368-8d82-1a9b-c0f1b54a564f",
+      "order": 4
+     }
+    ],
+    "priceListId": null,
+    "stockLocations": [
+     {
+      "id": "36a5e851-c8a9-10b1-3d8d-8f279d1076c8",
+      "order": 0
+     }
+    ],
+    "type": "STOREFRONT",
+    "updatedAt": 1776169456405
+   },
+   {
+    "createdAt": 1668701769769,
+    "deleted": false,
+    "id": "457dfd77-9ed3-2955-e15a-a803470d59ec",
+    "name": "ANON-80753053",
+    "paymentGateways": [
+     {
+      "id": "5dc67c72-4462-4bfc-4a5f-35843edae509",
+      "order": 1
+     }
+    ],
+    "priceListId": null,
+    "stockLocations": [
+     {
+      "id": "36a5e851-c8a9-10b1-3d8d-8f279d1076c8",
+      "order": 1
+     }
+    ],
+    "type": "APP",
+    "updatedAt": 1731528156698
+   },
+   {
+    "createdAt": 1729072758880,
+    "deleted": false,
+    "id": "dc0c0c9f-223a-f475-716b-83122ac7fe2b",
+    "name": "B2B",
+    "paymentGateways": null,
+    "priceListId": null,
+    "stockLocations": [
+     {
+      "id": "36a5e851-c8a9-10b1-3d8d-8f279d1076c8",
+      "order": 0
+     }
+    ],
+    "type": "B2B_STOREFRONT",
+    "updatedAt": 1729072758880
+   },
+   {
+    "createdAt": 1751120054055,
+    "deleted": false,
+    "id": "2425a771-ec24-cf81-0e1d-e77e677c7adf",
+    "name": "ANON-75c2b324",
+    "paymentGateways": null,
+    "priceListId": null,
+    "stockLocations": null,
+    "type": "APP",
+    "updatedAt": 1751120054055
+   },
+   {
+    "createdAt": null,
+    "deleted": false,
+    "id": "ADMIN",
+    "name": "ANON-4ee5bc9a",
+    "paymentGateways": [],
+    "priceListId": null,
+    "stockLocations": [],
+    "type": "ADMIN",
+    "updatedAt": null
+   }
+  ]
+ }
+}

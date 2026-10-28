@@ -1,0 +1,18 @@
+{
+ "data": {
+  "getMerchantLicence": {
+   "activeSubscriptionCode": "SCALE",
+   "appSubscriptions": [],
+   "createdAt": null,
+   "deleted": false,
+   "developmentStore": null,
+   "fromDate": 1792148415171,
+   "id": "cd485b38-8c9f-0946-36f4-c08204c32cac",
+   "partnerId": null,
+   "period": "YEARLY",
+   "region": "TR",
+   "toDate": 1823720399000,
+   "updatedAt": null
+  }
+ }
+}

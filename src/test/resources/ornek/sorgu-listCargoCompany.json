@@ -1,0 +1,66 @@
+{
+ "data": {
+  "listCargoCompany": [
+   {
+    "id": "KOLAY_GELSIN",
+    "name": "Kolay Gelsin"
+   },
+   {
+    "id": "OPLOG",
+    "name": "OPLOG"
+   },
+   {
+    "id": "MNG_KARGO",
+    "name": "DHL eCommerce"
+   },
+   {
+    "id": "HOROZ_LOJISTIK",
+    "name": "Horoz Lojistik"
+   },
+   {
+    "id": "UPS_KARGO",
+    "name": "UPS Kargo"
+   },
+   {
+    "id": "SENDEO",
+    "name": "Sendeo"
+   },
+   {
+    "id": "CARRTELL",
+    "name": "Carrtell"
+   },
+   {
+    "id": "ARAS_KARGO",
+    "name": "Aras Kargo"
+   },
+   {
+    "id": "HEPSIJET",
+    "name": "hepsiJET"
+   },
+   {
+    "id": "PTT_KARGO",
+    "name": "PTT Kargo"
+   },
+   {
+    "id": "SURAT_KARGO",
+    "name": "Sürat Kargo"
+   },
+   {
+    "id": "TRENDYOL_EXPRESS",
+    "name": "Trendyol Express"
+   },
+   {
+    "id": "YURTICI_KARGO",
+    "name": "Yurtiçi Kargo"
+   },
+   {
+    "id": "SENDCLOUD",
+    "name": "Sendcloud"
+   },
+   {
+    "id": "DHL",
+    "name": "DHL Paket"
+   }
+  ]
+ }
+}

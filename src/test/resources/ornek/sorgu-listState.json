@@ -1,0 +1,17 @@
+{
+ "data": {
+  "listState": [
+   {
+    "countryId": "da8c5f2a-8d37-48a8-beff-6ab3793a1861",
+    "createdAt": 1604408508408,
+    "deleted": false,
+    "id": "dcb9135c-4b84-4c06-9a42-f359317a9b78",
+    "locationTranslations": null,
+    "name": "Default",
+    "native": null,
+    "stateCode": null,
+    "updatedAt": 1625813557431
+   }
+  ]
+ }
+}

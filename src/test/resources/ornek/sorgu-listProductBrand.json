@@ -1,0 +1,38 @@
+{
+ "data": {
+  "listProductBrand": [
+   {
+    "createdAt": 1662808905342,
+    "deleted": false,
+    "description": "ANON-afdfbca1",
+    "id": "a4155ee1-eea4-cdd7-c483-faffb1337a6a",
+    "imageId": null,
+    "metaData": {
+     "canonicals": null,
+     "createdAt": 1662808905424,
+     "deleted": false,
+     "description": "ANON-3ddc2f17",
+     "disableIndex": null,
+     "id": "44556ecf-41d1-ce38-e9bd-d2a298908141",
+     "metadataOverrides": [],
+     "pageTitle": "ANON-0f668da1",
+     "redirectTo": null,
+     "slug": "ANON-4f6c0dc7",
+     "targetId": "a4155ee1-eea4-cdd7-c483-faffb1337a6a",
+     "targetType": "BRAND",
+     "translations": [],
+     "updatedAt": 1669035294085
+    },
+    "name": "ANON-0f668da1",
+    "orderType": null,
+    "salesChannelIds": [
+     "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+     "457dfd77-9ed3-2955-e15a-a803470d59ec",
+     "dc0c0c9f-223a-f475-716b-83122ac7fe2b"
+    ],
+    "translations": [],
+    "updatedAt": 1736294680348
+   }
+  ]
+ }
+}

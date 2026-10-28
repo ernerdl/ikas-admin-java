@@ -1,0 +1,15 @@
+{
+ "data": {
+  "listLanguage": [
+   {
+    "createdAt": 1666016454777,
+    "deleted": false,
+    "id": "1dd67bf2-6cee-4bc4-a671-26e04487974f",
+    "isFree": null,
+    "locale": "en",
+    "name": "English",
+    "updatedAt": 1666016454777
+   }
+  ]
+ }
+}

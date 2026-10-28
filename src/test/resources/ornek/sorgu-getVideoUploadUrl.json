@@ -1,0 +1,18 @@
+{
+ "data": {
+  "getVideoUploadUrl": {
+   "fields": {
+    "Content-Type": "ANON-7597fcb9",
+    "bucket": "ANON-ff24a209",
+    "X-Amz-Algorithm": "ANON-fe52b9df",
+    "X-Amz-Credential": "ANON-6f870fbb",
+    "X-Amz-Date": "ANON-6a6987b5",
+    "X-Amz-Security-Token": "ANON-bdba3f59",
+    "key": "ANON-f86a8918",
+    "Policy": "ANON-19813007",
+    "X-Amz-Signature": "ANON-a25b9ed7"
+   },
+   "url": "https://ornek.invalid/b4fd6015a169"
+  }
+ }
+}

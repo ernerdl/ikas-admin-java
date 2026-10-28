@@ -1,0 +1,36 @@
+{
+ "data": {
+  "listOrderSession": [
+   {
+    "countryCode": "TR",
+    "createdAt": 1666033921137,
+    "deleted": false,
+    "durationMS": 1013403,
+    "end": 1666033921366,
+    "host": "ANON-9c74415c",
+    "id": "7502949e-031a-f7cd-c64f-3036120fa539",
+    "ip": "ANON-81283692",
+    "orderId": "58d7f038-aaba-fa89-0afd-fb949e921e0a",
+    "referer": null,
+    "salesChannelId": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+    "start": 1666032907963,
+    "storefrontId": "3bbdeb73-c826-faa0-37ce-3e8d144504ff",
+    "trafficSource": null,
+    "types": [
+     "LAST_CLICK"
+    ],
+    "updatedAt": 1666033921137,
+    "url": null,
+    "userAgent": null,
+    "utm": {
+     "campaign": null,
+     "content": null,
+     "medium": null,
+     "source": null,
+     "term": null
+    },
+    "visitorId": "cca73a04-5ed6-aed3-c9c0-19042d5b31c4"
+   }
+  ]
+ }
+}

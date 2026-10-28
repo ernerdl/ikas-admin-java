@@ -1,0 +1,21 @@
+{
+ "data": {
+  "listVendor": [
+   {
+    "address": null,
+    "company": "ANON-ea4b60e8",
+    "createdAt": 1732092177285,
+    "deleted": false,
+    "email": null,
+    "id": "f2b5a591-10cc-8a1b-1e4e-e39af34af69b",
+    "name": "ANON-4a6a2a8b",
+    "phone": "ANON-8f77c4fb",
+    "staffName": null,
+    "status": null,
+    "taxNumber": null,
+    "taxOffice": null,
+    "updatedAt": 1736294749637
+   }
+  ]
+ }
+}

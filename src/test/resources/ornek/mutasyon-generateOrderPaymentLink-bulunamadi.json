@@ -1,0 +1,22 @@
+{
+ "errors": [
+  {
+   "message": "Argument Validation Error",
+   "extensions": {
+    "code": "ARGUMENT_VALIDATION_ERROR",
+    "validationErrors": [
+     {
+      "property": "orderId",
+      "constraints": {
+       "ValidateObjectId": "Referenced id not found"
+      }
+     }
+    ],
+    "serviceName": "order-service-public"
+   }
+  }
+ ],
+ "data": {
+  "generateOrderPaymentLink": null
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "errors": [
+  {
+   "message": "error_messages.gift_card.store_credit_not_found",
+   "path": [
+    "ANON-c246e44e"
+   ],
+   "extensions": {
+    "code": "NOT_FOUND",
+    "serviceName": "order-service-public"
+   }
+  }
+ ],
+ "data": null
+}

@@ -1,0 +1,19 @@
+{
+ "data": {
+  "listPriceList": [
+   {
+    "addProductsAutomatically": null,
+    "createdAt": 1729072950057,
+    "currency": "TRY",
+    "currencyCode": "TRY",
+    "currencySymbol": "₺",
+    "deleted": false,
+    "id": "39d3dfdd-d11e-c617-a8ec-44f8eafde31f",
+    "name": "ANON-c701fbc4",
+    "ruleList": null,
+    "type": "MANUAL",
+    "updatedAt": 1731347263540
+   }
+  ]
+ }
+}

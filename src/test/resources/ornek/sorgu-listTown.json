@@ -1,0 +1,240 @@
+{
+ "data": {
+  "listTown": [
+   {
+    "createdAt": 1604408521293,
+    "deleted": false,
+    "districtId": "b5beaf52-71a8-4419-952c-2a9c54017782",
+    "id": "a4c2e938-e1f3-4557-b9fe-ca8cfe9a730a",
+    "name": "AHMETADİL",
+    "order": 982,
+    "updatedAt": 1625813695953
+   },
+   {
+    "createdAt": 1604408521293,
+    "deleted": false,
+    "districtId": "b5beaf52-71a8-4419-952c-2a9c54017782",
+    "id": "6e0d8b69-d72d-49b8-bac9-8035d012b6ef",
+    "name": "ATATÜRK",
+    "order": 983,
+    "updatedAt": 1625813695953
+   },
+   {
+    "createdAt": 1604408521293,
+    "deleted": false,
+    "districtId": "b5beaf52-71a8-4419-952c-2a9c54017782",
+    "id": "7741a3ba-b6a3-4ed9-b72b-0be3fe69af4f",
+    "name": "BALIKHİSAR",
+    "order": 984,
+    "updatedAt": 1625813695953
+   },
+   {
+    "createdAt": 1604408521293,
+    "deleted": false,
+    "districtId": "b5beaf52-71a8-4419-952c-2a9c54017782",
+    "id": "81261957-647a-4228-b0d6-e2909ad82b79",
+    "name": "BEYAZIT",
+    "order": 985,
+    "updatedAt": 1625813695953
+   },
+   {
+    "createdAt": 1604408521293,
+    "deleted": false,
+    "districtId": "b5beaf52-71a8-4419-952c-2a9c54017782",
+    "id": "85ef9a58-f32a-43d8-9609-894ce1916850",
+    "name": "BÜĞDÜZ",
+    "order": 986,
+    "updatedAt": 1625813695953
+   },
+   {
+    "createdAt": 1604408521293,
+    "deleted": false,
+    "districtId": "b5beaf52-71a8-4419-952c-2a9c54017782",
+    "id": "101e2f95-17eb-4bcf-9e0f-c5176b131833",
+    "name": "CÜCÜK",
+    "order": 987,
+    "updatedAt": 1625813695953
+   },
+   {
+    "createdAt": 1604408521293,
+    "deleted": false,
+    "districtId": "b5beaf52-71a8-4419-952c-2a9c54017782",
+    "id": "5a4302be-d340-4481-9f32-eb7dd6ea7a16",
+    "name": "ELECİK",
+    "order": 991,
+    "updatedAt": 1625813695953
+   },
+   {
+    "createdAt": 1604408521293,
+    "deleted": false,
+    "districtId": "b5beaf52-71a8-4419-952c-2a9c54017782",
+    "id": "accdf44d-17a8-42e6-98f0-d1b9a4f3b380",
+    "name": "GALABA",
+    "order": 992,
+    "updatedAt": 1625813695953
+   },
+   {
+    "createdAt": 1604408521293,
+    "deleted": false,
+    "districtId": "b5beaf52-71a8-4419-952c-2a9c54017782",
+    "id": "40adc797-1ea9-4bbf-b85f-c9f12437973e",
+    "name": "GÜZELHİSAR",
+    "order": 993,
+    "updatedAt": 1625813695953
+   },
+   {
+    "createdAt": 1604408521293,
+    "deleted": false,
+    "districtId": "b5beaf52-71a8-4419-952c-2a9c54017782",
+    "id": "82214309-9454-4814-a7be-ee29ba2822e8",
+    "name": "HAYDAR",
+    "order": 994,
+    "updatedAt": 1625813695953
+   },
+   {
+    "createdAt": 1604408521293,
+    "deleted": false,
+    "districtId": "b5beaf52-71a8-4419-952c-2a9c54017782",
+    "id": "7bf9c709-ae65-416c-90ad-4614844d6f7e",
+    "name": "KARACAKAYA",
+    "order": 995,
+    "updatedAt": 1625813695953
+   },
+   {
+    "createdAt": 1604408521293,
+    "deleted": false,
+    "districtId": "b5beaf52-71a8-4419-952c-2a9c54017782",
+    "id": "7a4e012a-da68-41cb-8c92-6eb7c453463d",
+    "name": "KARACALAR",
+    "order": 996,
+    "updatedAt": 1625813695953
+   },
+   {
+    "createdAt": 1604408521293,
+    "deleted": false,
+    "districtId": "b5beaf52-71a8-4419-952c-2a9c54017782",
+    "id": "e223a6bc-4ae9-4bca-a730-7ca3fdc24f33",
+    "name": "KARAYATAK",
+    "order": 997,
+    "updatedAt": 1625813695953
+   },
+   {
+    "createdAt": 1604408521293,
+    "deleted": false,
+    "districtId": "b5beaf52-71a8-4419-952c-2a9c54017782",
+    "id": "cf0c87f7-1932-4ae3-a827-e9c270e2b4f9",
+    "name": "KIZIK",
+    "order": 998,
+    "updatedAt": 1625813695953
+   },
+   {
+    "createdAt": 1604408521293,
+    "deleted": false,
+    "districtId": "b5beaf52-71a8-4419-952c-2a9c54017782",
+    "id": "5c53bbe6-e7ac-4f8a-86be-5c09ca1019e4",
+    "name": "KOZAYAĞI",
+    "order": 999,
+    "updatedAt": 1625813695953
+   },
+   {
+    "createdAt": 1604408521293,
+    "deleted": false,
+    "districtId": "b5beaf52-71a8-4419-952c-2a9c54017782",
+    "id": "9ea991ac-acd2-4b4a-a749-976068b941aa",
+    "name": "SAMUT",
+    "order": 1000,
+    "updatedAt": 1625813695953
+   },
+   {
+    "createdAt": 1604408521293,
+    "deleted": false,
+    "districtId": "b5beaf52-71a8-4419-952c-2a9c54017782",
+    "id": "e7470a89-fe07-477d-b3ff-cf3c1649ba6e",
+    "name": "SARACALAR",
+    "order": 1001,
+    "updatedAt": 1625813695953
+   },
+   {
+    "createdAt": 1604408521293,
+    "deleted": false,
+    "districtId": "b5beaf52-71a8-4419-952c-2a9c54017782",
+    "id": "3ac969c9-6188-495e-b185-f0f19d6b8a8d",
+    "name": "TEBERİK",
+    "order": 1003,
+    "updatedAt": 1625813695953
+   },
+   {
+    "createdAt": 1604408521293,
+    "deleted": false,
+    "districtId": "b5beaf52-71a8-4419-952c-2a9c54017782",
+    "id": "d27e4c1a-dcb3-49a7-bedd-cc83394d6f89",
+    "name": "TİMURHAN",
+    "order": 1004,
+    "updatedAt": 1625813695953
+   },
+   {
+    "createdAt": 1604408521293,
+    "deleted": false,
+    "districtId": "b5beaf52-71a8-4419-952c-2a9c54017782",
+    "id": "21badfc1-16c8-4eca-a433-d334f917434b",
+    "name": "UZUNLAR",
+    "order": 1005,
+    "updatedAt": 1625813695953
+   },
+   {
+    "createdAt": 1604408521293,
+    "deleted": false,
+    "districtId": "b5beaf52-71a8-4419-952c-2a9c54017782",
+    "id": "788e7345-e92e-40d9-8187-edeb7b9fa264",
+    "name": "YEŞİLTEPE",
+    "order": 1006,
+    "updatedAt": 1625813695953
+   },
+   {
+    "createdAt": 1604408521293,
+    "deleted": false,
+    "districtId": "b5beaf52-71a8-4419-952c-2a9c54017782",
+    "id": "7e4f3275-b899-42b0-8e1b-d7cbf9a33041",
+    "name": "YILDIRIM",
+    "order": 1007,
+    "updatedAt": 1625813695953
+   },
+   {
+    "createdAt": 1604408521293,
+    "deleted": false,
+    "districtId": "b5beaf52-71a8-4419-952c-2a9c54017782",
+    "id": "3496fc99-a191-4303-b147-cadb540950d5",
+    "name": "ÇAM",
+    "order": 988,
+    "updatedAt": 1625813695953
+   },
+   {
+    "createdAt": 1604408521293,
+    "deleted": false,
+    "districtId": "b5beaf52-71a8-4419-952c-2a9c54017782",
+    "id": "a19fbcd7-9806-4c4f-8e55-bbdac842f920",
+    "name": "ÇARDAKBAĞI",
+    "order": 989,
+    "updatedAt": 1625813695953
+   },
+   {
+    "createdAt": 1604408521293,
+    "deleted": false,
+    "districtId": "b5beaf52-71a8-4419-952c-2a9c54017782",
+    "id": "a0fc728e-e0f5-4c54-9b01-4a3c6928f0a5",
+    "name": "ÇINAR",
+    "order": 990,
+    "updatedAt": 1625813695953
+   },
+   {
+    "createdAt": 1604408521293,
+    "deleted": false,
+    "districtId": "b5beaf52-71a8-4419-952c-2a9c54017782",
+    "id": "3d56eee9-245a-44f2-8575-89300fbe2638",
+    "name": "ŞEYHLER",
+    "order": 1002,
+    "updatedAt": 1625813695953
+   }
+  ]
+ }
+}

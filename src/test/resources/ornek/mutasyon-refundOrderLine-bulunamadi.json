@@ -1,0 +1,20 @@
+{
+ "errors": [
+  {
+   "message": "Argument Validation Error",
+   "extensions": {
+    "code": "ARGUMENT_VALIDATION_ERROR",
+    "validationErrors": [
+     {
+      "property": "orderRefundTransactions",
+      "constraints": {
+       "ValidateRefundOrder": "An invalid parameters."
+      }
+     }
+    ],
+    "serviceName": "order-service-public"
+   }
+  }
+ ],
+ "data": null
+}

@@ -1,0 +1,82 @@
+{
+ "data": {
+  "listStorefrontPolicy": [
+   {
+    "createdAt": 1772191059534,
+    "currentVersionId": "0579f1f5-3656-0eed-f83f-cf89d87ed70f",
+    "deleted": false,
+    "id": "df9badfd-a00c-a93d-5d68-6d76e9726de3",
+    "locale": "tr",
+    "name": "ANON-b1f8ddbd",
+    "sendEmail": true,
+    "slug": "ANON-3ddc2f17",
+    "storefrontId": "3bbdeb73-c826-faa0-37ce-3e8d144504ff",
+    "storefrontRoutings": [
+     {
+      "storefrontId": "3bbdeb73-c826-faa0-37ce-3e8d144504ff",
+      "storefrontRoutingId": "f29fac56-1c3e-f475-70f6-af796829643a"
+     }
+    ],
+    "type": "RETURN_POLICY",
+    "updatedAt": 1772191354270
+   },
+   {
+    "createdAt": 1772190916228,
+    "currentVersionId": "ad738656-94ff-de81-2984-ef1b862ac746",
+    "deleted": false,
+    "id": "1c21a8f2-6539-037f-af73-fccd9b596ec8",
+    "locale": "tr",
+    "name": "ANON-b9cbf578",
+    "sendEmail": false,
+    "slug": "ANON-3ddc2f17",
+    "storefrontId": "3bbdeb73-c826-faa0-37ce-3e8d144504ff",
+    "storefrontRoutings": [
+     {
+      "storefrontId": "3bbdeb73-c826-faa0-37ce-3e8d144504ff",
+      "storefrontRoutingId": "f29fac56-1c3e-f475-70f6-af796829643a"
+     }
+    ],
+    "type": "PRIVACY_POLICY",
+    "updatedAt": 1772190916228
+   },
+   {
+    "createdAt": 1719960371018,
+    "currentVersionId": "2026bc32-4ebe-2fa8-1b12-3057cb210e3d",
+    "deleted": false,
+    "id": "69f2098c-0d9c-bdc8-970d-485406f63dc3",
+    "locale": "tr",
+    "name": "ANON-4e571c46",
+    "sendEmail": true,
+    "slug": "ANON-7a2c392f",
+    "storefrontId": "3bbdeb73-c826-faa0-37ce-3e8d144504ff",
+    "storefrontRoutings": [
+     {
+      "storefrontId": "3bbdeb73-c826-faa0-37ce-3e8d144504ff",
+      "storefrontRoutingId": "f29fac56-1c3e-f475-70f6-af796829643a"
+     }
+    ],
+    "type": "OTHER",
+    "updatedAt": 1719960371018
+   },
+   {
+    "createdAt": 1719960371018,
+    "currentVersionId": "b86bf68b-b868-e887-221a-92f1daa05bed",
+    "deleted": false,
+    "id": "36bae9e9-0dd1-cd68-74f4-b4fa3c979cac",
+    "locale": "tr",
+    "name": "ANON-2172b9e1",
+    "sendEmail": true,
+    "slug": "ANON-b04aec55",
+    "storefrontId": "3bbdeb73-c826-faa0-37ce-3e8d144504ff",
+    "storefrontRoutings": [
+     {
+      "storefrontId": "3bbdeb73-c826-faa0-37ce-3e8d144504ff",
+      "storefrontRoutingId": "f29fac56-1c3e-f475-70f6-af796829643a"
+     }
+    ],
+    "type": "OTHER",
+    "updatedAt": 1719960371018
+   }
+  ]
+ }
+}

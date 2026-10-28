@@ -1,0 +1,25 @@
+{
+ "data": {
+  "listMerchantSettings": [
+   {
+    "accessPermission": null,
+    "accessPermissionToDate": null,
+    "address": null,
+    "billingAddress": null,
+    "createdAt": null,
+    "currencyCode": "TRY",
+    "currencyFormats": [],
+    "currencySymbol": "₺",
+    "defaultLocale": "ANON-f078aab8",
+    "deleted": false,
+    "id": "667bc7dc-70b9-1a60-c7f8-7fa284f5af23",
+    "logoId": null,
+    "merchantName": "ANON-9d98099a",
+    "phone": null,
+    "requireMFAForAllStaffs": null,
+    "timezone": null,
+    "updatedAt": null
+   }
+  ]
+ }
+}

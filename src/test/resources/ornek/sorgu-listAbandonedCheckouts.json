@@ -1,0 +1,561 @@
+{
+ "data": {
+  "listAbandonedCheckouts": {
+   "count": 49,
+   "data": [
+    {
+     "abandonedCheckoutFlows": [
+      {
+       "authorizedAppId": null,
+       "campaignId": null,
+       "canApplicable": true,
+       "couponId": null,
+       "customerFilters": {
+        "sendOnlyActiveAccount": true,
+        "sendOnlySubscribedToEmail": true
+       },
+       "flowId": "c4f75457-5667-874c-e833-557117be753c",
+       "mailSendDate": 1793143169606,
+       "mailTemplateId": null,
+       "mailTranslationId": null,
+       "messageType": "EMAIL",
+       "recoverEmailStatus": "SENT",
+       "sendAfter": 1,
+       "smsTranslationId": null
+      }
+     ],
+     "adjustments": null,
+     "availableShippingMethods": [],
+     "billingAddress": null,
+     "cart": {
+      "campaignOffers": [],
+      "createdAt": 1792067195356,
+      "createdBy": "CUSTOMER",
+      "currencyCode": "TRY",
+      "currencySymbol": "₺",
+      "customerId": "bab57b4f-b74d-d9c9-0137-33846c507337",
+      "deleted": false,
+      "dueDate": 1793311957895,
+      "id": "f22366c4-8a14-0add-b19b-c2225c70cbdc",
+      "itemCount": 4,
+      "items": [
+       {
+        "createdAt": 1793143169611,
+        "currencyCode": "TRY",
+        "currencySymbol": "₺",
+        "deleted": true,
+        "discountPrice": null,
+        "edited": null,
+        "finalPrice": 26,
+        "finalUnitPrice": null,
+        "id": "5096ff88-d6f4-8a03-3845-bf18c093e081",
+        "originalOrderLineItemId": null,
+        "price": 45,
+        "quantity": 5,
+        "sourceId": null,
+        "status": "UNFULFILLED",
+        "statusUpdatedAt": null,
+        "stockLocationId": null,
+        "taxValue": null,
+        "unitPrice": null,
+        "updatedAt": 1793143169611
+       },
+       {
+        "createdAt": 1793143169611,
+        "currencyCode": "TRY",
+        "currencySymbol": "₺",
+        "deleted": false,
+        "discountPrice": null,
+        "edited": null,
+        "finalPrice": 18,
+        "finalUnitPrice": null,
+        "id": "bf5313a7-2231-3612-9559-8f5648896e10",
+        "originalOrderLineItemId": null,
+        "price": 41,
+        "quantity": 46,
+        "sourceId": null,
+        "status": "UNFULFILLED",
+        "statusUpdatedAt": null,
+        "stockLocationId": null,
+        "taxValue": null,
+        "unitPrice": null,
+        "updatedAt": 1793143169611
+       }
+      ],
+      "lastActivityDate": 1793139140356,
+      "merchantId": "61bffda1-3136-a48f-d76d-2bb1a9fe59b9",
+      "priceListId": null,
+      "salesChannelId": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+      "status": "ACTIVE",
+      "storefrontId": "3bbdeb73-c826-faa0-37ce-3e8d144504ff",
+      "storefrontRouting": {
+       "domain": null,
+       "id": "f29fac56-1c3e-f475-70f6-af796829643a",
+       "locale": "tr",
+       "path": null,
+       "priceListId": null
+      },
+      "storefrontRoutingId": "f29fac56-1c3e-f475-70f6-af796829643a",
+      "storefrontThemeId": "fadf8606-1a0d-d5ef-2b90-55381d3c3c30",
+      "taxLines": [],
+      "totalPrice": 28,
+      "updatedAt": 1793143169611
+     },
+     "cartId": "f22366c4-8a14-0add-b19b-c2225c70cbdc",
+     "couponCode": null,
+     "createdAt": 1792067195356,
+     "customer": {
+      "accountStatus": "ACTIVE_ACCOUNT",
+      "customerGroupIds": [],
+      "email": "ANON-a588af73",
+      "firstName": "ANON-03b3732c",
+      "id": "bab57b4f-b74d-d9c9-0137-33846c507337",
+      "identityNumber": null,
+      "lastName": "ANON-804db61d",
+      "notificationsAccepted": null,
+      "phone": "ANON-f654c56f",
+      "subscriptionStatus": "SUBSCRIBED"
+     },
+     "deleted": false,
+     "giftPackageLines": null,
+     "giftPackageNote": null,
+     "id": "f22366c4-8a14-0add-b19b-c2225c70cbdc",
+     "isGiftPackage": null,
+     "merchantId": "61bffda1-3136-a48f-d76d-2bb1a9fe59b9",
+     "note": null,
+     "orderId": null,
+     "orderNumber": null,
+     "orderedAt": 1792067195294,
+     "recoverEmailStatus": "SENT",
+     "recoveryStatus": "NOT_RECOVERED",
+     "shippingAddress": null,
+     "shippingLines": [],
+     "shippingMethod": "SHIPMENT",
+     "shippingSettingsId": null,
+     "shippingZoneRateId": null,
+     "status": "OPEN",
+     "stockLocationId": null,
+     "totalFinalPrice": 19,
+     "updatedAt": 1793143169611
+    },
+    {
+     "abandonedCheckoutFlows": [
+      {
+       "authorizedAppId": null,
+       "campaignId": null,
+       "canApplicable": false,
+       "couponId": null,
+       "customerFilters": {
+        "sendOnlyActiveAccount": true,
+        "sendOnlySubscribedToEmail": true
+       },
+       "flowId": "c4f75457-5667-874c-e833-557117be753c",
+       "mailSendDate": null,
+       "mailTemplateId": null,
+       "mailTranslationId": null,
+       "messageType": "EMAIL",
+       "recoverEmailStatus": "NOT_SENT",
+       "sendAfter": 1,
+       "smsTranslationId": null
+      }
+     ],
+     "adjustments": null,
+     "availableShippingMethods": [
+      {
+       "cargoCompanyId": null,
+       "estimatedDeliveryTime": null,
+       "price": 25,
+       "rateName": "ANON-16216df0",
+       "shippingMethod": "SHIPMENT",
+       "shippingSettingsId": "8bfa9a74-cc7e-bb5b-b483-8e5657d49357",
+       "shippingZoneRateId": "c2dac090-986f-e2a6-b1b0-5fc0e8a5848b"
+      }
+     ],
+     "billingAddress": {
+      "addressLine1": "ANON-5fe06e14",
+      "addressLine2": "ANON-b5c6fcc5",
+      "city": {
+       "code": "26",
+       "id": "fca5d51d-b7fd-4b2c-74ae-1826cce245f1",
+       "name": "ANON-90aa7d7b"
+      },
+      "company": null,
+      "country": {
+       "code": "TUR",
+       "id": "b4c4837c-3c89-8eac-f55d-1f889c601c81",
+       "iso2": "TR",
+       "iso3": "TUR",
+       "name": "ANON-3f1bbfca"
+      },
+      "district": {
+       "code": null,
+       "id": "c84d302e-fdb3-8e13-0381-80db1616a19e",
+       "name": "ANON-c72e44f3"
+      },
+      "firstName": "ANON-47f5c7ec",
+      "id": null,
+      "identityNumber": "ANON-3cede36f",
+      "isDefault": false,
+      "lastName": "ANON-b3d757c5",
+      "phone": "ANON-a05bacca",
+      "postalCode": null,
+      "region": null,
+      "state": {
+       "code": null,
+       "id": "a7d26db0-e7a3-eb7b-94cc-a0defcb000e1",
+       "name": "ANON-fb60fe0b"
+      },
+      "taxNumber": null,
+      "taxOffice": null
+     },
+     "cart": {
+      "campaignOffers": [],
+      "createdAt": 1793130258674,
+      "createdBy": "CUSTOMER",
+      "currencyCode": "TRY",
+      "currencySymbol": "₺",
+      "customerId": null,
+      "deleted": false,
+      "dueDate": 1793303121680,
+      "id": "ba29cd98-3c33-7a05-b560-fe3e1a7b26ec",
+      "itemCount": 4,
+      "items": [
+       {
+        "createdAt": 1793130321683,
+        "currencyCode": "TRY",
+        "currencySymbol": "₺",
+        "deleted": false,
+        "discountPrice": 22,
+        "edited": null,
+        "finalPrice": 8,
+        "finalUnitPrice": null,
+        "id": "b5cf923c-21ad-7383-7b55-a5a2c8d962c0",
+        "originalOrderLineItemId": null,
+        "price": 36,
+        "quantity": 46,
+        "sourceId": null,
+        "status": "UNFULFILLED",
+        "statusUpdatedAt": null,
+        "stockLocationId": null,
+        "taxValue": 42,
+        "unitPrice": null,
+        "updatedAt": 1793130321683
+       }
+      ],
+      "lastActivityDate": 1793130318271,
+      "merchantId": "61bffda1-3136-a48f-d76d-2bb1a9fe59b9",
+      "priceListId": null,
+      "salesChannelId": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+      "status": "ACTIVE",
+      "storefrontId": "3bbdeb73-c826-faa0-37ce-3e8d144504ff",
+      "storefrontRouting": {
+       "domain": null,
+       "id": "f29fac56-1c3e-f475-70f6-af796829643a",
+       "locale": "tr",
+       "path": null,
+       "priceListId": null
+      },
+      "storefrontRoutingId": "f29fac56-1c3e-f475-70f6-af796829643a",
+      "storefrontThemeId": "fadf8606-1a0d-d5ef-2b90-55381d3c3c30",
+      "taxLines": [
+       {
+        "price": 70.46,
+        "rate": 28
+       }
+      ],
+      "totalPrice": 37,
+      "updatedAt": 1793130321683
+     },
+     "cartId": "ba29cd98-3c33-7a05-b560-fe3e1a7b26ec",
+     "couponCode": null,
+     "createdAt": 1793130258674,
+     "customer": {
+      "accountStatus": null,
+      "customerGroupIds": [],
+      "email": "ANON-84e54a20",
+      "firstName": "ANON-47f5c7ec",
+      "id": null,
+      "identityNumber": null,
+      "lastName": "ANON-b3d757c5",
+      "notificationsAccepted": false,
+      "phone": null,
+      "subscriptionStatus": null
+     },
+     "deleted": false,
+     "giftPackageLines": null,
+     "giftPackageNote": null,
+     "id": "ba29cd98-3c33-7a05-b560-fe3e1a7b26ec",
+     "isGiftPackage": null,
+     "merchantId": "61bffda1-3136-a48f-d76d-2bb1a9fe59b9",
+     "note": null,
+     "orderId": null,
+     "orderNumber": null,
+     "orderedAt": 1793130258641,
+     "recoverEmailStatus": "NOT_SENT",
+     "recoveryStatus": null,
+     "shippingAddress": {
+      "addressLine1": "ANON-5fe06e14",
+      "addressLine2": "ANON-b5c6fcc5",
+      "city": {
+       "code": "26",
+       "id": "fca5d51d-b7fd-4b2c-74ae-1826cce245f1",
+       "name": "ANON-90aa7d7b"
+      },
+      "company": null,
+      "country": {
+       "code": "TUR",
+       "id": "b4c4837c-3c89-8eac-f55d-1f889c601c81",
+       "iso2": "TR",
+       "iso3": "TUR",
+       "name": "ANON-3f1bbfca"
+      },
+      "district": {
+       "code": null,
+       "id": "c84d302e-fdb3-8e13-0381-80db1616a19e",
+       "name": "ANON-c72e44f3"
+      },
+      "firstName": "ANON-47f5c7ec",
+      "id": null,
+      "identityNumber": "ANON-3cede36f",
+      "isDefault": false,
+      "lastName": "ANON-b3d757c5",
+      "phone": "ANON-a05bacca",
+      "postalCode": null,
+      "region": null,
+      "state": {
+       "code": null,
+       "id": "a7d26db0-e7a3-eb7b-94cc-a0defcb000e1",
+       "name": "ANON-fb60fe0b"
+      },
+      "taxNumber": null,
+      "taxOffice": null
+     },
+     "shippingLines": [
+      {
+       "cargoCompanyId": null,
+       "finalPrice": 28,
+       "isRefunded": null,
+       "paymentMethod": null,
+       "price": 25,
+       "priceListId": null,
+       "shippingSettingsId": "8bfa9a74-cc7e-bb5b-b483-8e5657d49357",
+       "shippingZoneRateId": "c2dac090-986f-e2a6-b1b0-5fc0e8a5848b",
+       "taxValue": 42,
+       "title": "ANON-16216df0",
+       "transactionId": null
+      }
+     ],
+     "shippingMethod": "SHIPMENT",
+     "shippingSettingsId": "8bfa9a74-cc7e-bb5b-b483-8e5657d49357",
+     "shippingZoneRateId": "c2dac090-986f-e2a6-b1b0-5fc0e8a5848b",
+     "status": "OPEN",
+     "stockLocationId": null,
+     "totalFinalPrice": 3,
+     "updatedAt": 1793130321683
+    },
+    {
+     "abandonedCheckoutFlows": [
+      {
+       "authorizedAppId": null,
+       "campaignId": null,
+       "canApplicable": true,
+       "couponId": null,
+       "customerFilters": {
+        "sendOnlyActiveAccount": true,
+        "sendOnlySubscribedToEmail": true
+       },
+       "flowId": "c4f75457-5667-874c-e833-557117be753c",
+       "mailSendDate": 1793116055665,
+       "mailTemplateId": null,
+       "mailTranslationId": null,
+       "messageType": "EMAIL",
+       "recoverEmailStatus": "SENT",
+       "sendAfter": 1,
+       "smsTranslationId": null
+      }
+     ],
+     "adjustments": [
+      {
+       "amount": 10,
+       "amountType": "AMOUNT",
+       "appliedOrderLines": [
+        {
+         "amount": 10,
+         "appliedQuantity": 35,
+         "isAutoCreated": true,
+         "orderLineId": "41e38b40-43fb-2d43-e768-f88996fca096"
+        }
+       ],
+       "campaignId": "894af12a-584c-7224-eb88-df97a1d9cd7a",
+       "campaignType": "BUY_X_THEN_GET_Y",
+       "couponId": null,
+       "createdFor": null,
+       "name": "ANON-27cd81c5",
+       "order": 1,
+       "transactionId": null,
+       "type": "DECREMENT",
+       "usedLoyaltyPoints": null
+      }
+     ],
+     "availableShippingMethods": [],
+     "billingAddress": null,
+     "cart": {
+      "campaignOffers": [],
+      "createdAt": 1793102690948,
+      "createdBy": "CUSTOMER",
+      "currencyCode": "TRY",
+      "currencySymbol": "₺",
+      "customerId": "b002c489-599b-5ae3-0d0b-9ad6479d198f",
+      "deleted": false,
+      "dueDate": 1793284668976,
+      "id": "464194e8-e7bb-deb8-e32d-514c0dd4a2d0",
+      "itemCount": 23,
+      "items": [
+       {
+        "createdAt": 1793116055668,
+        "currencyCode": "TRY",
+        "currencySymbol": "₺",
+        "deleted": false,
+        "discountPrice": 22,
+        "edited": null,
+        "finalPrice": 8,
+        "finalUnitPrice": null,
+        "id": "059e2a4f-58cb-3a8b-f282-a72b59560495",
+        "originalOrderLineItemId": null,
+        "price": 34,
+        "quantity": 46,
+        "sourceId": null,
+        "status": "UNFULFILLED",
+        "statusUpdatedAt": null,
+        "stockLocationId": null,
+        "taxValue": null,
+        "unitPrice": null,
+        "updatedAt": 1793116055668
+       },
+       {
+        "createdAt": 1793116055668,
+        "currencyCode": "TRY",
+        "currencySymbol": "₺",
+        "deleted": false,
+        "discountPrice": null,
+        "edited": null,
+        "finalPrice": 33,
+        "finalUnitPrice": null,
+        "id": "768c2794-9a5e-210b-378b-3eedf7725a90",
+        "originalOrderLineItemId": null,
+        "price": 10,
+        "quantity": 3,
+        "sourceId": null,
+        "status": "UNFULFILLED",
+        "statusUpdatedAt": null,
+        "stockLocationId": null,
+        "taxValue": null,
+        "unitPrice": null,
+        "updatedAt": 1793116055668
+       },
+       {
+        "createdAt": 1793116055668,
+        "currencyCode": "TRY",
+        "currencySymbol": "₺",
+        "deleted": true,
+        "discountPrice": null,
+        "edited": null,
+        "finalPrice": 21,
+        "finalUnitPrice": null,
+        "id": "bd913b25-03f3-5ad1-9b26-71b4e1544eed",
+        "originalOrderLineItemId": null,
+        "price": 8,
+        "quantity": 5,
+        "sourceId": null,
+        "status": "UNFULFILLED",
+        "statusUpdatedAt": null,
+        "stockLocationId": null,
+        "taxValue": null,
+        "unitPrice": null,
+        "updatedAt": 1793116055668
+       },
+       {
+        "createdAt": 1793116055668,
+        "currencyCode": "TRY",
+        "currencySymbol": "₺",
+        "deleted": false,
+        "discountPrice": null,
+        "edited": null,
+        "finalPrice": 14,
+        "finalUnitPrice": null,
+        "id": "41e38b40-43fb-2d43-e768-f88996fca096",
+        "originalOrderLineItemId": null,
+        "price": 11,
+        "quantity": 46,
+        "sourceId": null,
+        "status": "UNFULFILLED",
+        "statusUpdatedAt": null,
+        "stockLocationId": null,
+        "taxValue": null,
+        "unitPrice": null,
+        "updatedAt": 1793116055668
+       }
+      ],
+      "lastActivityDate": 1793111868976,
+      "merchantId": "61bffda1-3136-a48f-d76d-2bb1a9fe59b9",
+      "priceListId": null,
+      "salesChannelId": "a0618cec-d583-91f2-7abd-0f4830c9dfd1",
+      "status": "ACTIVE",
+      "storefrontId": "3bbdeb73-c826-faa0-37ce-3e8d144504ff",
+      "storefrontRouting": {
+       "domain": null,
+       "id": "f29fac56-1c3e-f475-70f6-af796829643a",
+       "locale": "tr",
+       "path": null,
+       "priceListId": null
+      },
+      "storefrontRoutingId": "f29fac56-1c3e-f475-70f6-af796829643a",
+      "storefrontThemeId": "fadf8606-1a0d-d5ef-2b90-55381d3c3c30",
+      "taxLines": [],
+      "totalPrice": 10,
+      "updatedAt": 1793116055668
+     },
+     "cartId": "464194e8-e7bb-deb8-e32d-514c0dd4a2d0",
+     "couponCode": null,
+     "createdAt": 1793102690948,
+     "customer": {
+      "accountStatus": "ACTIVE_ACCOUNT",
+      "customerGroupIds": [],
+      "email": "ANON-ae4f4129",
+      "firstName": "ANON-72627b92",
+      "id": "b002c489-599b-5ae3-0d0b-9ad6479d198f",
+      "identityNumber": null,
+      "lastName": "ANON-6e929920",
+      "notificationsAccepted": null,
+      "phone": "ANON-88055099",
+      "subscriptionStatus": "SUBSCRIBED"
+     },
+     "deleted": false,
+     "giftPackageLines": null,
+     "giftPackageNote": null,
+     "id": "464194e8-e7bb-deb8-e32d-514c0dd4a2d0",
+     "isGiftPackage": null,
+     "merchantId": "61bffda1-3136-a48f-d76d-2bb1a9fe59b9",
+     "note": null,
+     "orderId": null,
+     "orderNumber": null,
+     "orderedAt": 1793102690887,
+     "recoverEmailStatus": "SENT",
+     "recoveryStatus": "NOT_RECOVERED",
+     "shippingAddress": null,
+     "shippingLines": [],
+     "shippingMethod": "SHIPMENT",
+     "shippingSettingsId": null,
+     "shippingZoneRateId": null,
+     "status": "OPEN",
+     "stockLocationId": null,
+     "totalFinalPrice": 1,
+     "updatedAt": 1793116055668
+    }
+   ],
+   "hasNext": true,
+   "limit": 14,
+   "page": 1
+  }
+ }
+}

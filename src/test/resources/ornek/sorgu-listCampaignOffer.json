@@ -1,0 +1,11 @@
+{
+ "data": {
+  "listCampaignOffer": {
+   "count": 45,
+   "data": [],
+   "hasNext": false,
+   "limit": 14,
+   "page": 1
+  }
+ }
+}

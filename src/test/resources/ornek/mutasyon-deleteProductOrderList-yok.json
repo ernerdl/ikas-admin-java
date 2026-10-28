@@ -1,0 +1,15 @@
+{
+ "errors": [
+  {
+   "message": "Object not found",
+   "path": [
+    "ANON-d24bec99"
+   ],
+   "extensions": {
+    "code": "404_OBJECT_NOT_FOUND",
+    "serviceName": "product-service-public"
+   }
+  }
+ ],
+ "data": null
+}
