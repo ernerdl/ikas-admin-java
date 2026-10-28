@@ -15,6 +15,9 @@ TARIH = "2026-10-28"
 # sahte sipariş kimliğiyle → "bulunamadı", hiçbir şey değişmez.
 CANLI_SAHTE = {"fulfillOrder", "updateOrderLine", "updateOrderPackageStatus"}
 
+# Denenmeme gerekçesinin herkese uyan hâli (özet dosyasındaki notlar bizim kuruluma özel olabilir)
+GENEL_GEREKCE = {'saveWebhook': 'mağazanın canlı bildirim (webhook) bağlantısını değiştirir; bağlı sistemler olay almayı bırakabilir', 'deleteWebhook': 'bağlı sistemlerin olay bildirimlerini keser', 'saveStorefrontJSScript': 'canlı sitede çalışan script', 'saveVariantPrices': 'müşterinin gördüğü fiyat', 'saveCustomer': 'gerçek müşteri kaydı açar (webhook tetikler)', 'fulfillOrder': 'siparişi kargoya verir', 'updateOrderLine': 'sipariş satırlarını değiştirir', 'updateOrderPackageStatus': 'paket/kargo durumunu değiştirir', 'saveProduct': 'ürün oluşturur/değiştirir (sitede görünür, webhook tetikler)'}
+
 # İşlem başına elle yazılmış davranış notları (deneme sırasında gözlenen).
 NOTLAR = {
     "listOrderSession": "`OrderSession.journeyId` şemada boş olamaz denip boş geliyor; seçilirse bütün sorgu düşer → kütüphane seçmez",
@@ -110,7 +113,7 @@ def main():
         s = ["| İşlem | Durum | Not |", "|---|---|---|"]
         for ad, d in sorted(l):
             v = ozet[ad]
-            neden = "; ".join(x for x in (("Denenmedi: " + v["not"]) if d == "⛔" and v.get("not") else "", NOTLAR.get(ad, "")) if x)
+            neden = "; ".join(x for x in (("Denenmedi: " + GENEL_GEREKCE.get(ad, v.get("not") or "")) if d == "⛔" and (v.get("not") or ad in GENEL_GEREKCE) else "", NOTLAR.get(ad, "")) if x)
             s.append(f"| {ad} | {d} | {neden or ''} |")
         return "\n".join(s)
 

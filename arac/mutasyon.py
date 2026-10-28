@@ -10,7 +10,7 @@
   B) SAHTE KİMLİKLE YOKLAMA: var olmayan rastgele UUID ile çağrı → İkas "bulunamadı" der, hiçbir kayıt değişmez.
      Erişim/yetki ve hata biçimi görülür.
   C) DEĞİŞİKLİK YAPMAYAN: gerçek sipariş için fatura PDF adresi.
-Sipariş/ürün/müşteri üzerinde GERÇEK yazma YOK (İkas → canlı ERP webhook'u tetikler). Webhook, site scripti, vergi,
+Sipariş/ürün/müşteri üzerinde GERÇEK yazma YOK (İkas webhook'u bağlı canlı sistemleri tetikler). Webhook, site scripti, vergi,
 satış kanalı, ürün/fiyat/stok, müşteri/sipariş oluşturma, kategori, ürün sıralaması, Wallet, uygulama ödemesi: DOKUNULMAZ.
 """
 import json
@@ -199,16 +199,16 @@ def c_testleri():
 
 
 DOKUNULMAZ = {
-    "saveWebhook": "ERP'nin canlı bildirim bağlantısı (ERP zaten kullanıyor)", "deleteWebhook": "ERP bildirimlerini keser",
-    "saveStorefrontJSScript": "canlı sitedeki script (ERP kullanıyor)", "deleteStorefrontJSScript": "TÜM site scriptlerini siler",
+    "saveWebhook": "mağazanın canlı bildirim (webhook) bağlantısını değiştirir; bağlı sistemler olay almayı bırakabilir", "deleteWebhook": "bağlı sistemlerin olay bildirimlerini keser",
+    "saveStorefrontJSScript": "canlı sitede çalışan script", "deleteStorefrontJSScript": "TÜM site scriptlerini siler",
     "saveTaxSettings": "vergi ayarı", "saveGlobalTaxSettings": "vergi ayarı", "saveSalesChannel": "satış kanalı",
-    "saveProduct": "ürün oluşturur/değiştirir (webhook + site)", "bulkUpdateProducts": "toplu ürün değişikliği",
-    "saveVariantPrices": "fiyat (ERP kullanıyor)", "saveProductStockLocations": "stok", "updateProductSalesChannelStatus": "ürünü sitede açar/kapatır",
+    "saveProduct": "ürün oluşturur/değiştirir (sitede görünür, webhook tetikler)", "bulkUpdateProducts": "toplu ürün değişikliği",
+    "saveVariantPrices": "müşterinin gördüğü fiyat", "saveProductStockLocations": "stok", "updateProductSalesChannelStatus": "ürünü sitede açar/kapatır",
     "saveProductVolumeDiscount": "ürün fiyatına indirim", "saveCategory": "kategori menüde görünebilir",
     "saveProductOrder": "sitedeki ürün sıralaması", "saveStorefrontPolicy": "sitede politika sayfası",
-    "saveCustomer": "müşteri oluşturur (webhook → ERP müşteri açar)", "createOrderWithTransactions": "gerçek sipariş oluşturur",
-    "fulfillOrder": "kargoya verir (ERP kullanıyor)", "updateOrderLine": "sipariş satırı (ERP kullanıyor)",
-    "updateOrderPackageStatus": "paket durumu (ERP kullanıyor)", "createWalletTransaction": "para hareketi",
+    "saveCustomer": "gerçek müşteri kaydı açar (webhook tetikler)", "createOrderWithTransactions": "gerçek sipariş oluşturur",
+    "fulfillOrder": "siparişi kargoya verir", "updateOrderLine": "sipariş satırlarını değiştirir",
+    "updateOrderPackageStatus": "paket/kargo durumunu değiştirir", "createWalletTransaction": "para hareketi",
     "createMerchantAppPayment": "uygulama ödemesi", "createMerchantAppPaymentWithSubscription": "uygulama ödemesi",
     "getAppDemoDay": "uygulama aboneliği (geliştirici)",
 }

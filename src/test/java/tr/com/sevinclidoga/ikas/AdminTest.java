@@ -220,4 +220,76 @@ class AdminTest {
         assertTrue(sahte.sonBelge().endsWith("{ count data { id } } }"));
         assertNotNull(secimli);
     }
+
+    // ── 28.10: ERP'ye bağlarken öğrenilenler ──
+
+    @Test
+    void sema_productInputAynasiEksiksiz() {
+        assertEquals(List.of(), IkasSema.varsayilan().aynaEksikleri("ProductInput", "Product"),
+                "ProductInput'un her alanı Product'ta aynı adla okunabilmeli (oku → değiştir → aynen yaz)");
+    }
+
+    static final String KANALLAR = "{\"data\":{\"listSalesChannel\":[{\"id\":\"site\",\"type\":\"STOREFRONT\"},"
+            + "{\"id\":\"pazar\",\"type\":\"APP\"},{\"id\":\"b2b\",\"type\":\"B2B_STOREFRONT\"}]}}";
+
+    @Test
+    void sitedeAcKapat_yalnizSiteKanali() {
+        sahte.hamCevap("listSalesChannel", 200, KANALLAR);
+        sahte.hamCevap("updateProductSalesChannelStatus", 200, "{\"data\":{\"updateProductSalesChannelStatus\":true}}");
+        assertTrue(yazar.sitedeAcKapat(List.of("p1"), false));
+        assertEquals("site", sahte.sonDegiskenler().metin("salesChannelId"));
+        assertEquals(Boolean.FALSE, sahte.sonDegiskenler().yol("input.0").mantiksal("active"));
+    }
+
+    static final String URUN = "{\"data\":{\"listProduct\":{\"data\":[{\"id\":\"p1\",\"name\":\"Un\",\"type\":\"PHYSICAL\","
+            + "\"description\":\"eski\",\"metaData\":{\"id\":\"m\",\"slug\":\"un\"},\"variants\":[{\"id\":\"v1\",\"isActive\":true,"
+            + "\"prices\":[{\"sellPrice\":200,\"discountPrice\":180,\"currency\":\"TRY\",\"priceListId\":null}]}]}]}}}";
+
+    @Test
+    void urunuGuncelle_tamUrunAynenGider_yalnizIstenenDegisir() {
+        sahte.hamCevap("listProduct", 200, URUN);
+        sahte.hamCevap("saveProduct", 200, "{\"data\":{\"saveProduct\":{\"id\":\"p1\",\"variants\":[{\"id\":\"v1\","
+                + "\"prices\":[{\"sellPrice\":200.0,\"discountPrice\":180,\"currency\":\"TRY\",\"priceListId\":null}]}]}}}");
+        yazar.urunuGuncelle("p1", u -> u.put("description", "yeni"));
+        IkasVeri in = sahte.sonDegiskenler().alan("input");
+        assertEquals("yeni", in.metin("description"));
+        assertEquals("un", in.yol("metaData.slug").metin());
+        assertEquals(0, new java.math.BigDecimal("180").compareTo(in.yol("variants.0.prices.0").sayi("discountPrice")));
+    }
+
+    @Test
+    void urunuGuncelle_fiyatDegisirseHata() {
+        sahte.hamCevap("listProduct", 200, URUN);
+        sahte.hamCevap("saveProduct", 200, "{\"data\":{\"saveProduct\":{\"id\":\"p1\",\"variants\":[{\"id\":\"v1\","
+                + "\"prices\":[{\"sellPrice\":200,\"discountPrice\":null,\"currency\":\"TRY\",\"priceListId\":null}]}]}}}");
+        IkasHatasi h = assertThrows(IkasHatasi.class, () -> yazar.urunuGuncelle("p1", u -> u.put("description", "yeni")));
+        assertTrue(h.getMessage().contains("fiyat"));
+    }
+
+    @Test
+    void urunuGuncelle_yazmaIzniOlmadanReddedilir() {
+        sahte.hamCevap("listProduct", 200, URUN);
+        assertThrows(IkasHatasi.class, () -> okur.urunuGuncelle("p1", u -> u.put("description", "x")));
+        assertEquals("listProduct", sahte.sonIslem, "saveProduct isteği gitmemeli");
+    }
+
+    @Test
+    void kuponluKampanya_yuzdeVeEnAzSepet_dogruAlanlara() {
+        sahte.hamCevap("saveCampaign", 200, "{\"data\":{\"saveCampaign\":{\"id\":\"k1\"}}}");
+        sahte.hamCevap("campaignAddCoupons", 200, "{\"data\":{\"campaignAddCoupons\":[{\"id\":\"c1\",\"code\":\"HG10\"}]}}");
+        yazar.kuponluKampanyaAc("Hoş geldin", "RATIO", new java.math.BigDecimal("10"), new java.math.BigDecimal("750"),
+                null, null, 100, List.of("site"), "HG10");
+        assertEquals("HG10", sahte.sonDegiskenler().yol("input.coupons.0").metin("code"));
+    }
+
+    @Test
+    void kuponluKampanya_kodEklenemezseKampanyaSilinir() {
+        sahte.hamCevap("saveCampaign", 200, "{\"data\":{\"saveCampaign\":{\"id\":\"k1\"}}}");
+        sahte.hamCevap("campaignAddCoupons", 200, "{\"data\":{\"campaignAddCoupons\":[]}}");
+        sahte.hamCevap("deleteCampaignList", 200, "{\"data\":{\"deleteCampaignList\":true}}");
+        assertThrows(IkasHatasi.class, () -> yazar.kuponluKampanyaAc("x", "FIXED_AMOUNT", java.math.BigDecimal.ONE, null,
+                null, null, 1, List.of("site"), "X1"));
+        assertEquals("deleteCampaignList", sahte.sonIslem);
+        assertEquals("k1", sahte.sonDegiskenler().yol("idList.0").metin());
+    }
 }

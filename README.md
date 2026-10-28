@@ -37,6 +37,19 @@ yazar.siparisEtiketiEkle(siparisId, etiketId);
 yazar.faturaEkle(siparisId, uygulamaId, "SD2026000001", pdfBase64, false, false);   // bireysel, müşteriye bildirmeden
 ```
 
+Ürünün yalnız bir kısmını değiştirmek — İkas'ta tek alan güncelleyen işlem yok, `saveProduct` ürünün tamamını yazar.
+`urunuGuncelle` ürünü `ProductInput`'un aynası olan seçimle okur, değişikliği uygular, aynen geri yazar ve varyant
+fiyatlarını önce/sonra karşılaştırır (değişmişse hata). Ayna, 30 gerçek ürünün okunmasıyla doğrulandı (zorunlu alanların
+hepsi dolu geldi); yazımın kendisi canlı üründe DENENMEDİ — ilk kullanımı test ürününde yapın:
+
+```java
+yazar.urunuGuncelle(urunId, u -> u.put("description", "<p>Yeni açıklama</p>"));
+yazar.urunuGuncelle(urunId, u -> ((Map<String, Object>) u.get("metaData")).put("pageTitle", "SEO başlığı"));
+yazar.sitedeAcKapat(List.of(urunId), false);          // yalnız site kanalı; pazaryeri/B2B kanalları etkilenmez
+yazar.kuponluKampanyaAc("Hoş geldin", "RATIO", new BigDecimal("10"), new BigDecimal("750"),   // %10, en az 750 TL
+        null, null, 100, List.of(yazar.siteKanaliId()), "HOSGELDIN");
+```
+
 Hazır metodu olmayan işlem — belgeyi şemadan kütüphane kurar:
 
 ```java
@@ -52,10 +65,11 @@ IkasVeri az = ikas.istemci().calistirSecimle("listOrder",
 | Mağaza | `magaza` `lisans` `ben` `satisKanali(lari)` `vitrinler` `vitrinScriptleri` `politikalar` `diller` `paraBirimleri` `magazaAyarlari` `kargoAyarlari` `kargoFirmalari` `odemeYontemleri` `depolar` `fiyatListeleri` `vergiAyarlari` `genelVergiAyarlari` `subeler` `terminaller` `webhooklar` | |
 | Konum | `ulkeler` `bolgeler` `iller` `ilceler` `mahalleler` | |
 | Sipariş | `siparisler` (filtreli/sayfalı) `siparis` `siparisNoIle` `siparisOdemeleri` `siparisOturumlari` `siparisEtiketleri` `terkEdilenSepetler` · `faturaPdfAdresi`¹ | `faturaEkle` `siparisEtiketiEkle/Kaldir` `satirIptal` `iade` `paketIptal` `kargoyaVer` `paketDurumu` `satirGuncelle` `adresGuncelle` `depoDegistir` `odemeLinki` `bekleyenOdemeleriOnayla` `zamanCizelgesineNot` `siparisOlustur` |
+| Ürün (güvenli yazım) | `siteKanaliId` | `urunuGuncelle` (oku → değiştir → aynen yaz + fiyat koruması) `sitedeAcKapat` |
 | Ürün | `urunler` `urun` `skuIleUrun` `urunAra` `skularlaAra` `stoklar` `kategoriler` `markalar` `urunEtiketleri` `birimler` `ozellikler` `varyantTipleri` `secenekSetleri` `tedarikciler` `adetIndirimleri` `urunSiralamalari` `gorselYuklemeAdresi` `videoYuklemeAdresi` | `fiyatKaydet` `stokKaydet` `urunKaydet` `urunleriTopluGuncelle` `urunSatisDurumu` `urunSil` |
 | Tanımlar | | `urunEtiketiKaydet` `birimKaydet` `markaKaydet` `ozellikKaydet` `varyantTipiKaydet` `tedarikciKaydet` `siparisEtiketiKaydet` `musteriEtiketiKaydet` `musteriGrubuKaydet` · genel: `tanimKaydet` / `tanimSil` |
 | Müşteri | `musteriler` `musteri` `epostaIleMusteri` `musteriAra` `musteriGruplari` `musteriEtiketleri` `musteriOzellikleri` `magazaPuani` | `musteriKaydet` `musteriSil` `b2bDurumu` `abonelikDurumu` `magazaPuaniAyarla` |
-| Kampanya | `kampanyalar` `kuponlar` `kampanyaTeklifleri` | `kampanyaKaydet` `kuponEkle` `kuponSil` `kampanyaSil` |
+| Kampanya | `kampanyalar` `kuponlar` `kampanyaTeklifleri` | `kuponluKampanyaAc` `kampanyaKaydet` `kuponEkle` `kuponSil` `kampanyaSil` |
 | Vitrin / webhook | | `scriptKaydet` `scriptleriSil` `webhookKaydet` `webhookSil` |
 
 ¹ Kayıt değiştirmez ama İkas'ta mutasyon olarak tanımlı → yazma izni ister.
@@ -75,6 +89,13 @@ Dönüş her zaman **`IkasVeri`**: alan adıyla gezilir, eksik alanda istisna at
 - Bazı yazmalar var olmayan kimlikte de **`true`** döner (`b2bDurumu`, `abonelikDurumu`, `zamanCizelgesineNot`);
   bazıları **`false`** (`urunSil`, `bekleyenOdemeleriOnayla`). Sonucu "yapıldı" diye okumayın.
 - Webhook girdisi `scopes` (dizi), cevabı `scope` (tekil).
+- **Satış kanalları ayrı:** site (`STOREFRONT`), pazaryeri uygulamaları (`APP`, ör. Trendyol) ve B2B. Ürün açma/kapatma ve
+  kampanya geçerliliği kanal başınadır; `salesChannelIds: []` olan kampanya hiçbir yerde geçerli değildir.
+- **Kampanya alanları** (panelden açılmış kampanyalardan okundu): yüzde indirim `RATIO` + `fixedDiscount.amount` (%),
+  sabit tutar `FIXED_AMOUNT`, en az sepet `fixedDiscount.priceRange.min`, panelin fiyat tabanı `DISCOUNT_PRICE`.
+- **Ürün yazımı tam yazımdır:** `saveProduct` verilmeyen alanı boşaltabilir; ürünü önce eksiksiz okuyun
+  (`IkasSema.girdiAynasi("ProductInput", "Product")` — şema 2026-10-28'de birebir ayna, `aynaEksikleri` boş).
+- **Mağaza puanı:** API yalnız VAR OLAN puan kaydının tutarını ayarlar (`updateStoreCreditAmount`); yeni kayıt açan işlem yok.
 - İkas sipariş zamanları milisaniye zaman damgasıdır (UTC); yerel saate çevirirken `Europe/Istanbul` kullanın.
 
 ## Güvenlik

@@ -1,9 +1,13 @@
 package tr.com.sevinclidoga.ikas;
 
+import java.math.BigDecimal;
+import java.time.Instant;
+import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
+import java.util.function.Consumer;
 
 /**
  * İkas Admin API — Türkçe hazır metotlar. Her metot tek bir İkas işlemidir (parantez içinde); dönüş {@link IkasVeri}.
@@ -19,6 +23,7 @@ import java.util.Objects;
 public class IkasAdmin {
 
     private final IkasIstemci istemci;
+    private volatile String siteKanali;
 
     public IkasAdmin(IkasAyarlari ayarlar) {
         this(new IkasIstemci(ayarlar));
@@ -285,6 +290,68 @@ public class IkasAdmin {
         return dogru(c("updateProductSalesChannelStatus", m("input", girdiler, "salesChannelId", satisKanaliId)));
     }
 
+    /**
+     * Mağazanın SİTE (STOREFRONT) kanalı. İkas'ta site, pazaryeri uygulamaları (ör. Trendyol) ve B2B ayrı satış kanalıdır;
+     * ürün açma/kapatma kanal başınadır.
+     */
+    public String siteKanaliId() {
+        String k = siteKanali;
+        if (k != null) return k;
+        List<String> site = new ArrayList<>();
+        for (IkasVeri c : satisKanallari().liste()) if ("STOREFRONT".equals(c.metin("type"))) site.add(c.metin("id"));
+        if (site.size() != 1) throw new IkasHatasi("Tek site (STOREFRONT) kanalı bekleniyordu, bulunan: " + site.size(), false, null);
+        siteKanali = site.get(0);
+        return siteKanali;
+    }
+
+    /** YAZMA — ürünleri YALNIZ sitede açar/kapatır; diğer kanallar (pazaryeri, B2B) etkilenmez. */
+    public boolean sitedeAcKapat(List<String> urunIdleri, boolean acik) {
+        List<Map<String, ?>> g = new ArrayList<>();
+        for (String id : urunIdleri) g.add(m("productId", id, "active", acik));
+        return urunSatisDurumu(g, siteKanaliId());
+    }
+
+    /**
+     * YAZMA — ürünün bir kısmını güvenle değiştirir. İkas'ta tek alan güncelleyen işlem yok; {@code saveProduct} ürünün
+     * TAMAMINI yazar. Bu metot ürünü {@code ProductInput}'un aynası olan seçimle okur ({@link IkasSema#girdiAynasi}),
+     * {@code degisiklik}'i uygular, aynen geri yazar ve varyant fiyatlarını önce/sonra karşılaştırır: fiyat değişmişse
+     * {@link IkasHatasi}. Örnek: {@code urunuGuncelle(id, u -> u.put("description", "<p>yeni</p>"))}.
+     *
+     * @param degisiklik okunan ürün (değiştirilebilir Map; iç nesneler Map/List)
+     * @return saveProduct cevabı
+     */
+    @SuppressWarnings("unchecked")
+    public IkasVeri urunuGuncelle(String urunId, Consumer<Map<String, Object>> degisiklik) {
+        String secim = istemci.sema().girdiAynasi("ProductInput", "Product");
+        List<IkasVeri> l = istemci.calistirSecimle("listProduct", m("id", esit(urunId)), "{ data " + secim + " }").kayitlar();
+        if (l.isEmpty()) throw new IkasHatasi("Ürün bulunamadı: " + urunId, false, null);
+        Map<String, Object> urun = (Map<String, Object>) Json.coz(Json.yaz(l.get(0).ham()));   // değiştirilebilir kopya
+        String once = fiyatImzasi(IkasVeri.of(urun));
+        degisiklik.accept(urun);
+        IkasVeri sonra = istemci.calistirSecimle("saveProduct", m("input", urun),
+                "{ id variants { id prices { currency discountPrice priceListId sellPrice } } }");
+        if (!once.equals(fiyatImzasi(sonra))) {
+            throw new IkasHatasi("Ürün yazıldı ama varyant fiyatları değişmiş görünüyor — panelden kontrol edin: " + urunId, false, null);
+        }
+        return sonra;
+    }
+
+    private static String fiyatImzasi(IkasVeri urun) {
+        List<String> l = new ArrayList<>();
+        for (IkasVeri v : urun.liste("variants")) {
+            for (IkasVeri p : v.liste("prices")) {
+                l.add(v.metin("id") + "|" + p.metin("priceListId") + "|" + p.metin("currency") + "|"
+                        + sade(p.sayi("sellPrice")) + "|" + sade(p.sayi("discountPrice")));
+            }
+        }
+        l.sort(null);
+        return String.join(";", l);
+    }
+
+    private static String sade(BigDecimal b) {
+        return b == null ? "-" : b.stripTrailingZeros().toPlainString();
+    }
+
     /** YAZMA — ürün siler (deleteProductList). Var olmayan kimlikte false döner. */
     public boolean urunSil(List<String> idler) { return dogru(c("deleteProductList", m("idList", idler))); }
 
@@ -356,7 +423,10 @@ public class IkasAdmin {
         return dogru(c("updateSubscriptionStatus", m("customerId", musteriId, "subscriptionStatus", durum)));
     }
 
-    /** YAZMA — mağaza puanı kalan bakiyesini AYARLAR (eklemez) (updateStoreCreditAmount). */
+    /**
+     * YAZMA — mağaza puanı kalan bakiyesini AYARLAR (eklemez) (updateStoreCreditAmount). Yalnız VAR OLAN puan kaydını
+     * değiştirir: API'de puan kaydı açan işlem yok (kayıt kimliği {@link #magazaPuani} ile bulunur; yoksa panelden açılır).
+     */
     public IkasVeri magazaPuaniAyarla(String puanKaydiId, double kalanTutar) {
         return c("updateStoreCreditAmount", m("input", m("id", puanKaydiId, "amount", kalanTutar)));
     }
@@ -380,6 +450,60 @@ public class IkasAdmin {
 
     /** YAZMA — kampanya (saveCampaign). Girdi İkas'ın CampaignInput'u; {@code applyCampaignToProductPrice} sitede fiyatı değiştirir. */
     public IkasVeri kampanyaKaydet(Map<String, ?> campaignInput) { return c("saveCampaign", m("input", campaignInput)); }
+
+    /**
+     * YAZMA — kuponlu kampanya açar (saveCampaign + campaignAddCoupons). Alan anlamları mağazanın panelden açtığı
+     * kampanyalardan okundu: {@code RATIO} → {@code fixedDiscount.amount} YÜZDE, {@code FIXED_AMOUNT} → TL,
+     * {@code FREE_SHIPPING} → ücretsiz kargo; en az sepet tutarı = {@code fixedDiscount.priceRange.min}; fiyat tabanı
+     * {@code DISCOUNT_PRICE} (panelin varsayılanı). Kupon kodu eklenemezse kampanya silinir.
+     *
+     * @param tip         RATIO | FIXED_AMOUNT | FREE_SHIPPING
+     * @param deger       yüzde ya da tutar (FREE_SHIPPING'de null)
+     * @param enAzSepet   null → sınır yok
+     * @param bitis       null → süresiz
+     * @param kullanim    toplam kullanım sınırı (null → sınırsız)
+     * @param satisKanallari örn. {@code List.of(siteKanaliId())}; boş liste → hiçbir kanalda geçerli değil
+     * @return kampanya (id)
+     */
+    public IkasVeri kuponluKampanyaAc(String baslik, String tip, BigDecimal deger, BigDecimal enAzSepet, Instant baslangic,
+                                      Instant bitis, Integer kullanim, List<String> satisKanallari, String kuponKodu) {
+        Map<String, Object> indirim = new LinkedHashMap<>();
+        indirim.put("filters", List.of());
+        if (deger != null) indirim.put("amount", deger);
+        if (enAzSepet != null) indirim.put("priceRange", m("min", enAzSepet));
+        Map<String, Object> tarih = new LinkedHashMap<>();
+        tarih.put("start", (baslangic == null ? Instant.now() : baslangic).toEpochMilli());
+        if (bitis != null) tarih.put("end", bitis.toEpochMilli());
+        Map<String, Object> c = new LinkedHashMap<>();
+        c.put("title", baslik);
+        c.put("type", tip);
+        c.put("hasCoupon", true);
+        c.put("applicablePrice", "DISCOUNT_PRICE");
+        c.put("canCombineWithOtherCampaigns", false);
+        c.put("applyCampaignToProductPrice", false);
+        c.put("currencyCodes", List.of("TRY"));
+        c.put("salesChannelIds", satisKanallari);
+        for (String bos : List.of("applicableCustomerGroupIds", "applicableCustomerIds", "applicableCustomerSegmentIds",
+                "periodUsageLimits", "translations")) c.put(bos, List.of());
+        c.put("dateRange", tarih);
+        if (kullanim != null) c.put("usageLimit", kullanim);
+        if ("FREE_SHIPPING".equals(tip)) c.put("isFreeShipping", true);
+        c.put("fixedDiscount", indirim);
+        IkasVeri k = kampanyaKaydet(c);
+        try {
+            Map<String, Object> kupon = new LinkedHashMap<>();
+            kupon.put("code", kuponKodu);
+            kupon.put("canCombineWithOtherCampaigns", false);
+            if (kullanim != null) kupon.put("usageLimit", kullanim);
+            if (kuponEkle(k.metin("id"), List.of(kupon)).liste().isEmpty()) {
+                throw new IkasHatasi("Kupon kodu eklenemedi: " + kuponKodu, false, null);
+            }
+        } catch (RuntimeException e) {
+            kampanyaSil(List.of(k.metin("id")));
+            throw e;
+        }
+        return k;
+    }
 
     /** YAZMA — kampanyaya kupon (campaignAddCoupons). Kupon: {code, usageLimit, canCombineWithOtherCampaigns (zorunlu)}. */
     public IkasVeri kuponEkle(String kampanyaId, List<Map<String, ?>> kuponlar) {

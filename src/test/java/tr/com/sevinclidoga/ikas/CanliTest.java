@@ -6,7 +6,9 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
 
+import java.math.BigDecimal;
 import java.time.Duration;
+import java.time.Instant;
 import java.time.LocalDate;
 import java.time.ZoneOffset;
 import java.util.ArrayList;
@@ -179,6 +181,29 @@ class CanliTest {
         }
         assertTrue(okur.istemci().calistirSecimle("listCampaign", Map.of("id", Map.of("eq", kid)), "{ data { id } }")
                 .kayitlar().isEmpty());
+    }
+
+    @Test
+    void kuponluKampanyaAc_2099_kanalsiz_alanlarDogruYere() {
+        Instant bas = LocalDate.of(2099, 1, 1).atStartOfDay().toInstant(ZoneOffset.UTC);
+        IkasVeri k = yazar.kuponluKampanyaAc(ON + "-oran-" + System.currentTimeMillis(), "RATIO", new BigDecimal("10"),
+                new BigDecimal("750"), bas, bas.plusSeconds(86_400), 1, List.of(), "ZZK" + System.currentTimeMillis() % 100000);
+        String id = k.metin("id");
+        try {
+            IkasVeri geri = okur.istemci().calistirSecimle("listCampaign", Map.of("id", Map.of("eq", id)),
+                    "{ data { id type fixedDiscount { amount priceRange { min } } } }").kayitlar().get(0);
+            assertEquals("RATIO", geri.metin("type"));
+            assertEquals(0, new BigDecimal("10").compareTo(geri.yol("fixedDiscount.amount").sayi()));
+            assertEquals(0, new BigDecimal("750").compareTo(geri.yol("fixedDiscount.priceRange.min").sayi()));
+        } finally {
+            yazar.kampanyaSil(List.of(id));
+        }
+    }
+
+    @Test
+    void siteKanali_tek_ve_canliSemadaUrunAynasiEksiksiz() {
+        assertNotNull(okur.siteKanaliId());
+        assertEquals(List.of(), okur.istemci().semaIndir().aynaEksikleri("ProductInput", "Product"));
     }
 
     // ── sipariş/müşteri yazmaları: yalnız sahte kimlik ──

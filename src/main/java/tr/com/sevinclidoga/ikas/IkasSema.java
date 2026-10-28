@@ -173,6 +173,46 @@ public final class IkasSema {
         return p.isEmpty() ? "" : "{ " + String.join(" ", p) + " }";
     }
 
+    /**
+     * Girdi tipinin okunabilir AYNASI: {@code girdiTipi}'nin her alanı (iç içe) {@code ciktiTipi}'nde aynı adla seçilir.
+     * Okunan kayıt doğrudan girdi olarak geri gönderilebilir — İkas'ta tek alan güncelleyen işlem olmadığında (ör. ürün)
+     * "oku → bir alanı değiştir → aynen yaz" için. Çıktıda karşılığı olmayan alan atlanır ({@link #aynaEksikleri}).
+     */
+    public String girdiAynasi(String girdiTipi, String ciktiTipi) {
+        return ayna(girdiTipi, ciktiTipi, new ArrayList<>());
+    }
+
+    /** {@link #girdiAynasi} çıktıda bulamadığı alanlar ("ProductInput.x"); boşsa ayna eksiksizdir. */
+    public List<String> aynaEksikleri(String girdiTipi, String ciktiTipi) {
+        List<String> eksik = new ArrayList<>();
+        ayna(girdiTipi, ciktiTipi, eksik);
+        return eksik;
+    }
+
+    private String ayna(String girdi, String cikti, List<String> eksik) {
+        Map<String, Map<String, Object>> ciktiAlanlari = new LinkedHashMap<>();
+        for (Object fo : liste(tipler.getOrDefault(cikti, Map.of()).get("fields"))) {
+            ciktiAlanlari.put((String) harita(fo).get("name"), harita(fo));
+        }
+        List<String> p = new ArrayList<>();
+        for (Object fo : liste(tipler.getOrDefault(girdi, Map.of()).get("inputFields"))) {
+            Map<String, Object> f = harita(fo);
+            String ad = (String) f.get("name");
+            Map<String, Object> karsi = ciktiAlanlari.get(ad);
+            if (karsi == null) {
+                eksik.add(girdi + "." + ad);
+                continue;
+            }
+            TipRef gt = tipRef(harita(f.get("type")));
+            if ("INPUT_OBJECT".equals(gt.tur())) {
+                p.add(ad + " " + ayna(gt.ad(), tipRef(harita(karsi.get("type"))).ad(), eksik));
+            } else {
+                p.add(ad);
+            }
+        }
+        return "{ " + String.join(" ", p) + " }";
+    }
+
     /** Enum tipinin değerleri. */
     public List<String> enumDegerleri(String enumAdi) {
         Map<String, Object> t = tipler.get(enumAdi);

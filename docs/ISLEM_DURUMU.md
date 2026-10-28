@@ -131,7 +131,7 @@ başlıkları). Aşılınca HTTP 429. Aynı client id'yi kullanan her sistem bu 
 | deleteTaxSettingsList | ⚠️ | `DELETE_FUNCTION_NOT_ALLOWED` — API'den vergi ayarı silinemiyor |
 | deleteVariantTypeList | ✅ |  |
 | deleteVendorList | ✅ |  |
-| deleteWebhook | ⛔ | Denenmedi: ERP bildirimlerini keser |
+| deleteWebhook | ⛔ | Denenmedi: bağlı sistemlerin olay bildirimlerini keser |
 | fulfillOrder | 🧪 |  |
 | generateOrderPaymentLink | 🧪 |  |
 | getAppDemoDay | ⛔ | Denenmedi: uygulama aboneliği (geliştirici) |
@@ -140,12 +140,12 @@ başlıkları). Aşılınca HTTP 429. Aynı client id'yi kullanan her sistem bu 
 | removeOrderTag | 🧪 |  |
 | saveCampaign | ⚠️ | `canCombineWithOtherCampaigns` zorunlu. Deneme: 2099'da başlayan, kuponlu, satış kanalsız kampanya → oluştur/sil |
 | saveCategory | ⛔ | Denenmedi: kategori menüde görünebilir |
-| saveCustomer | ⛔ | Denenmedi: müşteri oluşturur (webhook → ERP müşteri açar) |
+| saveCustomer | ⛔ | Denenmedi: gerçek müşteri kaydı açar (webhook tetikler) |
 | saveCustomerGroup | ✅ |  |
 | saveCustomerTag | ✅ |  |
 | saveGlobalTaxSettings | ⛔ | Denenmedi: vergi ayarı |
 | saveOrderTag | ✅ |  |
-| saveProduct | ⛔ | Denenmedi: ürün oluşturur/değiştirir (webhook + site) |
+| saveProduct | ⛔ | Denenmedi: ürün oluşturur/değiştirir (sitede görünür, webhook tetikler) |
 | saveProductAttribute | ⚠️ | `options` en az bir seçenek ister |
 | saveProductBrand | ✅ | Satış kanalsız oluşturuldu → sitede görünmez |
 | saveProductOrder | ⛔ | Denenmedi: sitedeki ürün sıralaması |
@@ -154,13 +154,13 @@ başlıkları). Aşılınca HTTP 429. Aynı client id'yi kullanan her sistem bu 
 | saveProductUnit | ✅ |  |
 | saveProductVolumeDiscount | ⛔ | Denenmedi: ürün fiyatına indirim |
 | saveSalesChannel | ⛔ | Denenmedi: satış kanalı |
-| saveStorefrontJSScript | ⛔ | Denenmedi: canlı sitedeki script (ERP kullanıyor) |
+| saveStorefrontJSScript | ⛔ | Denenmedi: canlı sitede çalışan script |
 | saveStorefrontPolicy | ⛔ | Denenmedi: sitede politika sayfası |
 | saveTaxSettings | ⛔ | Denenmedi: vergi ayarı |
-| saveVariantPrices | ⛔ | Denenmedi: fiyat (ERP kullanıyor) |
+| saveVariantPrices | ⛔ | Denenmedi: müşterinin gördüğü fiyat |
 | saveVariantType | ✅ |  |
 | saveVendor | ✅ | `status: ARCHIVED` ile oluşturuldu |
-| saveWebhook | ⛔ | Denenmedi: ERP'nin canlı bildirim bağlantısı (ERP zaten kullanıyor); Girdi `scopes: [String!]!` (dizi), cevap `scope: String` (tekil); dizi döner |
+| saveWebhook | ⛔ | Denenmedi: mağazanın canlı bildirim (webhook) bağlantısını değiştirir; bağlı sistemler olay almayı bırakabilir; Girdi `scopes: [String!]!` (dizi), cevap `scope: String` (tekil); dizi döner |
 | updateCustomerB2BStatus | ⚠️ | DİKKAT: var olmayan müşteride de `true` döner |
 | updateOrderAddresses | 🧪 |  |
 | updateOrderLine | 🧪 | Yeni satıra uuid `id` verilmeli, yoksa İkas reddeder |
