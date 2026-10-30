@@ -6,7 +6,7 @@
 
     <groupId>tr.com.sevinclidoga</groupId>
     <artifactId>ikas-admin-java</artifactId>
-    <version>0.1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>İkas Admin API Java İstemcisi</name>
     <description>İkas e-ticaret Admin GraphQL API'si (135 işlem) için bağımsız Java istemcisi</description>
     <url>https://github.com/ernerdl/ikas-admin-java</url>
@@ -44,6 +44,18 @@
                     <!-- Canlı İkas'a giden denemeler varsayılan derlemede ÇALIŞMAZ: -Pcanli-deneme -->
                     <excludedGroups>canli</excludedGroups>
                 </configuration>
+            </plugin>
+            <plugin>
+                <!-- Kaynak JAR'ı: IDE'de metot belgeleri ve kaynağa gitme için -->
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+                <version>3.3.1</version>
+                <executions>
+                    <execution>
+                        <id>kaynak-jar</id>
+                        <goals><goal>jar-no-fork</goal></goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>

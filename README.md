@@ -9,6 +9,35 @@ istekle, 3'üne İkas yetki vermiyor, 21'i bilerek denenmedi (canlı mağazada g
 [`docs/ISLEM_DURUMU.md`](docs/ISLEM_DURUMU.md). Tüm işlemler, argümanlar, zorunlu girdi alanları:
 [`docs/ISLEM_ENVANTERI.md`](docs/ISLEM_ENVANTERI.md).
 
+## Kurulum
+
+Maven (JitPack üzerinden — ayrı hesap ya da derleme gerekmez):
+
+```xml
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+
+<dependency>
+    <groupId>com.github.ernerdl</groupId>
+    <artifactId>ikas-admin-java</artifactId>
+    <version>v1.0.0</version>
+</dependency>
+```
+
+Gradle:
+
+```groovy
+repositories { maven { url 'https://jitpack.io' } }
+dependencies { implementation 'com.github.ernerdl:ikas-admin-java:v1.0.0' }
+```
+
+Elle: [Sürümler](https://github.com/ernerdl/ikas-admin-java/releases) sayfasındaki JAR'ı indirip sınıf yoluna ekleyin
+(çalışma zamanı bağımlılığı yok). Java 21 ya da üstü gerekir.
+
 ## Hızlı başlangıç
 
 İkas panelinde **Uygulamalar → Özel uygulama** oluşturup client id / secret alın.
